@@ -26,23 +26,9 @@ def save_article_url(state, year, month, website_url, new_json_obj):
     os.makedirs(directory_path, exist_ok=True)
     
     # Create a gzip file to store the URL
-    filename = os.path.join(directory_path, f"{website_hash}.txt.gz")
+    filename = os.path.join(directory_path, f"{website_hash}.jsonl.gz")
     with gzip.open(filename, "at") as f:  
         f.write(json.dumps(new_json_obj) + '\n')
-
-# # Function to filter and extract article-like URLs from HTML content
-# def extract_article_urls_from_html(html_content, base_url):
-#     soup = BeautifulSoup(html_content, 'html.parser')
-#     article_urls = set()
-    
-#     # Filter for links that might be articles
-#     for link in soup.find_all("a", href=True):
-#         url = urljoin(base_url, link['href'])  # Handle relative URLs
-#         print(f"url: {url}, base_url: {base_url}")
-#         if url.startswith(base_url): 
-#             article_urls.add(url)
-    
-#     return article_urls
 
 def extract_article_urls_from_html(html_content, base_url):
     soup = BeautifulSoup(html_content, 'html.parser')
