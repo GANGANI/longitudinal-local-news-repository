@@ -1,0 +1,191 @@
+{
+    "AK": {
+        "newspaper": [
+            {
+                "video": "https://www.youtube.com/user/AlaskaDispatch",
+                "twitter": "http://www.twitter.com/adndotcom",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -149.87828,
+                "media-subclass": "city-county",
+                "website": "http://www.adn.com/",
+                "facebook": "https://www.facebook.com/akdispatch",
+                "city-county-lat": 61.216799,
+                "name": "Alaska Dispatch News",
+                "open-search": [],
+                "city-county-name": "Anchorage Municipality",
+                "rss": [],
+                "us-state": "Alaska",
+                "wikipedia": "https://en.wikipedia.org/wiki/Anchorage_Daily_News",
+                "instagram": "https://www.instagram.com/alaskadispatch/",
+                "youtube": "https://www.youtube.com/user/AlaskaDispatch",
+                "fips": "02020"
+            },
+            {
+                "video": "http://www.youtube.com/user/AlaskaJournal",
+                "twitter": "http://www.twitter.com/alaskajournal",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -149.87828,
+                "media-subclass": "city-county",
+                "website": "http://www.alaskajournal.com/",
+                "facebook": "https://www.facebook.com/AlaskaJournal",
+                "city-county-lat": 61.216799,
+                "name": "Alaska Journal of Commerce",
+                "open-search": [],
+                "city-county-name": "Anchorage Municipality",
+                "rss": [],
+                "us-state": "Alaska",
+                "wikipedia": "https://en.wikipedia.org/wiki/Alaska_Journal_of_Commerce",
+                "instagram": "https://www.instagram.com/alaskajournal/",
+                "youtube": "http://www.youtube.com/user/AlaskaJournal",
+                "fips": "02020"
+            },
+            {
+                "name": "Alaska Native News",
+                "website": "http://www.alaska-native-news.com/",
+                "extracted-from": "thepaperboy.com",
+                "media-class": "newspaper",
+                "twitter": "https://twitter.com/AKNativeNews",
+                "city-county-name": "Kenai Peninsula Borough",
+                "us-state": "Alaska",
+                "city-county-lat": 59.665074,
+                "city-county-long": -151.4493,
+                "fips": "02122",
+                "rss": [
+                    "https://alaska-native-news.com/feed/"
+                ]
+            },
+            {
+                "video": "",
+                "twitter": "",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -135.6122,
+                "media-subclass": "city-county",
+                "website": "http://www.chilkatvalleynews.com/",
+                "facebook": "",
+                "city-county-lat": 59.279037,
+                "name": "Chilkat Valley News",
+                "open-search": [],
+                "city-county-name": "Haines Borough",
+                "rss": [
+                    "https://www.chilkatvalleynews.com/feed/"
+                ],
+                "us-state": "Alaska",
+                "wikipedia": "https://en.wikipedia.org/wiki/Chilkat_Valley_News",
+                "fips": "02100"
+            },
+            {
+                "video": "",
+                "twitter": "",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -161.88006,
+                "media-subclass": "city-county",
+                "website": "http://www.deltadiscovery.com/",
+                "facebook": "https://www.facebook.com/deltadiscovery",
+                "city-county-lat": 60.766603,
+                "name": "Delta Discovery",
+                "open-search": [],
+                "city-county-name": "Bethel Census Area",
+                "rss": [
+                    "https://deltadiscovery.com/feed/"
+                ],
+                "us-state": "Alaska",
+                "wikipedia": "https://en.wikipedia.org/wiki/The_Delta_Discovery",
+                "fips": "02050"
+            },
+            {
+                "video": "",
+                "twitter": "",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -151.4493,
+                "media-subclass": "city-county",
+                "website": "http://homernews.com/",
+                "facebook": "https://www.facebook.com/pages/Homer-News/143584662338822",
+                "city-county-lat": 59.665074,
+                "name": "Homer News",
+                "open-search": [],
+                "city-county-name": "Kenai Peninsula Borough",
+                "rss": [],
+                "us-state": "Alaska",
+                "fips": "02122"
+            },
+            {
+                "video": "http://www.youtube.com/user/TheJuneauEmpire",
+                "twitter": "http://www.twitter.com/JuneauEmpire",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -134.54749,
+                "media-subclass": "city-county",
+                "website": "http://juneauempire.com/",
+                "facebook": "https://www.facebook.com/juneauempire",
+                "city-county-lat": 58.358599,
+                "name": "Juneau Empire",
+                "open-search": [],
+                "city-county-name": "Juneau City and Borough",
+                "rss": [],
+                "us-state": "Alaska",
+                "youtube": "http://www.youtube.com/user/TheJuneauEmpire",
+                "fips": "02110"
+            },
+            {
+                "name": "Kenai Peninsula Clarion",
+                "website": "http://www.peninsulaclarion.com/",
+                "extracted-from": "thepaperboy.com",
+                "media-class": "newspaper",
+                "wikipedia": "https://en.wikipedia.org/wiki/Peninsula_Clarion",
+                "facebook": "https://www.facebook.com/peninsulaclarion",
+                "twitter": "https://twitter.com/pclarion",
+                "city-county-name": "Kenai Peninsula Borough",
+                "us-state": "Alaska",
+                "city-county-lat": 60.587598,
+                "city-county-long": -151.23355,
+                "fips": "02122",
+                "rss": []
+            },
+            {
+                "video": "https://www.youtube.com/channel/UCkVb63bTxhN77OFjnncUHGQ",
+                "twitter": "http://www.twitter.com/KDNSports",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -131.6762,
+                "media-subclass": "city-county",
+                "website": "http://www.ketchikandailynews.com/",
+                "facebook": "https://www.facebook.com/ketchikandailynews",
+                "city-county-lat": 55.368644,
+                "name": "Ketchikan Daily News",
+                "open-search": [],
+                "city-county-name": "Ketchikan Gateway Borough",
+                "rss": [
+                    "https://www.ketchikandailynews.com/search/?f=rss&amp;t=article&amp;l=50&amp;s=start_time&amp;sd=desc&amp;k%5B%5D=%23topstory"
+                ],
+                "us-state": "Alaska",
+                "wikipedia": "https://en.wikipedia.org/wiki/Ketchikan_Daily_News",
+                "youtube": "https://www.youtube.com/channel/UCkVb63bTxhN77OFjnncUHGQ",
+                "fips": "02130"
+            },
+            {
+                "video": "",
+                "twitter": "http://www.twitter.com/kdkmirror",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -152.51142,
+                "media-subclass": "city-county",
+                "website": "http://www.kodiakdailymirror.com/",
+                "facebook": "https://www.facebook.com/pages/The-Kodiak-Daily-Mirror/117209891693204",
+                "city-county-lat": 57.74663,
+                "name": "Kodiak Daily Mirror",
+                "open-search": [],
+                "city-county-name": "Kodiak Island Borough",
+                "rss": [
+                    "https://www.kodiakdailymirror.com/search/?f=rss&amp;t=article&amp;l=50&amp;s=start_time&amp;sd=desc&amp;k%5B%5D=%23topstory"
+                ],
+                "us-state": "Alaska",
+                "fips": "02150"
+            }
+        ]
+    }
+}
