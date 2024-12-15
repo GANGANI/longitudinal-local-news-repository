@@ -20,21 +20,24 @@ def extract_article_urls_from_html(html_content, base_url):
     soup = BeautifulSoup(html_content, 'html.parser')
     article_urls = set()
     
+    resolved_base = get_expanded_url(base_url)
+
     # Normalize the base URL (e.g., remove trailing slash)
-    parsed_base_url = urlparse(base_url)
-    
-    normalized_base_url = parsed_base_url.netloc
+    #parsed_base_url = urlparse(base_url)
+    parsed_resolved_base_url = urlparse(resolved_base)
+
+    #normalized_base_url = parsed_base_url.netloc
     
     for link in soup.find_all("a", href=True):
         # Resolve relative URLs
-        url = urljoin(base_url, link['href'])
+        url = urljoin(resolved_base, link['href'])
         
         # Normalize the URL for comparison
-        parsed_url = urlparse(url)
-        normalized_url = parsed_url.netloc
-        if normalized_url.startswith(normalized_base_url):
-            # Optional: Filter for article-like paths
-            article_urls.add(url)
+        # parsed_url = urlparse(url)
+        # normalized_url = parsed_url.netloc
+        # if normalized_url.startswith(normalized_base_url) or :
+        #     # Optional: Filter for article-like paths
+        article_urls.add(url)
     
     return article_urls
 
@@ -113,7 +116,16 @@ def get_archived_url(link):
         # Log any exceptions that occur during the subprocess call
         print(f"Exception occurred while archiving {website_url}: {e}")
         return None
-    
+
+def get_url_status(url):
+    """Fetch the HTTP status code of a given URL."""
+    try:
+        response = requests.get(url, timeout=10)  # Set a timeout for the request
+        return response.status_code
+    except requests.exceptions.RequestException as e:
+        print(f"Error accessing {url}: {e}")
+        return None
+        
 def is_news_article(link, website_url):
     is_news_article = False
     link = get_expanded_url(link)
@@ -131,22 +143,19 @@ def is_news_article(link, website_url):
         return is_news_article
     else:
         depth = len(path_segments)
-        if depth >= 3:
-            is_news_article = True
-        elif depth <= 2 and any(has_special_characters(segment) for segment in path_segments[:2]):
+        if depth >= 3 or (depth > 1 and depth <= 2 and any(has_special_characters(segment) for segment in path_segments[:2])):
             is_news_article = True
         else:
             return is_news_article
     
     try:
-        html = derefURI(link)
-        plaintext = cleanHtml(html)
-        count = len(plaintext)
-        if count > 20:
-            is_news_article = True
-        else:
-            print (f"Word count is less for {link}\n {plaintext}\n")
-            is_news_article = False
+        if (is_news_article):
+            html = derefURI(link)
+            plaintext = cleanHtml(html)
+            count = len(plaintext)
+            if count < 20:
+                print (f"Word count is less for {link}\n {plaintext}\n")
+                is_news_article = False
     except Exception as e:
         # If an exception occurs, write the error message to the log file
         print(f"Error processing link: {link} ecause of {e}\n")
@@ -182,6 +191,7 @@ def save_publication(state, year, month, date, website_url, publication):
 
     wesite_file_path = os.path.join(directory_path, f"{website_hash}.jsonl.gz")
     if not os.path.exists(wesite_file_path):
+        print(f"Website: {website_url} has been saved")
         publication['archived_link'] = get_archived_url(website_url)
         with gzip.open(wesite_file_path, "at") as f:  
             f.write(json.dumps(publication))
@@ -228,7 +238,7 @@ for state, publications in data.items():
                 
                 rss_feeds = publication.get("rss", [])
                 website_url = publication.get("website")
-                print(f"website_url: {website_url}")
+                print(f"\n--------------------\n website_url: {website_url}")
                 article_json_objs = []
 
                 # Use the current date as a fallback timestamp for scraped articles
@@ -248,11 +258,11 @@ for state, publications in data.items():
                             
                             # Iterate over each entry in the RSS feed
                             for entry in feed.entries:
-                                article_url = entry.link
-                                print(f"article_url: {article_url}")
-                                if is_news_article(article_url, website_url) and nlinks <= 10:
-                                    
+                                article_url = entry.link                               
+                                if is_news_article(article_url, website_url):
+                                    print(f"article_url from rss: {article_url}")
                                     published_time = get_publication_date(entry)
+                                    archived_url = "test"
                                     archived_url = get_archived_url(article_url)
                                     # Save the article URL in the specified structure
                                     if archived_url:
@@ -264,11 +274,19 @@ for state, publications in data.items():
                                             'archived_link': archived_url 
                                         }
                                         article_json_objs.append(article_json_obj)
+                                if nlinks > 5:
+                                    print("#1Break as reaching limit")
+                                    break
                                                     
                         except Exception as e:
                             print(f"Error processing RSS feed {rss_feed_url} for {publication.get('name')}: {e}")
+
+                        if nlinks >= 5:
+                            print("#2Break as reaching limit")
+                            break
                 if nlinks < 10:
                     try:
+                        print("--------------------Not enough links-----------------")
                         response = requests.get(website_url, headers=HEADERS)
                         response.raise_for_status()
                         # Extract article URLs from HTML content
@@ -276,8 +294,9 @@ for state, publications in data.items():
 
                         # Save each article URL found in HTML
                         for article_url in article_urls:
-                            print(f"article_url: {article_url}")
-                            if is_news_article(article_url, website_url) and nlinks <= 10:
+                            print(f"article_url: {article_url}" )
+                            if is_news_article(article_url, website_url):
+                                print(f"article_url: {article_url} and nlinks: {nlinks}")
                                 archived_url = get_archived_url(article_url)
                                 # Save the article URL in the specified structure
                                 if archived_url:
@@ -289,11 +308,14 @@ for state, publications in data.items():
                                         'archived_link': archived_url  
                                     }
                                     article_json_objs.append(article_json_obj)
+                            if nlinks >= 5:
+                                print("#3Break as reaching limit")
+                                break
                         
                         print(f"\nFound {len(article_urls)} article URLs on {website_url}\n")
                     
                     except requests.RequestException as e:
                         print(f"Error fetching HTML for {publication.get('name')} ({website_url}): {e}")
-
+                print(f"Number of links: {nlinks}\n")
                 time.sleep(1)
                 save_article_url(state, year, month, date, website_url, article_json_objs, timestamp)

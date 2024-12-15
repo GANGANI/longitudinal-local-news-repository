@@ -157,13 +157,7 @@ for state, publications in data.items():
         rss_feeds = publication.get("rss", [])
         website_url = publication.get("website")
         
-        media_json_obj = {
-            'media': publication
-        }
-        
         article_json_objs = []
-        # Hash the website URL for the folder name
-        website_hash = hashlib.md5(website_url.encode()).hexdigest()
         
         # If RSS feeds are available, parse them; otherwise, scrape from the website
         if rss_feeds:
