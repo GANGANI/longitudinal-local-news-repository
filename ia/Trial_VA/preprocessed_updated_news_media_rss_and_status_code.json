@@ -2,24 +2,6 @@
     "VA": {
         "newspaper": [
             {
-                "video": "",
-                "twitter": "http://www.twitter.com/airforcetimes",
-                "media-class": "newspaper",
-                "extracted-from": "usnpl.com, thepaperboy.com",
-                "city-county-long": -77.18562,
-                "media-subclass": "city-county",
-                "website": "http://www.airforcetimes.com/",
-                "facebook": "https://www.facebook.com/AirForceTimes",
-                "city-county-lat": 38.778243,
-                "name": "Air Force Times",
-                "open-search": [],
-                "city-county-name": "Springfield",
-                "rss": [],
-                "us-state": "Virginia",
-                "wikipedia": "https://en.wikipedia.org/wiki/Air_Force_Times",
-                "website_status": 200
-            },
-            {
                 "name": "Alex Times Newspaper",
                 "website": "http://www.alextimes.com/",
                 "extracted-from": "thepaperboy.com",
@@ -1856,6 +1838,24 @@
                 "rss": [],
                 "us-state": "Virginia",
                 "youtube": "https://www.youtube.com/user/SuffolkNewsHerald1/videos",
+                "website_status": 200
+            },
+            {
+                "video": "",
+                "twitter": "http://www.twitter.com/airforcetimes",
+                "media-class": "newspaper",
+                "extracted-from": "usnpl.com, thepaperboy.com",
+                "city-county-long": -77.18562,
+                "media-subclass": "city-county",
+                "website": "http://www.airforcetimes.com/",
+                "facebook": "https://www.facebook.com/AirForceTimes",
+                "city-county-lat": 38.778243,
+                "name": "Air Force Times",
+                "open-search": [],
+                "city-county-name": "Springfield",
+                "rss": [],
+                "us-state": "Virginia",
+                "wikipedia": "https://en.wikipedia.org/wiki/Air_Force_Times",
                 "website_status": 200
             },
             {

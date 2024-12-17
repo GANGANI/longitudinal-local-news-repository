@@ -1,0 +1,432 @@
+2024-12-17 14:18:38,265 - INFO - Starting the script...
+2024-12-17 14:18:38,266 - INFO - Processing state: VA
+2024-12-17 14:18:38,266 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 14:18:38,266 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 14:18:39,668 - INFO - Found article: https://www.alexandriagazette.com/news/2024/dec/12/lighting-up-del-ray/
+2024-12-17 14:19:56,761 - INFO - Starting the script...
+2024-12-17 14:19:56,763 - INFO - Processing state: VA
+2024-12-17 14:19:56,763 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 14:19:56,763 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 14:19:57,745 - INFO - Found article: https://www.alexandriagazette.com/news/2024/jan/31/achs-to-host-mid-atlantic-erg-sprints/
+2024-12-17 14:20:12,856 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Others/
+2024-12-17 14:20:33,235 - INFO - Found article: https://www.alexandriagazette.com/news/2024/dec/11/tools-stolen-from-friends-of-the-mount-vernon-trail/
+2024-12-17 14:20:53,038 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/23/tired-of-big-trucks-parking-on-our-public-roads-blocking-your-view-and-creating-safety-hazards-use-the-new-parking-reporter-tool/
+2024-12-17 14:21:07,622 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/04/156829/
+2024-12-17 14:23:38,779 - INFO - Starting the script...
+2024-12-17 14:23:38,781 - INFO - Processing state: VA
+2024-12-17 14:23:38,781 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 14:23:38,781 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 14:23:40,720 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/03/156812/
+2024-12-17 14:23:55,253 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/chris-white-family-real-estate-group-hits-major-milestone/
+2024-12-17 14:25:05,386 - INFO - Found article: https://www.alexandriagazette.com/news/2024/jan/31/achs-to-host-mid-atlantic-erg-sprints/
+2024-12-17 14:25:13,790 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-17 14:25:20,948 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-17 14:25:22,107 - INFO - Found article: https://www.alexandriagazette.com/news/2023/aug/31/lyles-takes-triple-crown/
+2024-12-17 14:26:42,299 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District34/
+2024-12-17 14:26:49,439 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District34/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District34/
+2024-12-17 14:26:50,581 - INFO - Found article: https://www.alexandriagazette.com/news/2024/feb/20/tj-admissions-upheld/
+2024-12-17 14:36:36,875 - INFO - Starting the script...
+2024-12-17 14:36:36,877 - INFO - Processing state: VA
+2024-12-17 14:36:36,877 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 14:36:36,877 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 14:36:38,235 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/scottish-walk-celebrates-53-years/#comments
+2024-12-17 14:36:53,932 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/lighting-up-del-ray/
+2024-12-17 14:37:14,525 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/11/156842/
+2024-12-17 14:37:29,429 - INFO - Found article: https://www.alexandriagazette.com/news/2023/aug/31/lyles-takes-triple-crown/
+2024-12-17 14:37:38,435 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 14:37:45,462 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 14:37:45,462 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:37:47,576 - INFO - Found article: https://www.alexandriagazette.com/news/2024/apr/10/houston-to-feel-titan-robotics-impact/
+2024-12-17 14:38:06,768 - INFO - Data saved to news/VA/2024/12/17/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-17 14:38:06,768 - INFO - Data saved to news/VA/2024/12/17/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz
+2024-12-17 14:41:12,745 - INFO - Starting the script...
+2024-12-17 14:41:12,747 - INFO - Processing state: VA
+2024-12-17 14:41:12,747 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 14:41:12,747 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 14:41:13,688 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/lighting-up-del-ray/#comments
+2024-12-17 14:41:21,605 - INFO - Found article: https://www.alexandriagazette.com/news/2024/feb/15/club-studio-tysons-corner-preview-center-is-now-open/
+2024-12-17 14:42:12,169 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 14:42:19,211 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 14:42:19,211 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:42:21,263 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 14:42:28,650 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 14:42:28,650 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:42:30,842 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/11/tools-stolen-from-friends-of-the-mount-vernon-trail/#comments
+2024-12-17 14:43:10,119 - INFO - Found article: https://www.alexandriagazette.com/news/2022/aug/02/reston-association-chooses-new-ceo/
+2024-12-17 14:44:01,944 - INFO - Found article: https://www.alexandriagazette.com/news/Alexandria/Homes/
+2024-12-17 14:44:52,353 - INFO - Data saved to news/VA/2024/12/17/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-17 14:44:52,354 - INFO - Data saved to news/VA/2024/12/17/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz
+2024-12-17 14:44:52,354 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-17 14:44:52,354 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-17 14:44:53,852 - INFO - Found article: https://www.arlingtonconnection.com/photos/2024/dec/04/156829/
+2024-12-17 14:45:08,389 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/oct/16/boysko-is-humane-champion/
+2024-12-17 14:45:21,646 - ERROR - Archive error for https://www.arlingtonconnection.com/news/2024/oct/16/boysko-is-humane-champion/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.arlingtonconnection.com/news/2024/oct/16/boysko-is-humane-champion/
+2024-12-17 14:45:21,646 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:45:23,440 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 14:45:30,621 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 14:45:30,621 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:45:32,411 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/11/managing-the-holiday-blues/#comments
+2024-12-17 14:46:10,671 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 14:46:17,942 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 14:46:17,942 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:46:20,492 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/04/wreaths-across-america-day-to-be-held-at-arlington-national-cemetery-dec-14/#comments
+2024-12-17 14:46:34,518 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/jul/10/highlights-of-virginia-lcvs-scored-legislation-patroned-by-lawmakers-of-the-fairfax-county-delegation-to-the-general-assembly/
+2024-12-17 14:46:49,604 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/04/a-gift-for-everyone-at-urban-farmhouse/#comments
+2024-12-17 14:46:50,629 - ERROR - Archive error for http://www.connectionnewspapers.com/news/2024/dec/04/a-gift-for-everyone-at-urban-farmhouse/#comments: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/2024/dec/04/a-gift-for-everyone-at-urban-farmhouse/#comments
+2024-12-17 14:46:52,271 - INFO - Found article: https://www.arlingtonconnection.com/news/Arlington/Health/
+2024-12-17 14:46:53,292 - ERROR - Archive error for https://www.arlingtonconnection.com/news/Arlington/Health/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.arlingtonconnection.com/news/Arlington/Health/
+2024-12-17 14:46:54,390 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/dec/04/student-charged-after-loaded-gun-found-in-backpack/
+2024-12-17 14:46:55,501 - ERROR - Archive error for https://www.arlingtonconnection.com/news/2024/dec/04/student-charged-after-loaded-gun-found-in-backpack/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.arlingtonconnection.com/news/2024/dec/04/student-charged-after-loaded-gun-found-in-backpack/
+2024-12-17 14:46:56,332 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 14:46:57,394 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 14:46:58,564 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/Others/
+2024-12-17 14:46:59,516 - ERROR - Archive error for http://www.arlingtonconnection.com/news/Election/Arlington/Others/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.arlingtonconnection.com/news/Election/Arlington/Others/
+2024-12-17 14:47:00,541 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/
+2024-12-17 14:47:14,387 - INFO - Data saved to news/VA/2024/12/17/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.jsonl.gz
+2024-12-17 14:47:14,387 - INFO - Data saved to news/VA/2024/12/17/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-cache.txt.gz
+2024-12-17 14:47:14,387 - INFO - Processing publication: http://www.armytimes.com/
+2024-12-17 14:47:14,387 - INFO - Scraping website: http://www.armytimes.com/
+2024-12-17 14:47:19,067 - INFO - Found article: https://www.armytimes.com/news/your-marine-corps/2024/12/13/jd-vance-to-take-marine-veteran-daniel-penny-as-army-navy-game-guest/
+2024-12-17 14:47:50,318 - ERROR - Archive error for https://www.armytimes.com/news/your-marine-corps/2024/12/13/jd-vance-to-take-marine-veteran-daniel-penny-as-army-navy-game-guest/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194722/https://www.armytimes.com/news/your-marine-corps/2024/12/13/jd-vance-to-take-marine-veteran-daniel-penny-as-army-navy-game-guest/
+2024-12-17 14:47:51,272 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/12/16/marine-gunner-court-martialed-over-mattis-task-force-confusion/
+2024-12-17 14:48:04,316 - ERROR - Archive error for https://www.armytimes.com/news/your-military/2024/12/16/marine-gunner-court-martialed-over-mattis-task-force-confusion/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194754/https://www.armytimes.com/news/your-military/2024/12/16/marine-gunner-court-martialed-over-mattis-task-force-confusion/
+2024-12-17 14:48:05,723 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/12/17/12-isis-fighters-killed-in-new-round-of-us-strikes-on-syria-dod-says/
+2024-12-17 14:48:30,854 - ERROR - Archive error for https://www.armytimes.com/news/your-military/2024/12/17/12-isis-fighters-killed-in-new-round-of-us-strikes-on-syria-dod-says/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194809/https://www.armytimes.com/news/your-military/2024/12/17/12-isis-fighters-killed-in-new-round-of-us-strikes-on-syria-dod-says/
+2024-12-17 14:48:31,712 - INFO - Found article: https://www.armytimes.com/news/your-army/2024/12/17/guardsman-charged-in-fatal-shooting-of-soldier-at-georgia-base/
+2024-12-17 14:48:39,060 - ERROR - Archive error for https://www.armytimes.com/news/your-army/2024/12/17/guardsman-charged-in-fatal-shooting-of-soldier-at-georgia-base/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.armytimes.com/news/your-army/2024/12/17/guardsman-charged-in-fatal-shooting-of-soldier-at-georgia-base/
+2024-12-17 14:48:39,060 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 14:48:41,595 - INFO - Found article: https://www.armytimes.com/m/privacy-policy/
+2024-12-17 14:48:54,704 - ERROR - Archive error for https://www.armytimes.com/m/privacy-policy/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194845/https://www.armytimes.com/m/privacy-policy/
+2024-12-17 14:48:56,588 - INFO - Found article: https://www.armytimes.com/video/2024/12/13/is-facial-hair-coming-to-the-air-force/
+2024-12-17 14:48:57,470 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/13/is-facial-hair-coming-to-the-air-force/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.armytimes.com/video/2024/12/13/is-facial-hair-coming-to-the-air-force/
+2024-12-17 14:48:58,263 - INFO - Found article: https://www.armytimes.com/flashpoints/extremism-disinformation/2024/12/14/veteran-who-stormed-the-capitol-tried-to-join-russian-army-feds-say/
+2024-12-17 14:48:59,235 - ERROR - Archive error for https://www.armytimes.com/flashpoints/extremism-disinformation/2024/12/14/veteran-who-stormed-the-capitol-tried-to-join-russian-army-feds-say/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.armytimes.com/flashpoints/extremism-disinformation/2024/12/14/veteran-who-stormed-the-capitol-tried-to-join-russian-army-feds-say/
+2024-12-17 14:49:00,336 - INFO - Found article: https://www.armytimes.com/pay-benefits
+2024-12-17 14:49:24,224 - ERROR - Archive error for https://www.armytimes.com/pay-benefits: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194904/https://www.armytimes.com/pay-benefits/
+2024-12-17 14:49:25,026 - INFO - Found article: https://www.armytimes.com/news/your-marine-corps/2024/12/13/these-marine-units-will-field-new-mobile-command-vehicle-in-2025/
+2024-12-17 14:49:44,343 - ERROR - Archive error for https://www.armytimes.com/news/your-marine-corps/2024/12/13/these-marine-units-will-field-new-mobile-command-vehicle-in-2025/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194928/https://www.armytimes.com/news/your-marine-corps/2024/12/13/these-marine-units-will-field-new-mobile-command-vehicle-in-2025/
+2024-12-17 14:49:46,577 - INFO - Found article: https://www.armytimes.com/m/contact-us-2
+2024-12-17 14:50:06,060 - ERROR - Archive error for https://www.armytimes.com/m/contact-us-2: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217194951/https://www.armytimes.com/m/contact-us-2/
+2024-12-17 14:50:12,100 - INFO - Found article: https://www.armytimes.com/news/your-air-force/2024/08/14/air-force-falcons-unveil-glorious-afsoc-themed-football-unis/
+2024-12-17 14:50:31,218 - ERROR - Archive error for https://www.armytimes.com/news/your-air-force/2024/08/14/air-force-falcons-unveil-glorious-afsoc-themed-football-unis/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195018/https://www.armytimes.com/news/your-air-force/2024/08/14/air-force-falcons-unveil-glorious-afsoc-themed-football-unis/
+2024-12-17 14:50:32,043 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/09/26/did-a-us-f-22-shoot-down-a-ufo-photo-of-aerial-object-adds-to-mystery/
+2024-12-17 14:50:51,136 - ERROR - Archive error for https://www.armytimes.com/news/your-military/2024/09/26/did-a-us-f-22-shoot-down-a-ufo-photo-of-aerial-object-adds-to-mystery/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195035/https://www.armytimes.com/news/your-military/2024/09/26/did-a-us-f-22-shoot-down-a-ufo-photo-of-aerial-object-adds-to-mystery/
+2024-12-17 14:50:52,036 - INFO - Found article: https://www.armytimes.com/news/your-army
+2024-12-17 14:51:10,897 - ERROR - Archive error for https://www.armytimes.com/news/your-army: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195055/https://www.armytimes.com/news/your-army/
+2024-12-17 14:51:13,046 - INFO - Found article: https://www.armytimes.com/video/2024/12/13/service-members-receive-cars-ahead-of-army-navy-game/
+2024-12-17 14:51:32,209 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/13/service-members-receive-cars-ahead-of-army-navy-game/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195116/https://www.armytimes.com/video/2024/12/13/service-members-receive-cars-ahead-of-army-navy-game/
+2024-12-17 14:51:33,145 - INFO - Found article: https://www.armytimes.com/pay-benefits/mil-money/2024/04/02/no-snakes-in-couches-what-to-know-for-a-smooth-pcs-move-in-2024/
+2024-12-17 14:51:57,410 - ERROR - Archive error for https://www.armytimes.com/pay-benefits/mil-money/2024/04/02/no-snakes-in-couches-what-to-know-for-a-smooth-pcs-move-in-2024/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195136/https://www.armytimes.com/pay-benefits/mil-money/2024/04/02/no-snakes-in-couches-what-to-know-for-a-smooth-pcs-move-in-2024/
+2024-12-17 14:51:59,205 - INFO - Found article: https://www.armytimes.com/military-benefits-guide/
+2024-12-17 14:52:12,347 - ERROR - Archive error for https://www.armytimes.com/military-benefits-guide/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195202/https://www.armytimes.com/military-benefits-guide/
+2024-12-17 14:52:13,353 - INFO - Found article: https://www.armytimes.com/news/pentagon-congress
+2024-12-17 14:52:32,240 - ERROR - Archive error for https://www.armytimes.com/news/pentagon-congress: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195217/https://www.armytimes.com/news/pentagon-congress/
+2024-12-17 14:52:33,224 - INFO - Found article: https://www.armytimes.com/special-projects/battle-bracket
+2024-12-17 14:52:57,036 - ERROR - Archive error for https://www.armytimes.com/special-projects/battle-bracket: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195237/https://www.armytimes.com/special-projects/battle-bracket/
+2024-12-17 14:52:59,359 - INFO - Found article: https://www.armytimes.com/off-duty/military-culture
+2024-12-17 14:53:18,412 - ERROR - Archive error for https://www.armytimes.com/off-duty/military-culture: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195303/https://www.armytimes.com/off-duty/military-culture/
+2024-12-17 14:53:20,122 - INFO - Found article: https://www.armytimes.com/pay-benefits/discount-depot
+2024-12-17 14:53:39,043 - ERROR - Archive error for https://www.armytimes.com/pay-benefits/discount-depot: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195324/https://www.armytimes.com/pay-benefits/discount-depot/
+2024-12-17 14:53:40,632 - INFO - Found article: https://www.armytimes.com/editorial-contacts/
+2024-12-17 14:53:53,930 - ERROR - Archive error for https://www.armytimes.com/editorial-contacts/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195344/https://www.armytimes.com/editorial-contacts/
+2024-12-17 14:53:55,176 - INFO - Found article: https://www.armytimes.com/veterans/military-history
+2024-12-17 14:54:14,281 - ERROR - Archive error for https://www.armytimes.com/veterans/military-history: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195400/https://www.armytimes.com/veterans/military-history/
+2024-12-17 14:54:15,363 - INFO - Found article: https://www.armytimes.com/military-honor
+2024-12-17 14:55:22,369 - ERROR - Archive error for https://www.armytimes.com/military-honor: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195504/https://www.armytimes.com/military-honor/
+2024-12-17 14:55:24,826 - INFO - Found article: https://www.armytimes.com/video/2024/12/14/setting-the-stage-for-army-navy-2024/
+2024-12-17 14:55:38,044 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/14/setting-the-stage-for-army-navy-2024/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195528/https://www.armytimes.com/video/2024/12/14/setting-the-stage-for-army-navy-2024/
+2024-12-17 14:55:38,978 - INFO - Found article: https://link.armytimes.com/join/5b9/sign-up-arm?source=arm-nav
+2024-12-17 14:55:58,254 - ERROR - Archive error for https://link.armytimes.com/join/5b9/sign-up-arm?source=arm-nav: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195543/https://link.armytimes.com/join/5b9/sign-up-arm?source=arm-nav
+2024-12-17 14:55:59,294 - INFO - Found article: https://www.armytimes.com/video/2024/12/16/a-marine-on-the-path-back-update-six-years-later/
+2024-12-17 14:56:30,818 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/16/a-marine-on-the-path-back-update-six-years-later/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195602/https://www.armytimes.com/video/2024/12/16/a-marine-on-the-path-back-update-six-years-later/
+2024-12-17 14:56:32,293 - INFO - Found article: https://www.armytimes.com/video/2024/12/13/new-treatments-for-troubled-vets-defense-news-weekly-full-episode-121424/
+2024-12-17 14:56:51,392 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/13/new-treatments-for-troubled-vets-defense-news-weekly-full-episode-121424/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195635/https://www.armytimes.com/video/2024/12/13/new-treatments-for-troubled-vets-defense-news-weekly-full-episode-121424/
+2024-12-17 14:56:52,480 - INFO - Found article: https://www.armytimes.com/off-duty
+2024-12-17 14:57:11,416 - ERROR - Archive error for https://www.armytimes.com/off-duty: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195656/https://www.armytimes.com/off-duty/
+2024-12-17 14:57:12,808 - INFO - Found article: https://www.armytimes.com/newsletters/
+2024-12-17 14:57:25,829 - ERROR - Archive error for https://www.armytimes.com/newsletters/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195716/https://link.armytimes.com/join/5b9/sign-up-arm
+2024-12-17 14:57:30,819 - INFO - Found article: https://www.armytimes.com/opinion/2024/12/13/naval-academy-ruling-shows-military-strength-depends-on-diversity/
+2024-12-17 14:57:49,944 - ERROR - Archive error for https://www.armytimes.com/opinion/2024/12/13/naval-academy-ruling-shows-military-strength-depends-on-diversity/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195734/https://www.armytimes.com/opinion/2024/12/13/naval-academy-ruling-shows-military-strength-depends-on-diversity/
+2024-12-17 14:57:53,178 - INFO - Found article: https://www.armytimes.com/off-duty/movies-video-games
+2024-12-17 14:58:14,549 - ERROR - Archive error for https://www.armytimes.com/off-duty/movies-video-games: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195757/https://www.armytimes.com/off-duty/movies-video-games/
+2024-12-17 14:58:15,388 - INFO - Found article: https://www.armytimes.com/video/2024/12/13/psychedelics-and-brazilian-jiu-jitsu-get-leveraged-as-ways-to-help-vets-heal-and-connect-plus-bear/
+2024-12-17 14:58:46,355 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/13/psychedelics-and-brazilian-jiu-jitsu-get-leveraged-as-ways-to-help-vets-heal-and-connect-plus-bear/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195818/https://www.armytimes.com/video/2024/12/13/psychedelics-and-brazilian-jiu-jitsu-get-leveraged-as-ways-to-help-vets-heal-and-connect-plus-bear/
+2024-12-17 14:58:47,193 - INFO - Found article: https://www.armytimes.com/video/2024/12/13/army-secretary-predicts-army-navy-score/
+2024-12-17 14:59:06,222 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/13/army-secretary-predicts-army-navy-score/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195850/https://www.armytimes.com/video/2024/12/13/army-secretary-predicts-army-navy-score/
+2024-12-17 14:59:07,095 - INFO - Found article: https://www.armytimes.com/off-duty/military-culture/2024/12/06/life-of-pie-soldier-charged-with-loan-fraud-in-bakery-boondoggle/
+2024-12-17 14:59:29,880 - ERROR - Archive error for https://www.armytimes.com/off-duty/military-culture/2024/12/06/life-of-pie-soldier-charged-with-loan-fraud-in-bakery-boondoggle/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195914/https://www.armytimes.com/off-duty/military-culture/2024/12/06/life-of-pie-soldier-charged-with-loan-fraud-in-bakery-boondoggle/
+2024-12-17 14:59:30,980 - INFO - Found article: https://obits.militarytimes.com/
+2024-12-17 14:59:52,280 - INFO - Found article: https://www.armytimes.com/author/leo-shane-iii
+2024-12-17 15:00:11,489 - ERROR - Archive error for https://www.armytimes.com/author/leo-shane-iii: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217195956/https://www.armytimes.com/author/leo-shane-iii/
+2024-12-17 15:00:12,278 - INFO - Found article: https://www.militarytimes.com/smr/transition-guide/
+2024-12-17 15:00:33,543 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/07/11/meal-ready-to-bulk-pentagon-urged-to-add-creatine-to-mres/
+2024-12-17 15:00:52,728 - ERROR - Archive error for https://www.armytimes.com/news/your-military/2024/07/11/meal-ready-to-bulk-pentagon-urged-to-add-creatine-to-mres/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200037/https://www.armytimes.com/news/your-military/2024/07/11/meal-ready-to-bulk-pentagon-urged-to-add-creatine-to-mres/
+2024-12-17 15:00:53,835 - INFO - Found article: https://www.armytimes.com/special-projects/task-force-violent
+2024-12-17 15:01:14,053 - ERROR - Archive error for https://www.armytimes.com/special-projects/task-force-violent: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200058/https://www.armytimes.com/special-projects/task-force-violent/
+2024-12-17 15:01:19,059 - INFO - Found article: https://www.armytimes.com/veterans/military-history/2024/12/13/us-and-allies-mark-80th-anniversary-of-wwii-battle-of-the-bulge/
+2024-12-17 15:01:38,066 - ERROR - Archive error for https://www.armytimes.com/veterans/military-history/2024/12/13/us-and-allies-mark-80th-anniversary-of-wwii-battle-of-the-bulge/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200122/https://www.armytimes.com/veterans/military-history/2024/12/13/us-and-allies-mark-80th-anniversary-of-wwii-battle-of-the-bulge/
+2024-12-17 15:01:39,196 - INFO - Found article: http://www.militarytimes.com/military-honor/black-military-history?source=arm-nav
+2024-12-17 15:02:04,622 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/12/13/giveaway-makes-troops-car-owners-ahead-of-army-navy-game/
+2024-12-17 15:02:23,587 - ERROR - Archive error for https://www.armytimes.com/news/your-military/2024/12/13/giveaway-makes-troops-car-owners-ahead-of-army-navy-game/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200208/https://www.armytimes.com/news/your-military/2024/12/13/giveaway-makes-troops-car-owners-ahead-of-army-navy-game/
+2024-12-17 15:02:24,852 - INFO - Found article: https://www.armytimes.com/off-duty/military-fitness
+2024-12-17 15:02:37,996 - ERROR - Archive error for https://www.armytimes.com/off-duty/military-fitness: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200228/https://www.armytimes.com/off-duty/military-fitness/
+2024-12-17 15:02:38,853 - INFO - Found article: https://www.armytimes.com/off-duty/military-culture/2024/12/17/first-look-at-warfare-brings-viewers-into-tenacity-of-iraq-war/
+2024-12-17 15:02:51,773 - ERROR - Archive error for https://www.armytimes.com/off-duty/military-culture/2024/12/17/first-look-at-warfare-brings-viewers-into-tenacity-of-iraq-war/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200242/https://www.armytimes.com/off-duty/military-culture/2024/12/17/first-look-at-warfare-brings-viewers-into-tenacity-of-iraq-war/
+2024-12-17 15:02:55,336 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/12/12/as-army-runs-its-historic-season-these-players-must-help-beat-navy/
+2024-12-17 15:02:56,285 - ERROR - Archive error for https://www.armytimes.com/news/your-military/2024/12/12/as-army-runs-its-historic-season-these-players-must-help-beat-navy/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.armytimes.com/news/your-military/2024/12/12/as-army-runs-its-historic-season-these-players-must-help-beat-navy/
+2024-12-17 15:03:03,893 - INFO - Found article: https://www.armytimes.com/off-duty/military-culture/2024/01/11/chinese-army-defector-claims-air-force-cooked-meals-using-missile-fuel/
+2024-12-17 15:03:29,330 - ERROR - Archive error for https://www.armytimes.com/off-duty/military-culture/2024/01/11/chinese-army-defector-claims-air-force-cooked-meals-using-missile-fuel/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200307/https://www.armytimes.com/off-duty/military-culture/2024/01/11/chinese-army-defector-claims-air-force-cooked-meals-using-missile-fuel/
+2024-12-17 15:03:30,617 - INFO - Found article: https://www.armytimes.com/pay-benefits/military-retirement
+2024-12-17 15:03:49,788 - ERROR - Archive error for https://www.armytimes.com/pay-benefits/military-retirement: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200335/https://www.armytimes.com/pay-benefits/military-retirement/
+2024-12-17 15:03:52,896 - INFO - Found article: https://www.armytimes.com/news/your-air-force/2024/12/12/air-force-names-first-female-sere-specialist-as-chief-master-sergeant/
+2024-12-17 15:04:00,061 - ERROR - Archive error for https://www.armytimes.com/news/your-air-force/2024/12/12/air-force-names-first-female-sere-specialist-as-chief-master-sergeant/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.armytimes.com/news/your-air-force/2024/12/12/air-force-names-first-female-sere-specialist-as-chief-master-sergeant/
+2024-12-17 15:04:00,061 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:04:02,464 - INFO - Found article: https://www.armytimes.com/m/terms-of-services/
+2024-12-17 15:04:21,673 - ERROR - Archive error for https://www.armytimes.com/m/terms-of-services/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200405/https://www.armytimes.com/m/terms-of-services/
+2024-12-17 15:04:24,398 - INFO - Found article: https://www.armytimes.com/insurance-guide/
+2024-12-17 15:04:40,279 - INFO - Found article: https://www.armytimes.com/video/2024/12/16/changes-to-basic-allowance-for-housing/
+2024-12-17 15:05:11,445 - ERROR - Archive error for https://www.armytimes.com/video/2024/12/16/changes-to-basic-allowance-for-housing/: Error (The Internet Archive): 403 Client Error: FORBIDDEN for url: https://web.archive.org/web/20241217200443/https://www.armytimes.com/video/2024/12/16/changes-to-basic-allowance-for-housing/
+2024-12-17 15:05:12,349 - INFO - Found article: https://www.militarytimes.com/military-honor/black-military-history?source=arm-nav
+2024-12-17 15:05:19,389 - INFO - Data saved to news/VA/2024/12/17/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.jsonl.gz
+2024-12-17 15:05:19,390 - INFO - Data saved to news/VA/2024/12/17/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-cache.txt.gz
+2024-12-17 15:05:19,391 - INFO - Processing publication: http://augustafreepress.com/
+2024-12-17 15:05:19,391 - INFO - Processing RSS feed: http://augustafreepress.com/feed/atom/
+2024-12-17 15:05:20,143 - INFO - Found article: https://augustafreepress.com/news/two-bills-on-bidens-desk-would-modernize-affordable-care-act/
+2024-12-17 15:05:34,683 - INFO - Found article: https://augustafreepress.com/news/legislation-would-work-to-improve-mental-health-of-graduate-postdoctoral-researchers/
+2024-12-17 15:05:52,699 - INFO - Found article: https://augustafreepress.com/news/the-ultimate-christmas-gift-mega-millions-760m-jackpot-offered-tuesday-night/
+2024-12-17 15:06:06,983 - INFO - Found article: https://augustafreepress.com/news/update-police-identify-man-who-died-in-crash-on-i-95-in-fairfax-county-on-monday/
+2024-12-17 15:06:21,284 - ERROR - Archive error for https://augustafreepress.com/news/update-police-identify-man-who-died-in-crash-on-i-95-in-fairfax-county-on-monday/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/_embed/https://augustafreepress.com/news/update-police-identify-man-who-died-in-crash-on-i-95-in-fairfax-county-on-monday/
+2024-12-17 15:06:21,284 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:06:23,166 - INFO - Found article: https://augustafreepress.com/news/uva-health-childrens-martha-jefferson-celebrate-new-clinic-for-child-mental-health/
+2024-12-17 15:06:37,408 - INFO - Found article: https://augustafreepress.com/news/community-partnerships-create-success-for-wenonah-elementary-students/
+2024-12-17 15:07:14,921 - INFO - Data saved to news/VA/2024/12/17/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.jsonl.gz
+2024-12-17 15:07:14,921 - INFO - Data saved to news/VA/2024/12/17/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-cache.txt.gz
+2024-12-17 15:07:14,921 - INFO - Processing publication: http://www.bedfordbulletin.com/
+2024-12-17 15:07:14,921 - INFO - Processing RSS feed: http://www.pmg-va.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bedford_bulletin&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-17 15:07:15,462 - INFO - Scraping website: http://www.bedfordbulletin.com/
+2024-12-17 15:07:17,292 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/news
+2024-12-17 15:07:46,701 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/news/hot-rods-jpg/image_070c9552-457b-5c73-995a-40f606cfd625.html
+2024-12-17 15:08:08,251 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/sports/state_college/
+2024-12-17 15:08:56,182 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/obituaries/donnie-r-lilley-79-bedford/article_6762c6b2-9e08-5910-ac2b-2838220c4766.html
+2024-12-17 15:09:17,071 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/opinion/columns/
+2024-12-17 15:09:54,889 - INFO - Data saved to news/VA/2024/12/17/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.jsonl.gz
+2024-12-17 15:09:54,890 - INFO - Data saved to news/VA/2024/12/17/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-cache.txt.gz
+2024-12-17 15:09:54,890 - INFO - Processing publication: http://www.blandnews.com/
+2024-12-17 15:09:54,890 - INFO - Processing RSS feed: http://swvatoday.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bland_county/news&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-17 15:09:55,115 - INFO - Scraping website: http://www.blandnews.com/
+2024-12-17 15:10:00,039 - INFO - Found article: https://swvatoday.com/life-entertainment/nation-world/wellness/
+2024-12-17 15:10:26,456 - INFO - Found article: https://swvatoday.com/news/state-regional
+2024-12-17 15:10:46,729 - INFO - Found article: https://swvatoday.com/news-tip/
+2024-12-17 15:11:08,805 - INFO - Found article: https://swvatoday.com/homes/
+2024-12-17 15:11:33,035 - INFO - Found article: https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL
+2024-12-17 15:11:46,183 - ERROR - Archive error for https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL
+2024-12-17 15:11:46,183 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:11:48,713 - INFO - Found article: https://swvatoday.com/news/community/wytheville/
+2024-12-17 15:12:14,163 - INFO - Data saved to news/VA/2024/12/17/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.jsonl.gz
+2024-12-17 15:12:14,163 - INFO - Data saved to news/VA/2024/12/17/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-cache.txt.gz
+2024-12-17 15:12:14,163 - INFO - Processing publication: https://www.bizjournals.com/
+2024-12-17 15:12:14,163 - INFO - Scraping website: https://www.bizjournals.com/
+2024-12-17 15:12:14,506 - INFO - Data saved to news/VA/2024/12/17/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.jsonl.gz
+2024-12-17 15:12:14,506 - INFO - Data saved to news/VA/2024/12/17/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09-cache.txt.gz
+2024-12-17 15:12:14,507 - INFO - Processing publication: http://www.heraldcourier.com/
+2024-12-17 15:12:14,507 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-17 15:12:14,676 - INFO - Scraping website: http://www.heraldcourier.com/
+2024-12-17 15:12:16,932 - INFO - Found article: https://heraldcourier.com/news/nation-world/deadly-wisconsin-school-shooting-trump-holds-press-conference-hot-off-the-wire-podcast/article_91d8666d-d16b-5a26-879f-81441ca5b3e1.html
+2024-12-17 15:12:42,568 - INFO - Found article: https://heraldcourier.com/special_sections/march-2023-tricities-living/pdf_5cb64002-ba01-11ed-bd00-7b7bc7f86319.html
+2024-12-17 15:13:22,597 - INFO - Found article: https://heraldcourier.com/news/local/education/
+2024-12-17 15:14:43,653 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/movies-tv/bluey-film-2027-disney-bbc/article_47344ad2-d34e-585f-9f01-b0332be7008f.html
+2024-12-17 15:15:58,728 - INFO - Found article: https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL
+2024-12-17 15:16:06,049 - ERROR - Archive error for https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL
+2024-12-17 15:16:06,049 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:16:08,373 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/art-theatre/
+2024-12-17 15:16:34,203 - INFO - Data saved to news/VA/2024/12/17/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.jsonl.gz
+2024-12-17 15:16:34,203 - INFO - Data saved to news/VA/2024/12/17/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-cache.txt.gz
+2024-12-17 15:16:34,203 - INFO - Processing publication: http://www.bristolnews.com/
+2024-12-17 15:16:34,203 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-17 15:16:34,280 - INFO - Scraping website: http://www.bristolnews.com/
+2024-12-17 15:16:36,965 - INFO - Found article: https://heraldcourier.com/news/nation-world/deadly-wisconsin-school-shooting-trump-holds-press-conference-hot-off-the-wire-podcast/article_91d8666d-d16b-5a26-879f-81441ca5b3e1.html
+2024-12-17 15:16:44,734 - INFO - Found article: https://heraldcourier.com/special_sections/march-2023-tricities-living/pdf_5cb64002-ba01-11ed-bd00-7b7bc7f86319.html
+2024-12-17 15:16:57,485 - INFO - Found article: https://heraldcourier.com/news/local/education/
+2024-12-17 15:17:05,739 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/movies-tv/bluey-film-2027-disney-bbc/article_47344ad2-d34e-585f-9f01-b0332be7008f.html
+2024-12-17 15:17:16,630 - INFO - Found article: https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL
+2024-12-17 15:17:23,770 - ERROR - Archive error for https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/https://us59.dayforcehcm.com/CandidatePortal/en-US/leeenterprises/SITE/CANDIDATEPORTAL
+2024-12-17 15:17:23,770 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:17:26,010 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/art-theatre/
+2024-12-17 15:17:32,882 - INFO - Data saved to news/VA/2024/12/17/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.jsonl.gz
+2024-12-17 15:17:32,883 - INFO - Data saved to news/VA/2024/12/17/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-cache.txt.gz
+2024-12-17 15:17:32,883 - INFO - Processing publication: http://broadsideonline.com/
+2024-12-17 15:17:32,883 - INFO - Processing RSS feed: http://broadsideonline.com/comments/feed/
+2024-12-17 15:17:34,059 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-218
+2024-12-17 15:17:54,676 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-217
+2024-12-17 15:18:05,735 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-216
+2024-12-17 15:18:13,514 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-215
+2024-12-17 15:18:21,327 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-214
+2024-12-17 15:18:28,312 - INFO - Data saved to news/VA/2024/12/17/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.jsonl.gz
+2024-12-17 15:18:28,312 - INFO - Data saved to news/VA/2024/12/17/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-cache.txt.gz
+2024-12-17 15:18:28,312 - INFO - Processing publication: http://www.ameliamonitor.com/
+2024-12-17 15:18:28,312 - INFO - Scraping website: http://www.ameliamonitor.com/
+2024-12-17 15:18:33,225 - INFO - Found article: https://www.ameliamonitor.com/contact-us/
+2024-12-17 15:19:04,161 - INFO - Found article: https://www.ameliamonitor.com/articles/circuit-court-judge-to-be-january-alf-guest/
+2024-12-17 15:19:31,445 - INFO - Found article: https://www.publicnoticevirginia.com/
+2024-12-17 15:19:47,279 - INFO - Found article: https://www.ameliamonitor.com/articles/harlan-hank-clarkson-hayes/
+2024-12-17 15:20:20,942 - INFO - Found article: https://www.ameliamonitor.com/articles/bradley-heads-to-state-tournament/
+2024-12-17 15:20:46,552 - INFO - Data saved to news/VA/2024/12/17/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0.jsonl.gz
+2024-12-17 15:20:46,553 - INFO - Data saved to news/VA/2024/12/17/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-cache.txt.gz
+2024-12-17 15:20:46,553 - INFO - Processing publication: http://www.burkeconnection.com/
+2024-12-17 15:20:46,553 - INFO - Scraping website: http://www.burkeconnection.com/
+2024-12-17 15:20:48,311 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/oct/16/eight-local-children-are-missing/
+2024-12-17 15:21:03,370 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 15:21:10,701 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 15:21:10,701 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:21:12,534 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/11/managing-the-holiday-blues/#comments
+2024-12-17 15:21:20,812 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 15:21:28,176 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 15:21:28,176 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:21:30,474 - INFO - Found article: https://www.burkeconnection.com/news/2024/jul/24/supervisors-defer-decision-on-data-center-zoning/
+2024-12-17 15:21:50,940 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 15:21:51,905 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 15:21:53,574 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/Others/
+2024-12-17 15:21:54,521 - ERROR - Archive error for http://www.arlingtonconnection.com/news/Election/Arlington/Others/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.arlingtonconnection.com/news/Election/Arlington/Others/
+2024-12-17 15:21:55,733 - INFO - Found article: https://www.burkeconnection.com/news/2022/oct/20/transurban-and-community-partners-benefit-child-pa/
+2024-12-17 15:21:56,668 - ERROR - Archive error for https://www.burkeconnection.com/news/2022/oct/20/transurban-and-community-partners-benefit-child-pa/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.burkeconnection.com/news/2022/oct/20/transurban-and-community-partners-benefit-child-pa/
+2024-12-17 15:21:57,800 - INFO - Found article: https://www.burkeconnection.com/news/2024/jul/31/united-community-needs-75-gift-cards/
+2024-12-17 15:21:58,738 - ERROR - Archive error for https://www.burkeconnection.com/news/2024/jul/31/united-community-needs-75-gift-cards/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.burkeconnection.com/news/2024/jul/31/united-community-needs-75-gift-cards/
+2024-12-17 15:21:59,995 - INFO - Found article: https://www.burkeconnection.com/photos/2024/dec/03/156812/
+2024-12-17 15:22:20,453 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/
+2024-12-17 15:22:27,653 - INFO - Data saved to news/VA/2024/12/17/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd.jsonl.gz
+2024-12-17 15:22:27,653 - INFO - Data saved to news/VA/2024/12/17/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-cache.txt.gz
+2024-12-17 15:22:27,653 - INFO - Processing publication: http://thecarrollnews.com/
+2024-12-17 15:22:27,653 - INFO - Processing RSS feed: http://thecarrollnews.com/comments/feed
+2024-12-17 15:22:27,920 - INFO - Processing RSS feed: http://thecarrollnews.com/feed
+2024-12-17 15:22:28,654 - INFO - Processing RSS feed: http://www.thecarrollnews.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-17 15:22:30,149 - INFO - Found article: https://www.thecarrollnews.com/online_features/press_releases/tiger-beer-expands-football-partnerships-becomes-official-international-beer-partner-of-tottenham-hotspur-football-club/image_7d5342bd-e47b-5875-9b31-111dae9bd168.html
+2024-12-17 15:22:52,646 - INFO - Found article: https://www.thecarrollnews.com/online_features/press_releases/tiger-beer-expands-football-partnerships-becomes-official-international-beer-partner-of-tottenham-hotspur-football-club/image_c7d30131-1c07-57a8-a369-31d9cce8e107.html
+2024-12-17 15:23:13,828 - INFO - Found article: https://www.thecarrollnews.com/online_features/press_releases/tiger-beer-expands-football-partnerships-becomes-official-international-beer-partner-of-tottenham-hotspur-football-club/image_95f32924-d2d8-55c8-9bde-b52ad45a3917.html
+2024-12-17 15:23:34,757 - INFO - Found article: https://www.thecarrollnews.com/online_features/press_releases/tiger-beer-tottenham-hotspur-together-roars-louder/video_319de174-9082-5b6e-b96d-d644f6b31c74.html
+2024-12-17 15:24:32,434 - INFO - Found article: https://www.thecarrollnews.com/online_features/press_releases/tiger-beer-expands-football-partnerships-becomes-official-international-beer-partner-of-tottenham-hotspur-football-club/image_64956623-4d67-58e6-98f2-2c130d578947.html
+2024-12-17 15:24:55,062 - INFO - Data saved to news/VA/2024/12/17/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b.jsonl.gz
+2024-12-17 15:24:55,062 - INFO - Data saved to news/VA/2024/12/17/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-cache.txt.gz
+2024-12-17 15:24:55,062 - INFO - Processing publication: http://www.thecentralvirginian.com/
+2024-12-17 15:24:55,062 - INFO - Processing RSS feed: http://www.thecentralvirginian.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-17 15:24:55,996 - INFO - Scraping website: http://www.thecentralvirginian.com/
+2024-12-17 15:25:00,107 - INFO - Found article: https://www.thecentralvirginian.com/online_features
+2024-12-17 15:26:13,341 - INFO - Found article: https://www.thecentralvirginian.com/special_sections/guide_to_louisa/2024-discover-louisa/pdf_4403abee-85d9-11ef-9c36-af5f3b0ce422.html
+2024-12-17 15:26:52,155 - INFO - Found article: https://www.thecentralvirginian.com/sports/national/chiefs-qb-patrick-mahomes-ankle-responded-feels-push-to-play/article_4f690628-564b-596e-9a05-ee4674a55058.html
+2024-12-17 15:27:20,689 - WARNING - Warning: SAX input contains nested A elements -- You have probably hit a bug in your HTML parser (e.g., NekoHTML bug #2909310). Please clean the HTML externally and feed it to BoilerPy3 again. Trying to recover somehow...
+2024-12-17 15:27:20,703 - INFO - Found article: https://www.thecentralvirginian.com/site/forms/subscriber_services/paybill
+2024-12-17 15:27:33,884 - ERROR - Archive error for https://www.thecentralvirginian.com/site/forms/subscriber_services/paybill: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.thecentralvirginian.com/site/forms/subscriber_services/paybill
+2024-12-17 15:27:33,884 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:27:35,720 - INFO - Found article: https://www.thecentralvirginian.com/advertise_landing/
+2024-12-17 15:27:42,796 - ERROR - Archive error for https://www.thecentralvirginian.com/advertise_landing/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.thecentralvirginian.com/advertise_landing/
+2024-12-17 15:27:42,796 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:27:46,652 - WARNING - Warning: SAX input contains nested A elements -- You have probably hit a bug in your HTML parser (e.g., NekoHTML bug #2909310). Please clean the HTML externally and feed it to BoilerPy3 again. Trying to recover somehow...
+2024-12-17 15:27:46,678 - INFO - Found article: https://www.thecentralvirginian.com/do-you-think-more-affordable-housing-is-needed-in-louisa-county/poll_fffa16b0-e007-11eb-8412-23b8b7342fa7.html
+2024-12-17 15:28:13,312 - ERROR - Error resolving URL: mailto:?subject=%5BThe%20Central%20Virginian%5D%20Letter%20to%20the%20editor%20-%20Mineral%20residents%20should%20consider%20%20recall%20petition&body=https%3A%2F%2Fwww.thecentralvirginian.com%2Fopinion%2Fletters_to_the_editor%2Fletter-to-the-editor---mineral-residents-should-consider-recall-petition%2Farticle_8896d08c-b758-11ef-98f4-d32f48e6fbfd.html%3Futm_medium%3Dsocial%26utm_source%3Demail%26utm_campaign%3Duser-share: No connection adapters were found for 'mailto:?subject=%5BThe%20Central%20Virginian%5D%20Letter%20to%20the%20editor%20-%20Mineral%20residents%20should%20consider%20%20recall%20petition&body=https%3A%2F%2Fwww.thecentralvirginian.com%2Fopinion%2Fletters_to_the_editor%2Fletter-to-the-editor---mineral-residents-should-consider-recall-petition%2Farticle_8896d08c-b758-11ef-98f4-d32f48e6fbfd.html%3Futm_medium%3Dsocial%26utm_source%3Demail%26utm_campaign%3Duser-share'
+2024-12-17 15:28:14,164 - INFO - Found article: https://www.thecentralvirginian.com/sports/trojan-take-down/article_913f8e86-a6d7-11ef-95e7-77dad80951ba.html
+2024-12-17 15:28:40,050 - INFO - Data saved to news/VA/2024/12/17/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461.jsonl.gz
+2024-12-17 15:28:40,050 - INFO - Data saved to news/VA/2024/12/17/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-cache.txt.gz
+2024-12-17 15:28:40,050 - INFO - Processing publication: http://www.centre-view.com/
+2024-12-17 15:28:40,050 - INFO - Scraping website: http://www.centre-view.com/
+2024-12-17 15:28:41,340 - INFO - Found article: https://www.centre-view.com/news/CV/Sports/
+2024-12-17 15:29:01,962 - INFO - Found article: https://www.centre-view.com/news/2023/dec/06/madison-ends-season-13-2/
+2024-12-17 15:29:22,443 - INFO - Found article: https://www.centre-view.com/news/2024/jul/10/virginia-league-of-conservation-voters-2024-general-assembly-conservation-scorecard-released/
+2024-12-17 15:29:36,487 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 15:29:43,622 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District35/
+2024-12-17 15:29:43,622 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:29:46,965 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 15:29:47,909 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District53/
+2024-12-17 15:29:49,156 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/10/visit-fairfax-for-history-mild-weather-and-christmas-lights/#comments
+2024-12-17 15:29:50,292 - ERROR - Archive error for http://www.connectionnewspapers.com/news/2024/dec/10/visit-fairfax-for-history-mild-weather-and-christmas-lights/#comments: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/2024/dec/10/visit-fairfax-for-history-mild-weather-and-christmas-lights/#comments
+2024-12-17 15:29:51,211 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 15:29:52,305 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 15:29:54,062 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/Others/
+2024-12-17 15:29:55,086 - ERROR - Archive error for http://www.arlingtonconnection.com/news/Election/Arlington/Others/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/http://www.arlingtonconnection.com/news/Election/Arlington/Others/
+2024-12-17 15:29:55,829 - INFO - Found article: https://www.centre-view.com/news/CV/Opinion
+2024-12-17 15:29:56,895 - ERROR - Archive error for https://www.centre-view.com/news/CV/Opinion: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.centre-view.com/news/CV/Opinion
+2024-12-17 15:29:57,621 - INFO - Found article: https://www.centre-view.com/news/CV/People/
+2024-12-17 15:29:58,535 - ERROR - Archive error for https://www.centre-view.com/news/CV/People/: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.centre-view.com/news/CV/People/
+2024-12-17 15:30:00,232 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/
+2024-12-17 15:30:09,213 - INFO - Found article: https://www.centre-view.com/news/2024/nov/05/a-joyous-day-filled-with-hope-progress-and-possibility/
+2024-12-17 15:30:28,715 - INFO - Data saved to news/VA/2024/12/17/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6.jsonl.gz
+2024-12-17 15:30:28,715 - INFO - Data saved to news/VA/2024/12/17/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-cache.txt.gz
+2024-12-17 15:30:28,716 - INFO - Processing publication: http://thecharlottegazette.org/
+2024-12-17 15:30:28,716 - INFO - Scraping website: http://thecharlottegazette.org/
+2024-12-17 15:30:47,659 - INFO - Found article: https://pages.lazada.co.id/wow/i/id/digitalgoods/home?hybrid=1&scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207798_7692459
+2024-12-17 15:31:36,255 - ERROR - Error resolving URL: javascript:;: No connection adapters were found for 'javascript:;'
+2024-12-17 15:31:40,438 - INFO - Found article: https://bit.ly/lazada-android-app
+2024-12-17 15:32:23,372 - WARNING - Certificate did not match expected hostname: rajakampus.vip. Certificate: {'subject': ((('commonName', '*.web-hosting.com'),),), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'Sectigo Limited'),), (('commonName', 'Sectigo RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': '2B357706505F084823761B454EC12C3D', 'notBefore': 'Nov  8 00:00:00 2024 GMT', 'notAfter': 'Apr  5 23:59:59 2025 GMT', 'subjectAltName': (('DNS', '*.web-hosting.com'), ('DNS', 'web-hosting.com')), 'OCSP': ('http://ocsp.sectigo.com',), 'caIssuers': ('http://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt',)}
+2024-12-17 15:32:23,373 - ERROR - Error resolving URL: https://rajakampus.vip/amp/thecharlottegazette.org/: HTTPSConnectionPool(host='rajakampus.vip', port=443): Max retries exceeded with url: /amp/thecharlottegazette.org/ (Caused by SSLError(CertificateError("hostname 'rajakampus.vip' doesn't match either of '*.web-hosting.com', 'web-hosting.com'")))
+2024-12-17 15:32:23,561 - WARNING - Certificate did not match expected hostname: rajakampus.vip. Certificate: {'subject': ((('commonName', '*.web-hosting.com'),),), 'issuer': ((('countryName', 'GB'),), (('stateOrProvinceName', 'Greater Manchester'),), (('localityName', 'Salford'),), (('organizationName', 'Sectigo Limited'),), (('commonName', 'Sectigo RSA Domain Validation Secure Server CA'),)), 'version': 3, 'serialNumber': '2B357706505F084823761B454EC12C3D', 'notBefore': 'Nov  8 00:00:00 2024 GMT', 'notAfter': 'Apr  5 23:59:59 2025 GMT', 'subjectAltName': (('DNS', '*.web-hosting.com'), ('DNS', 'web-hosting.com')), 'OCSP': ('http://ocsp.sectigo.com',), 'caIssuers': ('http://crt.sectigo.com/SectigoRSADomainValidationSecureServerCA.crt',)}
+2024-12-17 15:32:23,562 - ERROR - textutils.py, 135, (<class 'requests.exceptions.SSLError'>, SSLError(MaxRetryError('HTTPSConnectionPool(host=\'rajakampus.vip\', port=443): Max retries exceeded with url: /amp/thecharlottegazette.org/ (Caused by SSLError(CertificateError("hostname \'rajakampus.vip\' doesn\'t match either of \'*.web-hosting.com\', \'web-hosting.com\'")))')), <traceback object at 0x7dc290ca8bc0>)	uri: https://rajakampus.vip/amp/thecharlottegazette.org/
+2024-12-17 15:32:25,832 - INFO - Found article: https://bit.ly/lazada-ios-app
+2024-12-17 15:33:07,598 - INFO - Found article: https://group.lazada.com/en/press-release/
+2024-12-17 15:34:08,856 - INFO - Found article: https://pages.lazada.co.id/wow/i/id/IDCampaign/Download-App?hybrid=1
+2024-12-17 15:34:48,511 - INFO - Data saved to news/VA/2024/12/17/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad.jsonl.gz
+2024-12-17 15:34:48,511 - INFO - Data saved to news/VA/2024/12/17/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-cache.txt.gz
+2024-12-17 15:34:48,512 - INFO - Processing publication: http://www.chesterfieldobserver.com/
+2024-12-17 15:34:48,512 - INFO - Processing RSS feed: /news.xml
+2024-12-17 15:34:48,512 - INFO - Scraping website: http://www.chesterfieldobserver.com/
+2024-12-17 15:34:49,064 - INFO - Data saved to news/VA/2024/12/17/5b91ff1734b9dcce40078215340a4642/5b91ff1734b9dcce40078215340a4642.jsonl.gz
+2024-12-17 15:34:49,065 - INFO - Data saved to news/VA/2024/12/17/5b91ff1734b9dcce40078215340a4642/5b91ff1734b9dcce40078215340a4642-cache.txt.gz
+2024-12-17 15:34:49,065 - INFO - Processing publication: http://www.thecoalfieldprogress.com/
+2024-12-17 15:34:49,065 - INFO - Processing RSS feed: https://www.thecoalfieldprogress.com/feed.atom
+2024-12-17 15:34:51,469 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21453
+2024-12-17 15:35:11,928 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21452
+2024-12-17 15:35:32,284 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21451
+2024-12-17 15:35:47,186 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21450
+2024-12-17 15:36:01,806 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21449
+2024-12-17 15:36:15,066 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21449: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21449
+2024-12-17 15:36:15,066 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:36:17,187 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21448
+2024-12-17 15:36:37,098 - INFO - Data saved to news/VA/2024/12/17/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113.jsonl.gz
+2024-12-17 15:36:37,098 - INFO - Data saved to news/VA/2024/12/17/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-cache.txt.gz
+2024-12-17 15:36:37,098 - INFO - Processing publication: http://www.coalfield.com/
+2024-12-17 15:36:37,098 - INFO - Processing RSS feed: https://www.coalfield.com/feed.atom
+2024-12-17 15:36:39,224 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21453
+2024-12-17 15:36:47,338 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21452
+2024-12-17 15:36:48,504 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21452: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21452
+2024-12-17 15:36:49,641 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21451
+2024-12-17 15:36:50,620 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21451: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21451
+2024-12-17 15:36:51,771 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21450
+2024-12-17 15:36:52,690 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21450: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21450
+2024-12-17 15:36:53,878 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21449
+2024-12-17 15:36:55,025 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21449: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21449
+2024-12-17 15:36:56,185 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21448
+2024-12-17 15:36:57,102 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21448: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21448
+2024-12-17 15:36:58,279 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21447
+2024-12-17 15:36:59,398 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21447: Error (The Internet Archive): 429 Client Error: TOO MANY REQUESTS for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21447
+2024-12-17 15:37:00,610 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21440
+2024-12-17 15:37:56,143 - ERROR - Archive error for https://www.thecoalfieldprogress.com/articles/21440: Error (The Internet Archive): 523 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.thecoalfieldprogress.com/articles/21440
+2024-12-17 15:37:56,144 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 15:37:58,294 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21445
+2024-12-17 15:38:24,859 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21439
+2024-12-17 15:39:39,617 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21446
+2024-12-17 15:40:00,100 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21444
+2024-12-17 15:40:19,664 - INFO - Data saved to news/VA/2024/12/17/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801.jsonl.gz
+2024-12-17 15:40:19,664 - INFO - Data saved to news/VA/2024/12/17/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-cache.txt.gz
+2024-12-17 15:40:19,664 - INFO - Processing publication: http://www.collegiatetimes.com/
+2024-12-17 15:40:19,664 - INFO - Processing RSS feed: http://www.collegiatetimes.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-17 15:40:19,932 - INFO - Scraping website: http://www.collegiatetimes.com/
+2024-12-17 15:40:21,717 - INFO - Found article: https://www.collegiatetimes.com/nikki-giovanni-world-renowned-poet-and-professor-at-virginia-tech-passes-away-at-81-years/article_e4fb35dc-b8e5-11ef-af66-1f5ff07055a2.html#comments
+2024-12-17 15:40:42,662 - INFO - Found article: https://www.collegiatetimes.com/sleep-is-not-for-the-weak/youtube_4fc0c9ba-a6f4-11e7-a996-db7159a6ad87.html
+2024-12-17 15:41:04,225 - INFO - Found article: https://www.collegiatetimes.com/news/virginia-tech-announces-opening-of-northern-virginia-campus-and-innovation-building/article_605e7d4e-a502-11ef-80ea-9f73f66655e7.html#comments
+2024-12-17 15:41:25,017 - INFO - Found article: https://www.collegiatetimes.com/news/construction-worker-falls-at-virginia-tech-construction-site/article_e85f8238-9f71-11ef-acab-e75efd2ba225.html
+2024-12-17 15:41:46,302 - INFO - Found article: https://www.collegiatetimes.com/opinion/the-tragic-price-of-perfection/article_8b8c3de4-9f8a-11ef-81e6-77cc3c95e121.html
+2024-12-17 15:43:06,666 - INFO - Data saved to news/VA/2024/12/17/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5.jsonl.gz
+2024-12-17 15:43:06,667 - INFO - Data saved to news/VA/2024/12/17/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-cache.txt.gz
+2024-12-17 15:43:06,667 - INFO - Processing publication: http://www.commonwealthtimes.org/
+2024-12-17 15:43:06,667 - INFO - Processing RSS feed: http://www.commonwealthtimes.org/comments/feed/
+2024-12-17 15:43:10,183 - INFO - Found article: https://commonwealthtimes.org/2021/02/18/aave-is-not-your-internet-slang-it-is-black-culture/#comment-1198293
+2024-12-17 15:44:05,218 - INFO - Found article: https://commonwealthtimes.org/2024/04/17/car-centric-cities-keep-americans-lonely/#comment-1198292
+2024-12-17 15:44:29,942 - INFO - Found article: https://commonwealthtimes.org/2024/10/23/ai-use-by-vcuarts-department-angers-scares-students/#comment-1198291
+2024-12-17 15:44:49,564 - INFO - Processing RSS feed: http://www.commonwealthtimes.org/feed/
+2024-12-17 15:44:52,584 - INFO - Found article: https://commonwealthtimes.org/2024/12/04/where-in-the-world-is-santa-claus/?utm_source=rss&utm_medium=rss&utm_campaign=where-in-the-world-is-santa-claus&utm_source=rss&utm_medium=rss&utm_campaign=where-in-the-world-is-santa-claus
+2024-12-17 15:45:07,639 - INFO - Found article: https://commonwealthtimes.org/2024/12/04/three-second-delivery-no-2/?utm_source=rss&utm_medium=rss&utm_campaign=three-second-delivery-no-2&utm_source=rss&utm_medium=rss&utm_campaign=three-second-delivery-no-2
+2024-12-17 15:45:20,844 - INFO - Data saved to news/VA/2024/12/17/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784.jsonl.gz
+2024-12-17 15:45:20,844 - INFO - Data saved to news/VA/2024/12/17/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-cache.txt.gz
+2024-12-17 15:45:20,845 - INFO - Processing publication: http://www.crozetgazette.com/
+2024-12-17 15:45:20,845 - INFO - Processing RSS feed: http://www.crozetgazette.com/feed/
+2024-12-17 15:45:22,359 - INFO - Found article: https://www.crozetgazette.com/2024/12/07/the-dam-turn-regatta-an-annual-tradition/
+2024-12-17 15:45:47,167 - INFO - Found article: https://www.crozetgazette.com/2024/12/07/driving-away-the-dark-celebrating-the-winter-solstice/
+2024-12-17 15:46:07,217 - INFO - Found article: https://www.crozetgazette.com/2024/12/07/holiday-railroad-under-construction-in-old-trail/
+2024-12-17 15:46:21,585 - INFO - Found article: https://www.crozetgazette.com/2024/12/07/warrior-football-season-wrap-up/
