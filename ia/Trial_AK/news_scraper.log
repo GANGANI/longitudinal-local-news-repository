@@ -1,0 +1,19 @@
+2024-12-17 16:30:48,293 - INFO - Starting the script...
+2024-12-17 16:30:48,310 - INFO - Processing state: AK
+2024-12-17 16:30:48,310 - INFO - Processing publication: http://www.adn.com/
+2024-12-17 16:30:48,310 - INFO - Scraping website: http://www.adn.com/
+2024-12-17 16:30:49,660 - INFO - Found article: https://www.adn.com/author/josh-reed/
+2024-12-17 16:30:50,649 - ERROR - Archive error for https://www.adn.com/author/josh-reed/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.adn.com/author/josh-reed/
+2024-12-17 16:30:50,650 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:30:52,770 - INFO - Found article: https://www.adn.com/nation-world/2024/12/17/netanyahu-says-israeli-troops-will-occupy-a-buffer-zone-inside-syria-for-the-foreseeable-future/
+2024-12-17 16:30:53,775 - ERROR - Archive error for https://www.adn.com/nation-world/2024/12/17/netanyahu-says-israeli-troops-will-occupy-a-buffer-zone-inside-syria-for-the-foreseeable-future/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.adn.com/nation-world/2024/12/17/netanyahu-says-israeli-troops-will-occupy-a-buffer-zone-inside-syria-for-the-foreseeable-future/
+2024-12-17 16:30:53,776 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:30:59,239 - INFO - Found article: https://www.adn.com/alaska-visitors-guide/
+2024-12-17 16:31:00,230 - ERROR - Archive error for https://www.adn.com/alaska-visitors-guide/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.adn.com/alaska-visitors-guide/
+2024-12-17 16:31:00,230 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:31:02,082 - INFO - Found article: https://www.adn.com/section/opinions/letters/
+2024-12-17 16:31:03,074 - ERROR - Archive error for https://www.adn.com/section/opinions/letters/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.adn.com/section/opinions/letters/
+2024-12-17 16:31:03,074 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:31:05,770 - INFO - Found article: https://www.adn.com/arts/music/
+2024-12-17 16:31:06,755 - ERROR - Archive error for https://www.adn.com/arts/music/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.adn.com/arts/music/
+2024-12-17 16:31:06,755 - WARNING - Sleeping for 1 second due to server error

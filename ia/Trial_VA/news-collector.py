@@ -76,21 +76,42 @@ def has_special_characters(path_segment):
     """Check for special characters in path segments."""
     return any(char in path_segment for char in "-_.")
 
-def is_news_article(link, website_url):
-    """Determine if a URL is a news article."""
+def is_news_article(link):
+    is_news_article = False
     link = get_expanded_url(link)
-    if not is_valid_url(link) or urlparse(website_url).path == urlparse(link).path:
-        return False
-    path_segments = [segment for segment in urlparse(link).path.split('/') if segment]
-    if len(path_segments) >= 3 or any(has_special_characters(segment) for segment in path_segments[:2]):
-        try:
-            html = derefURI(link)
-            plaintext = cleanHtml(html)
-            return len(plaintext.strip()) > 20
-        except Exception as e:
-            logging.error(f"Error validating news article {link}: {e}")
-            return False
-    return False
+
+    if not is_valid_url(link):
+       print(f"Invalid URL: {link}")
+       return is_news_article
+    
+    parsed_url = urlparse(link)
+    path_segments = [segment for segment in parsed_url.path.split('/') if segment]
+    if not path_segments:
+        return is_news_article
+    else:
+        depth = len(path_segments)
+        if depth >= 3:
+            is_news_article = True
+        elif depth <= 2 and any(has_special_characters(segment) for segment in path_segments[:2]):
+            is_news_article = True
+        else:
+            return is_news_article
+    
+    try:
+        html = derefURI(link)
+        plaintext = cleanHtml(html)
+        count = len(plaintext)
+        if count > 20:
+            is_news_article = True
+        else:
+            print (f"Word count is less for {link}\n {plaintext}\n")
+            is_news_article = False
+    except Exception as e:
+        # If an exception occurs, write the error message to the log file
+        print(f"Error processing link: {link} ecause of {e}\n")
+        is_news_article = False
+
+    return is_news_article
 
 def get_archived_url(link):
     """Archive a URL using Internet Archive and return the archived URL."""
@@ -108,13 +129,20 @@ def get_archived_url(link):
         logging.error(f"Exception during archiving {link}: {e}")
         return None
 
-# File Operations
 def save_to_file(filepath, data, mode='at'):
-    """Save data to a file with optional gzip compression."""
+    """Save JSON objects line by line to a file with optional gzip compression."""
     try:
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
-        with gzip.open(filepath, mode) as f:
-            f.write((data + '\n') if isinstance(data, str) else json.dumps(data) + '\n')
+        with gzip.open(filepath, mode, compresslevel=5) as f:
+            if isinstance(data, list):
+                # Write each item in the list as a separate JSON line
+                for item in data:
+                    f.write((json.dumps(item) + '\n').encode('utf-8'))
+            elif isinstance(data, dict):
+                # Write single JSON object as a line
+                f.write((json.dumps(data) + '\n').encode('utf-8'))
+            else:
+                raise ValueError("Data must be a list of JSON objects or a single JSON object.")
         logging.info(f"Data saved to {filepath}")
     except Exception as e:
         logging.error(f"Error saving data to {filepath}: {e}")
@@ -129,6 +157,20 @@ def read_cached_urls(filepath):
             logging.error(f"Error reading cache file {filepath}: {e}")
     return set()
 
+def save_publication(state, year, month, date, website_url, publication):
+    website_hash = hashlib.md5(website_url.encode()).hexdigest() 
+    directory_path = os.path.join("news", state, str(year), str(month), str(date), str(website_hash))
+    os.makedirs(directory_path, exist_ok=True)
+
+    wesite_file_path = os.path.join(directory_path, f"{website_hash}.jsonl.gz")
+    if not os.path.exists(wesite_file_path):
+        logging.info(f"Website: {website_url} has been saved")
+        archived_url = get_archived_url(website_url)
+        if archived_url:
+            publication['archived_link'] = archived_url
+            with gzip.open(wesite_file_path, "at") as f:  
+                f.write(json.dumps(publication))
+        
 # Main Processing
 def process_publication(state, publication, year, month, day):
     """Process a single publication and save its articles."""
@@ -149,7 +191,7 @@ def process_publication(state, publication, year, month, day):
         feed = feedparser.parse(rss_feed_url)
         for entry in feed.entries:
             article_url = entry.link
-            if article_url not in cached_urls and is_news_article(article_url, website_url):
+            if article_url not in cached_urls and is_news_article(article_url):
                 logging.info(f"Found article: {article_url}")
                 archived_url = get_archived_url(article_url)
                 if archived_url:
@@ -174,7 +216,7 @@ def process_publication(state, publication, year, month, day):
             response = requests.get(website_url, headers=HEADERS, timeout=10)
             response.raise_for_status()
             for article_url in extract_article_urls_from_html(response.text, website_url):
-                if article_url not in cached_urls and is_news_article(article_url, website_url):
+                if article_url not in cached_urls and is_news_article(article_url):
                     logging.info(f"Found article: {article_url}")
                     archived_url = get_archived_url(article_url)
                     if archived_url:
@@ -205,5 +247,7 @@ while True:
                 response_status = publication.get('website_status')
                 if response_status and (200 <= response_status < 300):
                     timestamp = datetime.datetime.now()
+                    website_url = publication.get("website")
                     process_publication(state, publication, timestamp.year, timestamp.month, timestamp.day)
+                    save_publication(state, timestamp.year, timestamp.month, timestamp.day, website_url, publication)
     time.sleep(1)  # Prevent overwhelming the server

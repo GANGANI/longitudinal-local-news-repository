@@ -921,3 +921,45 @@ AttributeError: 'NoneType' object has no attribute 'lower'
 2024-12-17 16:06:02,246 - INFO - Data saved to news/VA/2024/12/17/df9cae7b3c1fbe3b4fe6062bcef9a550/df9cae7b3c1fbe3b4fe6062bcef9a550-cache.txt.gz
 2024-12-17 16:06:02,246 - INFO - Processing publication: http://www.dailypress.com/
 2024-12-17 16:06:02,246 - INFO - Processing RSS feed: http://www.dailypress.com/rss2.0.xml
+2024-12-17 16:24:30,584 - INFO - Starting the script...
+2024-12-17 16:24:30,602 - INFO - Processing state: VA
+2024-12-17 16:24:30,602 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 16:24:30,603 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 16:28:47,714 - INFO - Starting the script...
+2024-12-17 16:28:47,715 - INFO - Processing state: VA
+2024-12-17 16:28:47,715 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-17 16:28:47,715 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-17 16:28:48,576 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-17 16:28:50,997 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-17 16:28:50,997 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:28:54,098 - INFO - Found article: http://www.connectionnewspapers.com/news/Connection/Classified/
+2024-12-17 16:28:55,068 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Connection/Classified/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Connection/Classified/
+2024-12-17 16:28:55,068 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:28:56,982 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District39/
+2024-12-17 16:28:58,000 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District39/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District39/
+2024-12-17 16:28:58,001 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:01,614 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District33/
+2024-12-17 16:29:02,573 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District33/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District33/
+2024-12-17 16:29:02,573 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:04,360 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District38/
+2024-12-17 16:29:06,383 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District38/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District38/
+2024-12-17 16:29:06,384 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:08,227 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 16:29:09,180 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-17 16:29:09,180 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:11,019 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District39/
+2024-12-17 16:29:11,953 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District39/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District39/
+2024-12-17 16:29:11,953 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:13,903 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/23/tired-of-big-trucks-parking-on-our-public-roads-blocking-your-view-and-creating-safety-hazards-use-the-new-parking-reporter-tool/
+2024-12-17 16:29:14,998 - ERROR - Archive error for https://www.alexandriagazette.com/news/2024/oct/23/tired-of-big-trucks-parking-on-our-public-roads-blocking-your-view-and-creating-safety-hazards-use-the-new-parking-reporter-tool/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.alexandriagazette.com/news/2024/oct/23/tired-of-big-trucks-parking-on-our-public-roads-blocking-your-view-and-creating-safety-hazards-use-the-new-parking-reporter-tool/
+2024-12-17 16:29:14,999 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:17,881 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/11/asc-to-host-washington-commanders-night-oct-16/
+2024-12-17 16:29:18,827 - ERROR - Archive error for https://www.alexandriagazette.com/news/2024/oct/11/asc-to-host-washington-commanders-night-oct-16/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/https://www.alexandriagazette.com/news/2024/oct/11/asc-to-host-washington-commanders-night-oct-16/
+2024-12-17 16:29:18,827 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:20,623 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-17 16:29:21,596 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-17 16:29:21,596 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:23,391 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/School-Board/
+2024-12-17 16:29:24,684 - ERROR - Archive error for http://www.connectionnewspapers.com/news/Election/FairfaxCounty/School-Board/: Error (The Internet Archive): 520 Server Error: UNKNOWN for url: https://web.archive.org/save/http://www.connectionnewspapers.com/news/Election/FairfaxCounty/School-Board/
+2024-12-17 16:29:24,685 - WARNING - Sleeping for 1 second due to server error
+2024-12-17 16:29:27,230 - INFO - Found article: https://www.alexandriagazette.com/news/2024/dec/12/chris-white-family-real-estate-group-hits-major-milestone/
