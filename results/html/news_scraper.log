@@ -1,0 +1,922 @@
+2024-12-18 19:50:09,278 - INFO - Starting the script...
+2024-12-18 19:50:09,280 - INFO - Processing state: VA
+2024-12-18 19:50:09,280 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 19:50:09,280 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 19:50:10,326 - INFO - Found article: http://www.alexandriagazette.com/news/Election/Alexandria/School-Board/
+2024-12-18 19:50:10,562 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/9b9effb7127e8ac16f2d8b84fd5c4c69.html
+2024-12-18 19:50:12,238 - INFO - Found article: https://www.alexandriagazette.com/news/2024/jun/12/governor-says-virginia-is-exiting-clean-car-commitment/
+2024-12-18 19:50:12,335 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/fb7052be3456916ec9c0d3aad0dde430.html
+2024-12-18 19:50:14,658 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District36/
+2024-12-18 19:50:14,922 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District36/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District36/
+2024-12-18 19:50:16,441 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/23/tired-of-big-trucks-parking-on-our-public-roads-blocking-your-view-and-creating-safety-hazards-use-the-new-parking-reporter-tool/
+2024-12-18 19:50:16,789 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/4c5795c1b7643f69cd7e3f8fe844d97a.html
+2024-12-18 19:50:19,314 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/General-Assembly/
+2024-12-18 19:50:19,526 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/163dcb72705139dc1f9a3d10af67c901.html
+2024-12-18 19:50:20,747 - INFO - Found article: https://www.alexandriagazette.com/news/Alexandria/Local/
+2024-12-18 19:50:20,839 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/1f0fb329d7ffa171301431df75a36c8a.html
+2024-12-18 19:50:20,840 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/ba429e4aa786a632392056d81279b9fa.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 19:50:20,840 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:09.280146/ba429e4aa786a632392056d81279b9fa-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:50:21,066 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 19:50:21,066 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 19:50:22,012 - INFO - Found article: http://www.alexandriagazette.com/news/Election/Alexandria/School-Board/
+2024-12-18 19:50:22,163 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/9b9effb7127e8ac16f2d8b84fd5c4c69.html
+2024-12-18 19:50:23,837 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/may/15/2024-vision-zero-for-youth-us-leadership-award/
+2024-12-18 19:50:23,967 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/7fae5ae87c2112105033b648e85c1e04.html
+2024-12-18 19:50:25,746 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/04/a-gift-for-everyone-at-urban-farmhouse/
+2024-12-18 19:50:25,925 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/af9475eabeb42721eb90c8ab23ee9c1e.html
+2024-12-18 19:50:27,713 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/oct/23/tired-of-big-trucks-parking-on-our-public-roads-blocking-your-view-and-creating-safety-hazards-use-the-new-parking-reporter-tool/
+2024-12-18 19:50:27,863 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/0f863f480d830e69e3bca3552a09a53d.html
+2024-12-18 19:50:29,124 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District36/
+2024-12-18 19:50:29,285 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District36/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District36/
+2024-12-18 19:50:30,581 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/General-Assembly/
+2024-12-18 19:50:30,822 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/163dcb72705139dc1f9a3d10af67c901.html
+2024-12-18 19:50:30,822 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/dc38a4246f7c9632e4e05f99ae844cb7.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 19:50:30,823 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:21.066299/dc38a4246f7c9632e4e05f99ae844cb7-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:50:31,011 - INFO - Processing publication: http://www.armytimes.com/
+2024-12-18 19:50:31,012 - INFO - Scraping website: http://www.armytimes.com/
+2024-12-18 19:50:32,477 - INFO - Found article: https://www.armytimes.com/news/your-marine-corps/2024/12/13/these-marine-units-will-field-new-mobile-command-vehicle-in-2025/
+2024-12-18 19:50:32,593 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/6f81c9f0bb3b3fb9a5f569a30e9f13e7.html
+2024-12-18 19:50:35,335 - INFO - Found article: https://www.armytimes.com/native/navy-federal
+2024-12-18 19:50:35,578 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/721d307f4ffeac32cb7af5f7e71c5194.html
+2024-12-18 19:50:37,031 - INFO - Found article: https://www.armytimes.com/pay-benefits/military-retirement
+2024-12-18 19:50:37,507 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/19e586f1f9ef8e314b4429b8a745de46.html
+2024-12-18 19:50:43,243 - INFO - Found article: https://www.armytimes.com/land/2024/12/13/army-navy-conduct-key-hypersonic-missile-test/
+2024-12-18 19:50:43,550 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/6b2ed8a4a0d1eec5626185267c3b3308.html
+2024-12-18 19:50:45,002 - INFO - Found article: https://www.militarytimes.com/smr/benefits-guide/
+2024-12-18 19:50:45,130 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/fb9372959a4528ba39e713c697dd8b3e.html
+2024-12-18 19:50:45,131 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/49fb7f5f81c028b9509f87193b2eee53.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 19:50:45,131 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:31.011863/49fb7f5f81c028b9509f87193b2eee53-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:50:45,332 - INFO - Processing publication: http://augustafreepress.com/
+2024-12-18 19:50:45,332 - INFO - Processing RSS feed: http://augustafreepress.com/feed/atom/
+2024-12-18 19:50:46,166 - INFO - Found article: https://augustafreepress.com/news/greene-county-81-dogs-seized-at-puppy-mill-three-residents-arrested-on-felony-charge/
+2024-12-18 19:50:46,349 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/389390ea60de66886350eaabcedd483e.html
+2024-12-18 19:50:47,695 - INFO - Found article: https://augustafreepress.com/news/devils-backbone-donates-33k-to-restoration-of-james-river/
+2024-12-18 19:50:47,956 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/112b3c091317a0ac510af342f25bdc94.html
+2024-12-18 19:50:49,263 - INFO - Found article: https://augustafreepress.com/news/richmond-man-woman-charged-in-connection-with-september-murder/
+2024-12-18 19:50:49,429 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/257ca0d46dfa3c65d35cec4659b2b68c.html
+2024-12-18 19:50:50,745 - INFO - Found article: https://augustafreepress.com/news/virginia-receives-1-3m-to-restore-damages-from-hurricane-helene/
+2024-12-18 19:50:50,919 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/9f5794fe0066d103e481c39b7e9aa1e2.html
+2024-12-18 19:50:52,639 - INFO - Found article: https://augustafreepress.com/news/augusta-county-leader-to-bos-county-administrator-tired-of-being-fed-crap-and-kept-in-the-dark/
+2024-12-18 19:50:52,833 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/697b96737fc5652688707d79ae533a73.html
+2024-12-18 19:50:52,833 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/7f013ca0a76bfe75b084c53c6d548c0a.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 19:50:52,833 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:45.332293/7f013ca0a76bfe75b084c53c6d548c0a-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:50:53,112 - INFO - Processing publication: http://www.bedfordbulletin.com/
+2024-12-18 19:50:53,112 - INFO - Processing RSS feed: http://www.pmg-va.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bedford_bulletin&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 19:50:53,313 - INFO - Scraping website: http://www.bedfordbulletin.com/
+2024-12-18 19:50:54,462 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/opinion/
+2024-12-18 19:50:54,609 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/544deaa74a564d9c99f394da89dd26be.html
+2024-12-18 19:50:56,609 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/special_sections/
+2024-12-18 19:50:56,765 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/af4a810e655a76f1a80bbe35b3bc07a9.html
+2024-12-18 19:50:58,109 - INFO - Found article: https://www.pmg-va.com/galax_gazette/
+2024-12-18 19:50:58,265 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/b9b45ca7a851f683534637b932c6e6ed.html
+2024-12-18 19:51:00,201 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/obituaries/david-a-bowyer-sr/article_00a02d2a-07bd-5b38-b3cc-c307f8b05a50.html
+2024-12-18 19:51:00,384 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/154471d942aaa78e0c81bd1dacaa3f3e.html
+2024-12-18 19:51:02,457 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/features/a_and_e/
+2024-12-18 19:51:02,628 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/19e254d1f671f50abb70a2a625dd136f.html
+2024-12-18 19:51:02,629 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/f9a9cd7683558c729bace0dff381e3d6.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 19:51:02,629 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:50:53.112436/f9a9cd7683558c729bace0dff381e3d6-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:51:03,011 - INFO - Processing publication: http://www.blandnews.com/
+2024-12-18 19:51:03,011 - INFO - Processing RSS feed: http://swvatoday.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bland_county/news&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 19:51:03,268 - INFO - Scraping website: http://www.blandnews.com/
+2024-12-18 19:51:04,935 - INFO - Found article: https://swvatoday.com/life-entertainment/nation-world/faith-values/
+2024-12-18 19:51:05,101 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/dcb216f105d0407f241b31d65e4d5768.html
+2024-12-18 19:51:06,493 - INFO - Found article: https://swvatoday.com/news/community/bland-county/
+2024-12-18 19:51:06,668 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/6d35ae4a2a7c772ff94f14d7cfcc4ab1.html
+2024-12-18 19:51:08,021 - INFO - Found article: https://swvatoday.com/life-entertainment/nation-world/pets/
+2024-12-18 19:51:08,202 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/2be997c0b6ced52061c19613698fcf7e.html
+2024-12-18 19:51:09,952 - INFO - Found article: https://swvatoday.com/life-entertainment/nation-world/art-theatre/
+2024-12-18 19:51:10,161 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/ef1867c3aab142f4c85cfbc570d6d80e.html
+2024-12-18 19:51:12,647 - ERROR - Error resolving URL: https://swvatoday.com/members/join/: Exceeded 30 redirects.
+2024-12-18 19:51:13,339 - INFO - Found article: https://swvatoday.com/news/community/wytheville/
+2024-12-18 19:51:13,508 - INFO - Article HTML saved to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/3b3bd27f7511d6d85921cd29cab9f0b6.html
+2024-12-18 19:51:13,509 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/9192120c412a31bb09ec1b8274a25442.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 19:51:13,510 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:51:03.011412/9192120c412a31bb09ec1b8274a25442-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:51:13,911 - INFO - Processing publication: https://www.bizjournals.com/
+2024-12-18 19:51:13,912 - INFO - Scraping website: https://www.bizjournals.com/
+2024-12-18 19:51:14,197 - INFO - Data saved to news/VA/2024/12/18/website_hash-2024-12-18 19:51:13.911699/38d16529c92791b89fbe67fdd0956d09.jsonl.gz
+2024-12-18 19:51:14,234 - ERROR - Error saving data to news/VA/2024/12/18/website_hash-2024-12-18 19:51:13.911699/38d16529c92791b89fbe67fdd0956d09-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 19:51:14,337 - INFO - Processing publication: http://www.heraldcourier.com/
+2024-12-18 19:51:14,338 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 19:51:14,498 - INFO - Scraping website: http://www.heraldcourier.com/
+2024-12-18 20:31:48,145 - INFO - Starting the script...
+2024-12-18 20:31:48,147 - INFO - Processing state: VA
+2024-12-18 20:31:48,147 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 20:31:48,147 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 20:31:53,232 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/nov/27/156810/
+2024-12-18 20:31:53,333 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:31:48.147075/7b30e34245a83502e4f26aada4f7ec5f.html.json.gz
+2024-12-18 20:31:54,962 - INFO - Found article: https://www.alexandriagazette.com/news/2023/jan/25/gaylord-national-resort-perfect-winter-escape/
+2024-12-18 20:31:55,056 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:31:48.147075/5013c6dc00affa878b59a909b7dff769.html.json.gz
+2024-12-18 20:31:57,564 - INFO - Found article: http://www.connectionnewspapers.com/staff/mike-salmon
+2024-12-18 20:31:57,778 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:31:48.147075/076e4a91856cc9994eee749b4aeb05c6.html.json.gz
+2024-12-18 20:31:59,387 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/11/asc-to-host-washington-commanders-night-oct-16/
+2024-12-18 20:31:59,509 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:31:48.147075/f7329e57fab938d147a31998f1cac605.html.json.gz
+2024-12-18 20:32:01,102 - INFO - Found article: https://www.alexandriagazette.com/news/2022/aug/02/reston-association-chooses-new-ceo/
+2024-12-18 20:32:01,241 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:31:48.147075/71a7ebe200fe878180376c8d1708b3a2.html.json.gz
+2024-12-18 20:32:01,242 - ERROR - Error saving data to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 20:32:01,242 - ERROR - Error saving data to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 20:32:01,399 - INFO - Website content saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.html.jsonl.gz
+2024-12-18 20:32:01,400 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 20:32:01,400 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 20:32:02,401 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/jul/10/virginia-league-of-conservation-voters-2024-general-assembly-conservation-scorecard-released/
+2024-12-18 20:32:02,581 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:32:01.400225/f23e1050e41c01bc4e8412e06fb04c78.html.json.gz
+2024-12-18 20:32:04,224 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/11/managing-the-holiday-blues/#comments
+2024-12-18 20:32:04,404 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:32:01.400225/48cbc248ddbdff6c2d16060f59af177f.html.json.gz
+2024-12-18 20:32:06,229 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/dec/11/managing-the-holiday-blues/
+2024-12-18 20:32:06,344 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:32:01.400225/eda9830e55860153319e5f4775002aea.html.json.gz
+2024-12-18 20:32:12,985 - INFO - Found article: https://www.arlingtonconnection.com/job-openings/
+2024-12-18 20:32:13,127 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:32:01.400225/8d03c42b3ca4c1bbe2fb385eb7c4239c.html.json.gz
+2024-12-18 20:32:15,357 - INFO - Found article: https://www.arlingtonconnection.com/news/2023/nov/15/great-falls-rugby-tournament-nov-19/
+2024-12-18 20:32:15,463 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:32:01.400225/f480b982362c90967a4a26d208aad068.html.json.gz
+2024-12-18 20:32:15,464 - ERROR - Error saving data to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 20:32:15,464 - ERROR - Error saving data to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 20:32:15,675 - INFO - Website content saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.html.jsonl.gz
+2024-12-18 20:32:15,675 - INFO - Processing publication: http://www.armytimes.com/
+2024-12-18 20:32:15,675 - INFO - Scraping website: http://www.armytimes.com/
+2024-12-18 20:32:17,122 - INFO - Found article: http://www.militarytimes.com/military-honor/black-military-history?source=arm-nav
+2024-12-18 20:32:17,436 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:32:15.675596/be8c09ff7e6a93ac6833a66f6a1b4ad2.html.json.gz
+2024-12-18 20:32:18,820 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/07/11/meal-ready-to-bulk-pentagon-urged-to-add-creatine-to-mres/
+2024-12-18 20:32:20,020 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:32:15.675596/8069aec11752de58cd1b767e36440503.html.json.gz
+2024-12-18 20:32:21,424 - INFO - Found article: https://www.armytimes.com/news/pentagon-congress/2024/12/18/senate-finalizes-plans-for-a-massive-junior-enlisted-pay-boost-in-2025/
+2024-12-18 20:32:21,613 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:32:15.675596/7d30d4865e3e048c8c244bfd9af99759.html.json.gz
+2024-12-18 20:32:23,050 - INFO - Found article: https://www.militarytimes.com/smr/transition-guide/
+2024-12-18 20:32:23,212 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:32:15.675596/13c2c4b23e45210ce927cfbc2c441183.html.json.gz
+2024-12-18 20:32:26,538 - INFO - Found article: https://www.armytimes.com/opinion/medals-misfires
+2024-12-18 20:32:26,904 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:32:15.675596/8bdbb58c35f1aebc9294b3437ab000b9.html.json.gz
+2024-12-18 20:32:26,905 - ERROR - Error saving data to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.jsonl.gz: write() argument must be str, not bytes
+2024-12-18 20:32:26,905 - ERROR - Error saving data to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 20:32:27,285 - INFO - Website content saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.html.jsonl.gz
+2024-12-18 20:32:27,285 - INFO - Processing publication: http://augustafreepress.com/
+2024-12-18 20:32:27,285 - INFO - Processing RSS feed: http://augustafreepress.com/feed/atom/
+2024-12-18 20:32:27,968 - INFO - Found article: https://augustafreepress.com/news/greene-county-81-dogs-seized-at-puppy-mill-three-residents-arrested-on-felony-charge/
+2024-12-18 20:32:28,148 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:32:27.285493/389390ea60de66886350eaabcedd483e.html.json.gz
+2024-12-18 20:42:46,559 - INFO - Starting the script...
+2024-12-18 20:42:46,560 - INFO - Processing state: VA
+2024-12-18 20:42:46,560 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 20:42:46,561 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 20:42:47,561 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/scottish-walk-celebrates-53-years/#comments
+2024-12-18 20:42:47,723 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:42:46.560972/6ff4892df51fc595427b6d3785661f25.html.json.gz
+2024-12-18 20:42:49,305 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/04/156829/
+2024-12-18 20:42:49,810 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:42:46.560972/63f771b4ce553dc30253215a53729dfa.html.json.gz
+2024-12-18 20:42:51,052 - INFO - Found article: https://www.alexandriagazette.com/news/Alexandria/Health/
+2024-12-18 20:42:51,142 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:42:46.560972/1129b38ef10fd73e6d9c29ec1630a203.html.json.gz
+2024-12-18 20:43:05,311 - INFO - Starting the script...
+2024-12-18 20:43:05,313 - INFO - Processing state: VA
+2024-12-18 20:43:05,313 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 20:43:05,313 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 20:43:06,509 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/03/156812/
+2024-12-18 20:43:06,604 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:43:05.313327/a2b504fa42fb3517763b0f3168d09fea.html.json.gz
+2024-12-18 20:43:08,672 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/11/asc-to-host-washington-commanders-night-oct-16/
+2024-12-18 20:43:08,770 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:43:05.313327/f7329e57fab938d147a31998f1cac605.html.json.gz
+2024-12-18 20:43:10,075 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/School-Board/
+2024-12-18 20:43:10,259 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:43:05.313327/040e8a4ee1fe8147e965d41c5092b748.html.json.gz
+2024-12-18 20:43:11,937 - INFO - Found article: https://www.alexandriagazette.com/news/Alexandria/Health/
+2024-12-18 20:43:12,037 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:43:05.313327/1129b38ef10fd73e6d9c29ec1630a203.html.json.gz
+2024-12-18 20:43:14,047 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-18 20:43:14,226 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:43:05.313327/d6ec0698d17e42d518c78142ef2884c8.html.json.gz
+2024-12-18 20:43:14,226 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-18 20:43:14,227 - ERROR - Error saving data to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz: Data must be a list of JSON objects or a single JSON object.
+2024-12-18 20:43:14,397 - INFO - Website content saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.html.jsonl.gz
+2024-12-18 20:43:14,398 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 20:43:14,398 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 20:43:14,985 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/oct/09/urgent-concerns-about-ongoing-purge-of-voter-rolls/
+2024-12-18 20:43:15,101 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:43:14.398549/ee506de8c19acf326ee3b0dfcd3327a3.html.json.gz
+2024-12-18 20:43:16,697 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/School-Board/
+2024-12-18 20:43:16,867 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:43:14.398549/040e8a4ee1fe8147e965d41c5092b748.html.json.gz
+2024-12-18 20:43:18,511 - INFO - Found article: https://www.arlingtonconnection.com/news/2022/oct/20/transurban-and-community-partners-benefit-child-pa/
+2024-12-18 20:43:18,663 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:43:14.398549/8b3e4ef63aaf79d9c330d716dfc8186e.html.json.gz
+2024-12-18 20:44:16,375 - INFO - Starting the script...
+2024-12-18 20:44:16,376 - INFO - Processing state: VA
+2024-12-18 20:44:16,376 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 20:44:16,376 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 20:44:16,960 - INFO - Found article: https://www.alexandriagazette.com/news/Alexandria/Opinion/
+2024-12-18 20:44:17,069 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:44:16.376918/8881c90b627eae77e3f98c25f210c754.html.json.gz
+2024-12-18 20:44:18,389 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/scottish-walk-celebrates-53-years/#comments
+2024-12-18 20:44:18,665 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:44:16.376918/6ff4892df51fc595427b6d3785661f25.html.json.gz
+2024-12-18 20:44:20,235 - INFO - Found article: https://www.alexandriagazette.com/news/2024/dec/04/everyday-heroes/
+2024-12-18 20:44:20,386 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:44:16.376918/615c91dfd5a9ba5f2f9c43558d95152d.html.json.gz
+2024-12-18 20:44:22,693 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/lighting-up-del-ray/
+2024-12-18 20:44:22,915 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:44:16.376918/a356f127c2c3cbde1d070637405f6b50.html.json.gz
+2024-12-18 20:44:24,294 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District34/
+2024-12-18 20:44:24,442 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District34/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District34/
+2024-12-18 20:44:25,716 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/Sheriff/
+2024-12-18 20:44:26,475 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:44:16.376918/b39b546398765136f795e507f848d1f0.html.json.gz
+2024-12-18 20:44:26,475 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-18 20:44:26,475 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz
+2024-12-18 20:44:26,645 - INFO - Website content saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.html.jsonl.gz
+2024-12-18 20:44:26,646 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 20:44:26,646 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 20:44:27,585 - INFO - Found article: https://www.arlingtonconnection.com/news/2023/nov/22/westfield-bulldogs-press-on-in-playoffs/
+2024-12-18 20:44:27,718 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:44:26.646022/9f5efef055cee95c5504a9a647320e09.html.json.gz
+2024-12-18 20:44:29,472 - INFO - Found article: https://www.arlingtonconnection.com/news/2023/nov/15/great-falls-rugby-tournament-nov-19/
+2024-12-18 20:44:29,642 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:44:26.646022/f480b982362c90967a4a26d208aad068.html.json.gz
+2024-12-18 20:44:31,226 - INFO - Found article: https://www.arlingtonconnection.com/news/Arlington/Sports
+2024-12-18 20:44:31,377 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:44:26.646022/5acf55144f76c20db320cb73fdc9af2b.html.json.gz
+2024-12-18 20:44:32,671 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District34/
+2024-12-18 20:44:32,954 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District34/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District34/
+2024-12-18 20:44:34,307 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/Sheriff/
+2024-12-18 20:44:34,458 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:44:26.646022/b39b546398765136f795e507f848d1f0.html.json.gz
+2024-12-18 20:44:36,730 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District46/
+2024-12-18 20:44:36,881 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District46/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District46/
+2024-12-18 20:44:38,389 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District86/
+2024-12-18 20:44:38,562 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District86/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District86/
+2024-12-18 20:44:40,003 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District36/
+2024-12-18 20:44:40,153 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District36/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District36/
+2024-12-18 20:44:41,445 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/CountyBoard/
+2024-12-18 20:44:41,623 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:44:26.646022/8830fb66a51d55802af9bb829677a2e2.html.json.gz
+2024-12-18 20:44:41,623 - INFO - Data saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.jsonl.gz
+2024-12-18 20:44:41,624 - INFO - Data saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-cache.txt.gz
+2024-12-18 20:44:41,778 - INFO - Website content saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.html.jsonl.gz
+2024-12-18 20:44:41,778 - INFO - Processing publication: http://www.armytimes.com/
+2024-12-18 20:44:41,778 - INFO - Scraping website: http://www.armytimes.com/
+2024-12-18 20:44:43,025 - INFO - Found article: https://www.armytimes.com/veterans/military-history
+2024-12-18 20:44:43,357 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:44:41.778703/ad233ad13b0b3cb57b6f517435409b99.html.json.gz
+2024-12-18 20:44:50,461 - INFO - Found article: https://www.armytimes.com/news/your-military/2024/07/11/meal-ready-to-bulk-pentagon-urged-to-add-creatine-to-mres/
+2024-12-18 20:44:50,718 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:44:41.778703/8069aec11752de58cd1b767e36440503.html.json.gz
+2024-12-18 20:44:51,990 - INFO - Found article: https://www.armytimes.com/pay-benefits/mil-money/2024/12/13/troops-to-get-an-average-housing-allowance-boost-of-over-5-in-2025/
+2024-12-18 20:44:52,165 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:44:41.778703/9313c4c600dc2a6330be1d60b8b2080c.html.json.gz
+2024-12-18 20:44:53,898 - INFO - Found article: https://www.armytimes.com/education-transition
+2024-12-18 20:44:54,096 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:44:41.778703/0bc2b923f64c25133147e4f89f8b7d28.html.json.gz
+2024-12-18 20:44:55,780 - INFO - Found article: http://www.militarytimes.com/military-honor/vietnam-vets-rolling-thunder?source=arm-nav
+2024-12-18 20:44:56,017 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:44:41.778703/4c6baeeb2c8a0d90cac4d9ee46bb1fe9.html.json.gz
+2024-12-18 20:44:56,017 - INFO - Data saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.jsonl.gz
+2024-12-18 20:44:56,018 - INFO - Data saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-cache.txt.gz
+2024-12-18 20:44:56,327 - INFO - Website content saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.html.jsonl.gz
+2024-12-18 20:44:56,327 - INFO - Processing publication: http://augustafreepress.com/
+2024-12-18 20:44:56,327 - INFO - Processing RSS feed: http://augustafreepress.com/feed/atom/
+2024-12-18 20:44:57,009 - INFO - Found article: https://augustafreepress.com/news/live-coverage-uva-basketball-hosts-21-memphis/
+2024-12-18 20:44:57,262 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:44:56.327736/8dee5b235c59a7e67bc0c83024c8a88b.html.json.gz
+2024-12-18 20:44:59,080 - INFO - Found article: https://augustafreepress.com/news/house-task-force-on-ai-releases-first-report-of-recommendations/
+2024-12-18 20:44:59,264 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:44:56.327736/711311fee0736a12c153635396591994.html.json.gz
+2024-12-18 20:45:00,555 - INFO - Found article: https://augustafreepress.com/news/waynesboro-police-arrest-man-responsible-for-vehicle-theft-break-ins-with-help-from-good-samaritan/
+2024-12-18 20:45:00,775 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:44:56.327736/60ff5f4d220a1d6993b494d50dec3fa6.html.json.gz
+2024-12-18 20:45:02,138 - INFO - Found article: https://augustafreepress.com/news/greene-county-81-dogs-seized-at-puppy-mill-three-residents-arrested-on-felony-charge/
+2024-12-18 20:45:02,327 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:44:56.327736/389390ea60de66886350eaabcedd483e.html.json.gz
+2024-12-18 20:45:03,697 - INFO - Found article: https://augustafreepress.com/news/devils-backbone-donates-33k-to-restoration-of-james-river/
+2024-12-18 20:45:03,872 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:44:56.327736/112b3c091317a0ac510af342f25bdc94.html.json.gz
+2024-12-18 20:45:03,873 - INFO - Data saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.jsonl.gz
+2024-12-18 20:45:03,873 - INFO - Data saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-cache.txt.gz
+2024-12-18 20:45:04,127 - INFO - Website content saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.html.jsonl.gz
+2024-12-18 20:45:04,128 - INFO - Processing publication: http://www.bedfordbulletin.com/
+2024-12-18 20:45:04,128 - INFO - Processing RSS feed: http://www.pmg-va.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bedford_bulletin&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 20:45:04,286 - INFO - Scraping website: http://www.bedfordbulletin.com/
+2024-12-18 20:45:05,404 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/features/bedford-humane-society/image_f8944a1d-1c23-5115-8626-b813d6e12432.html
+2024-12-18 20:45:05,585 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:45:04.128040/52ad8c9d1b70f4690d87e31d5a0199d0.html.json.gz
+2024-12-18 20:45:07,436 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/features/
+2024-12-18 20:45:07,625 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:45:04.128040/66d667f23013ceec74d5c93b25bc6bad.html.json.gz
+2024-12-18 20:45:08,961 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/sports/short-takes/article_be55d0e9-94c7-5335-9a7c-21a7399a6af6.html
+2024-12-18 20:45:09,167 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:45:04.128040/3fec0fa1740e988ec1e68a9c3c3604d2.html.json.gz
+2024-12-18 20:45:10,931 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/news/an-odd-reaction/article_c09e55b4-c995-5bb8-b462-b1dec0d202ea.html
+2024-12-18 20:45:11,101 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:45:04.128040/6ffe47207a8b026951b9c77bd025faaa.html.json.gz
+2024-12-18 20:45:12,716 - INFO - Found article: https://www.pmg-va.com/calendar/
+2024-12-18 20:45:12,925 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:45:04.128040/4f06f5826488e3f55f5b74746e3029d2.html.json.gz
+2024-12-18 20:45:12,927 - INFO - Data saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.jsonl.gz
+2024-12-18 20:45:12,928 - INFO - Data saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-cache.txt.gz
+2024-12-18 20:45:13,182 - INFO - Website content saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.html.jsonl.gz
+2024-12-18 20:45:13,182 - INFO - Processing publication: http://www.blandnews.com/
+2024-12-18 20:45:13,182 - INFO - Processing RSS feed: http://swvatoday.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bland_county/news&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 20:45:13,667 - INFO - Scraping website: http://www.blandnews.com/
+2024-12-18 20:45:16,222 - INFO - Found article: https://swvatoday.com/news/nation-world/business/
+2024-12-18 20:45:16,420 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:45:13.182532/01dfe96e62067b4124295cb3d69b0ebb.html.json.gz
+2024-12-18 20:45:17,870 - INFO - Found article: https://swvatoday.com/ads/community/announcements
+2024-12-18 20:45:18,081 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:45:13.182532/2c6d78cd6edeb6cb0ef7ff9b4cc30574.html.json.gz
+2024-12-18 20:45:20,981 - INFO - Found article: https://swvatoday.com/news/state-regional
+2024-12-18 20:45:21,229 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:45:13.182532/72c35c862be4c6143d082025a25e3f7a.html.json.gz
+2024-12-18 20:45:29,740 - INFO - Found article: https://swvatoday.com/giftsubscription/
+2024-12-18 20:45:32,602 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:45:13.182532/233132e05c01bec8de16cdd9b591a2df.html.json.gz
+2024-12-18 20:45:34,056 - INFO - Found article: https://swvatoday.com/puzzles/
+2024-12-18 20:45:34,290 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:45:13.182532/d81b7773991b50ea38a024cb6f7b04c7.html.json.gz
+2024-12-18 20:45:34,290 - INFO - Data saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.jsonl.gz
+2024-12-18 20:45:34,290 - INFO - Data saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-cache.txt.gz
+2024-12-18 20:45:34,757 - INFO - Website content saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.html.jsonl.gz
+2024-12-18 20:45:34,758 - INFO - Processing publication: https://www.bizjournals.com/
+2024-12-18 20:45:34,758 - INFO - Scraping website: https://www.bizjournals.com/
+2024-12-18 20:45:34,995 - INFO - Data saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.jsonl.gz
+2024-12-18 20:45:34,996 - INFO - Data saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09-cache.txt.gz
+2024-12-18 20:45:35,093 - INFO - Website content saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.html.jsonl.gz
+2024-12-18 20:45:35,093 - INFO - Processing publication: http://www.heraldcourier.com/
+2024-12-18 20:45:35,094 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:45:35,254 - INFO - Scraping website: http://www.heraldcourier.com/
+2024-12-18 20:45:36,237 - INFO - Found article: https://heraldcourier.com/news-tip/#tracking-source=menu-nav
+2024-12-18 20:45:36,383 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:45:35.093871/6cda1b78594bf02d7f4af7a25f847f3a.html.json.gz
+2024-12-18 20:45:39,949 - INFO - Found article: https://heraldcourier.com/ads/other/ads/eastman-credit/pdfdisplayad_2479498d-eb22-5cf0-81a0-cfa644b60752.html
+2024-12-18 20:45:40,114 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:45:35.093871/2ddbfc15c131ac744bc61c21c2b56b68.html.json.gz
+2024-12-18 20:45:41,628 - INFO - Found article: https://heraldcourier.com/special_sections/may-2023-tricities-living/pdf_d323e35a-ed9d-11ed-89a5-fb3d88ad8f7d.html
+2024-12-18 20:45:41,821 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:45:35.093871/e30efd8c39e2cb0c2e81c18d31888ef9.html.json.gz
+2024-12-18 20:45:43,090 - INFO - Found article: https://heraldcourier.com/news-tip/
+2024-12-18 20:45:43,239 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:45:35.093871/1956c36fb646d31153af4777c16f37ac.html.json.gz
+2024-12-18 20:45:49,221 - INFO - Found article: https://heraldcourier.com/giftsubscription/
+2024-12-18 20:45:51,844 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:45:35.093871/dec002bb1ab79e893e5917996dc28250.html.json.gz
+2024-12-18 20:45:51,845 - INFO - Data saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.jsonl.gz
+2024-12-18 20:45:51,846 - INFO - Data saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-cache.txt.gz
+2024-12-18 20:45:52,147 - INFO - Website content saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.html.jsonl.gz
+2024-12-18 20:45:52,148 - INFO - Processing publication: http://www.bristolnews.com/
+2024-12-18 20:45:52,149 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:45:52,232 - INFO - Scraping website: http://www.bristolnews.com/
+2024-12-18 20:45:53,742 - INFO - Found article: https://heraldcourier.com/news-tip/#tracking-source=menu-nav
+2024-12-18 20:45:53,904 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:45:52.148775/6cda1b78594bf02d7f4af7a25f847f3a.html.json.gz
+2024-12-18 20:45:57,728 - INFO - Found article: https://heraldcourier.com/ads/other/ads/eastman-credit/pdfdisplayad_2479498d-eb22-5cf0-81a0-cfa644b60752.html
+2024-12-18 20:45:57,907 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:45:52.148775/2ddbfc15c131ac744bc61c21c2b56b68.html.json.gz
+2024-12-18 20:45:59,378 - INFO - Found article: https://heraldcourier.com/special_sections/may-2023-tricities-living/pdf_d323e35a-ed9d-11ed-89a5-fb3d88ad8f7d.html
+2024-12-18 20:45:59,555 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:45:52.148775/e30efd8c39e2cb0c2e81c18d31888ef9.html.json.gz
+2024-12-18 20:46:00,854 - INFO - Found article: https://heraldcourier.com/news-tip/
+2024-12-18 20:46:01,015 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:45:52.148775/1956c36fb646d31153af4777c16f37ac.html.json.gz
+2024-12-18 20:46:07,580 - INFO - Found article: https://heraldcourier.com/giftsubscription/
+2024-12-18 20:46:10,143 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:45:52.148775/dec002bb1ab79e893e5917996dc28250.html.json.gz
+2024-12-18 20:46:10,143 - INFO - Data saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.jsonl.gz
+2024-12-18 20:46:10,143 - INFO - Data saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-cache.txt.gz
+2024-12-18 20:46:10,682 - INFO - Website content saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.html.jsonl.gz
+2024-12-18 20:46:10,682 - INFO - Processing publication: http://broadsideonline.com/
+2024-12-18 20:46:10,683 - INFO - Processing RSS feed: http://broadsideonline.com/comments/feed/
+2024-12-18 20:46:11,753 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-218
+2024-12-18 20:46:12,020 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:46:10.682939/3a24a886612fc4451b1d4df1f3487062.html.json.gz
+2024-12-18 20:46:13,569 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-217
+2024-12-18 20:46:14,302 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:46:10.682939/a0eb4d76aabea3c518aaab8f4a67a7e8.html.json.gz
+2024-12-18 20:46:15,789 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-216
+2024-12-18 20:46:16,052 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:46:10.682939/5ca49fe15855f5aad63ba494a81c27aa.html.json.gz
+2024-12-18 20:46:17,538 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-215
+2024-12-18 20:46:17,790 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:46:10.682939/4f24c6534c4dfed13f2dfc83ede5ddac.html.json.gz
+2024-12-18 20:46:19,253 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-214
+2024-12-18 20:46:19,502 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:46:10.682939/15f058848016ea4eb1b4e1a05fe5c08b.html.json.gz
+2024-12-18 20:46:19,502 - INFO - Data saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.jsonl.gz
+2024-12-18 20:46:19,503 - INFO - Data saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-cache.txt.gz
+2024-12-18 20:46:19,748 - INFO - Website content saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.html.jsonl.gz
+2024-12-18 20:46:19,749 - INFO - Processing publication: http://www.ameliamonitor.com/
+2024-12-18 20:46:19,749 - INFO - Scraping website: http://www.ameliamonitor.com/
+2024-12-18 20:46:27,939 - INFO - Found article: https://www.ameliamonitor.com/articles/aces-honor-students-donate-to-animal-shelter/
+2024-12-18 20:46:29,076 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:46:19.749004/67024a389f36294de364fb70a7395350.html.json.gz
+2024-12-18 20:46:31,921 - INFO - Found article: https://www.ameliamonitor.com/pageview/viewer/2024HolidayHeritageSection
+2024-12-18 20:46:32,445 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:46:19.749004/0ca24a8f94898cd055ab0e450739d263.html.json.gz
+2024-12-18 20:46:38,700 - INFO - Found article: https://www.ameliamonitor.com/pageview/viewer/2024-12-19
+2024-12-18 20:46:39,208 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:46:19.749004/d70d4baaa55e9dad092f26901936322f.html.json.gz
+2024-12-18 20:46:42,438 - INFO - Found article: https://www.ameliamonitor.com/articles/bradley-heads-to-state-tournament/
+2024-12-18 20:46:44,173 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:46:19.749004/f0ffdbfd7a02d074530604c1c418e354.html.json.gz
+2024-12-18 20:46:47,502 - ERROR - textutils.py, 135, (<class 'KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x77e02f3544c0>)	uri: https://www.ameliamonitor.com/audio-articles/player/audio-article-14688
+2024-12-18 20:46:48,426 - ERROR - textutils.py, 135, (<class 'KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x77e02f356640>)	uri: https://www.ameliamonitor.com/articles/is-god-dead/
+2024-12-18 20:52:03,350 - INFO - Starting the script...
+2024-12-18 20:52:03,351 - INFO - Processing state: VA
+2024-12-18 20:52:03,351 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 20:52:03,351 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 20:52:04,200 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:52:04,348 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:52:06,100 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:52:06,485 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:52:07,869 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:52:08,132 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:52:09,892 - INFO - Found article: http://www.connectionnewspapers.com/staff/mike-salmon
+2024-12-18 20:52:10,092 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:52:03.351818/076e4a91856cc9994eee749b4aeb05c6.html.gz
+2024-12-18 20:52:12,145 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/04/156830/
+2024-12-18 20:52:12,633 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:52:03.351818/ebcd4a2a5cc0ab563858ba19da49eff9.html.gz
+2024-12-18 20:52:13,954 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/CountyBoard/
+2024-12-18 20:52:14,111 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:52:03.351818/8830fb66a51d55802af9bb829677a2e2.html.gz
+2024-12-18 20:52:15,306 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/11/asc-to-host-washington-commanders-night-oct-16/
+2024-12-18 20:52:15,407 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:52:03.351818/f7329e57fab938d147a31998f1cac605.html.gz
+2024-12-18 20:52:17,675 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Ballot/
+2024-12-18 20:52:17,838 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:52:03.351818/8c3d77032fac8f0eb3191bac522c1323.html.gz
+2024-12-18 20:52:17,839 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-18 20:52:17,839 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz
+2024-12-18 20:52:18,000 - INFO - Website content saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.html.gz
+2024-12-18 20:52:18,001 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 20:52:18,001 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 20:52:18,953 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:52:23,175 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:52:24,524 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:52:24,667 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:52:26,031 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:52:26,321 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:52:28,469 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/CountyBoard/
+2024-12-18 20:52:28,666 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:52:18.001392/8830fb66a51d55802af9bb829677a2e2.html.gz
+2024-12-18 20:52:29,864 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/oct/09/urgent-concerns-about-ongoing-purge-of-voter-rolls/
+2024-12-18 20:52:29,961 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:52:18.001392/ee506de8c19acf326ee3b0dfcd3327a3.html.gz
+2024-12-18 20:52:32,399 - INFO - Found article: https://www.arlingtonconnection.com/news/Arlington/Politics
+2024-12-18 20:52:32,533 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:52:18.001392/bb61b4b262e7967a561b0a3cb2aaaf48.html.gz
+2024-12-18 20:52:33,790 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Ballot/
+2024-12-18 20:52:34,023 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:52:18.001392/8c3d77032fac8f0eb3191bac522c1323.html.gz
+2024-12-18 20:52:35,763 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:52:36,027 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:52:38,499 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/
+2024-12-18 20:52:38,700 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:52:18.001392/e3b4714813dd2ca21a465a5856393ee7.html.gz
+2024-12-18 20:52:38,701 - INFO - Data saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.jsonl.gz
+2024-12-18 20:52:38,701 - INFO - Data saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-cache.txt.gz
+2024-12-18 20:52:38,901 - INFO - Website content saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.html.gz
+2024-12-18 20:52:38,901 - INFO - Processing publication: http://www.armytimes.com/
+2024-12-18 20:52:38,902 - INFO - Scraping website: http://www.armytimes.com/
+2024-12-18 20:52:39,859 - INFO - Found article: https://www.armytimes.com/news/your-army/2024/12/16/army-officer-fined-nearly-100000-for-harassing-female-officers/
+2024-12-18 20:52:39,992 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:52:38.901854/0a83a564a2f9c265a9e49ff52c4c8a77.html.gz
+2024-12-18 20:52:41,265 - INFO - Found article: https://www.armytimes.com/news/your-army/2024/12/17/second-man-guilty-in-colombian-drugging-kidnapping-of-us-soldiers/
+2024-12-18 20:52:41,394 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:52:38.901854/2791f6816ee0c5efa87e7c7de8431fd3.html.gz
+2024-12-18 20:52:43,246 - INFO - Found article: https://www.armytimes.com/author/leo-shane-iii
+2024-12-18 20:52:43,666 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:52:38.901854/53c88da1f6d2366883acc483c19e87f4.html.gz
+2024-12-18 20:52:45,043 - INFO - Found article: https://www.armytimes.com/veterans/2024/12/17/plan-would-cover-all-health-care-costs-for-thousands-of-vets-overseas/
+2024-12-18 20:52:45,212 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:52:38.901854/95a3b4864e86022d8a7910e24973683b.html.gz
+2024-12-18 20:52:50,928 - INFO - Found article: https://www.armytimes.com/news/your-air-force/2024/12/16/drone-sightings-lead-to-airspace-shutdown-at-ohio-military-base/
+2024-12-18 20:52:51,095 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:52:38.901854/e31b19419f1d22c8ea93cf8a8648a327.html.gz
+2024-12-18 20:52:51,095 - INFO - Data saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.jsonl.gz
+2024-12-18 20:52:51,096 - INFO - Data saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-cache.txt.gz
+2024-12-18 20:52:51,351 - INFO - Website content saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.html.gz
+2024-12-18 20:52:51,351 - INFO - Processing publication: http://augustafreepress.com/
+2024-12-18 20:52:51,351 - INFO - Processing RSS feed: http://augustafreepress.com/feed/atom/
+2024-12-18 20:52:52,001 - INFO - Found article: https://augustafreepress.com/news/live-coverage-uva-basketball-hosts-21-memphis/
+2024-12-18 20:52:52,195 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:52:51.351845/8dee5b235c59a7e67bc0c83024c8a88b.html.gz
+2024-12-18 20:52:53,486 - INFO - Found article: https://augustafreepress.com/news/house-task-force-on-ai-releases-first-report-of-recommendations/
+2024-12-18 20:52:53,696 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:52:51.351845/711311fee0736a12c153635396591994.html.gz
+2024-12-18 20:52:55,231 - INFO - Found article: https://augustafreepress.com/news/waynesboro-police-arrest-man-responsible-for-vehicle-theft-break-ins-with-help-from-good-samaritan/
+2024-12-18 20:52:55,455 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:52:51.351845/60ff5f4d220a1d6993b494d50dec3fa6.html.gz
+2024-12-18 20:52:56,740 - INFO - Found article: https://augustafreepress.com/news/greene-county-81-dogs-seized-at-puppy-mill-three-residents-arrested-on-felony-charge/
+2024-12-18 20:52:56,940 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:52:51.351845/389390ea60de66886350eaabcedd483e.html.gz
+2024-12-18 20:52:58,255 - INFO - Found article: https://augustafreepress.com/news/devils-backbone-donates-33k-to-restoration-of-james-river/
+2024-12-18 20:52:58,684 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:52:51.351845/112b3c091317a0ac510af342f25bdc94.html.gz
+2024-12-18 20:52:58,684 - INFO - Data saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.jsonl.gz
+2024-12-18 20:52:58,684 - INFO - Data saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-cache.txt.gz
+2024-12-18 20:52:58,984 - INFO - Website content saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.html.gz
+2024-12-18 20:52:58,985 - INFO - Processing publication: http://www.bedfordbulletin.com/
+2024-12-18 20:52:58,985 - INFO - Processing RSS feed: http://www.pmg-va.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bedford_bulletin&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 20:52:59,057 - INFO - Scraping website: http://www.bedfordbulletin.com/
+2024-12-18 20:53:00,420 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/sports/state_college/
+2024-12-18 20:53:00,592 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:52:58.985185/13687da79bffbd27378cba217574b879.html.gz
+2024-12-18 20:53:02,491 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/opinion/letters/
+2024-12-18 20:53:02,642 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:52:58.985185/d42ce994c0cc2274be32c13511d58ddc.html.gz
+2024-12-18 20:53:06,534 - INFO - Found article: https://www.pmg-va.com/users/admin/service/purchase/?serviceid=6088&referer_url=https%3A%2F%2Fwww.pmg-va.com%2Fsite%2Fforms%2Fsubscription_services%2F
+2024-12-18 20:53:07,138 - ERROR - Error fetching article https://www.pmg-va.com/users/admin/service/purchase/?serviceid=6088&referer_url=https%3A%2F%2Fwww.pmg-va.com%2Fsite%2Fforms%2Fsubscription_services%2F: 403 Client Error: Forbidden for url: https://www.pmg-va.com/users/admin/service/purchase/?serviceid=6088&referer_url=https%3A%2F%2Fwww.pmg-va.com%2Fsite%2Fforms%2Fsubscription_services%2F
+2024-12-18 20:53:08,803 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/sports/thanksgiving-football/article_75eebf56-0422-55f9-98d7-430079db4136.html
+2024-12-18 20:53:09,004 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:52:58.985185/fef92ea11a89f50ca524f8ea6a4e2d6e.html.gz
+2024-12-18 20:53:10,660 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/news/virginia-aviation-board-awards-funds/article_c8d2972f-4708-5b03-9b2c-dc276369b088.html
+2024-12-18 20:53:10,859 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:52:58.985185/debf9db232486680b76acf61ccf752fa.html.gz
+2024-12-18 20:53:12,170 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/news/records/
+2024-12-18 20:53:12,323 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:52:58.985185/e6a0b5993c6c3532ffd4d61af5f81ae9.html.gz
+2024-12-18 20:53:12,324 - INFO - Data saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.jsonl.gz
+2024-12-18 20:53:12,324 - INFO - Data saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-cache.txt.gz
+2024-12-18 20:53:12,592 - INFO - Website content saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.html.gz
+2024-12-18 20:53:12,592 - INFO - Processing publication: http://www.blandnews.com/
+2024-12-18 20:53:12,592 - INFO - Processing RSS feed: http://swvatoday.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bland_county/news&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 20:53:13,359 - INFO - Found article: https://swvatoday.com/news/nation-world/government-politics/article_c9347681-9d3a-500e-8efb-fa1986f49123.html
+2024-12-18 20:53:13,585 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:53:12.592447/ab5d3089ac2fb3ca4ab784eea5711f2d.html.gz
+2024-12-18 20:53:15,267 - INFO - Found article: https://swvatoday.com/image_104ad3f7-8342-5ed9-9fda-c5c1e8800a31.html
+2024-12-18 20:53:15,447 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:53:12.592447/46001278744612934c7b7475354f0569.html.gz
+2024-12-18 20:53:16,772 - INFO - Found article: https://swvatoday.com/video_7d178141-d060-5cf5-9cb0-0569baa8995c.html
+2024-12-18 20:53:16,990 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:53:12.592447/090163667fd33ae22a4029cca68817e0.html.gz
+2024-12-18 20:53:18,786 - INFO - Found article: https://swvatoday.com/image_fa94cabb-b029-5bc0-8901-a6b7478b911c.html
+2024-12-18 20:53:18,971 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:53:12.592447/227e2360961d55cbda0ed74c23bd2229.html.gz
+2024-12-18 20:53:20,632 - INFO - Found article: https://swvatoday.com/video_8765d7ff-9566-5492-bd85-d7ba3d81e93d.html
+2024-12-18 20:53:20,838 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:53:12.592447/48ebe40bfa8493e048fb37437d490400.html.gz
+2024-12-18 20:53:20,839 - INFO - Data saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.jsonl.gz
+2024-12-18 20:53:20,839 - INFO - Data saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-cache.txt.gz
+2024-12-18 20:53:21,236 - INFO - Website content saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.html.gz
+2024-12-18 20:53:21,237 - INFO - Processing publication: https://www.bizjournals.com/
+2024-12-18 20:53:21,237 - INFO - Scraping website: https://www.bizjournals.com/
+2024-12-18 20:53:21,529 - INFO - Data saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.jsonl.gz
+2024-12-18 20:53:21,529 - INFO - Data saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09-cache.txt.gz
+2024-12-18 20:53:21,649 - INFO - Website content saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.html.gz
+2024-12-18 20:53:21,649 - INFO - Processing publication: http://www.heraldcourier.com/
+2024-12-18 20:53:21,649 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:53:21,731 - INFO - Scraping website: http://www.heraldcourier.com/
+2024-12-18 20:53:23,141 - INFO - Found article: https://heraldcourier.com/users/admin/list/
+2024-12-18 20:53:23,619 - ERROR - Error fetching article https://heraldcourier.com/users/admin/list/: 403 Client Error: Forbidden for url: https://heraldcourier.com/users/admin/list/
+2024-12-18 20:53:24,898 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/travel/
+2024-12-18 20:53:25,063 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:53:21.649535/e6c163b3b4472623d65423b1685ce322.html.gz
+2024-12-18 20:53:26,421 - INFO - Found article: https://heraldcourier.com/curated-commerce/a-review-of-happy-head-hair-loss-products-key-brand-differences/article_eb9d8999-f750-5caa-85b9-5894ab74c833.html
+2024-12-18 20:53:26,623 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:53:21.649535/d776b4920dd5f1b507e0930e68cb70b9.html.gz
+2024-12-18 20:53:28,061 - INFO - Found article: https://heraldcourier.com/life-entertainment/local/home-gardening/bristol-s-most-affordable-starter-homes/collection_ff4bee00-43f8-57e8-b8ea-9d9e54c1de64.html
+2024-12-18 20:53:28,270 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:53:21.649535/697ab1f6547dbc0c7ae7cf14c05b3efa.html.gz
+2024-12-18 20:53:29,645 - INFO - Found article: https://heraldcourier.com/special_sections/2023-salute-to-nurses/pdf_fdd3a75c-f419-11ed-aa08-47e65006cc3b.html
+2024-12-18 20:53:29,824 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:53:21.649535/adafcc72b57a8ad48457ad78f1823def.html.gz
+2024-12-18 20:53:31,785 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/art-theatre/
+2024-12-18 20:53:31,955 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:53:21.649535/8b0d7dac069b4ee281effa82105de0ee.html.gz
+2024-12-18 20:53:31,956 - INFO - Data saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.jsonl.gz
+2024-12-18 20:53:31,956 - INFO - Data saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-cache.txt.gz
+2024-12-18 20:53:32,224 - INFO - Website content saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.html.gz
+2024-12-18 20:53:32,225 - INFO - Processing publication: http://www.bristolnews.com/
+2024-12-18 20:53:32,225 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:53:32,299 - INFO - Scraping website: http://www.bristolnews.com/
+2024-12-18 20:53:34,157 - INFO - Found article: https://heraldcourier.com/users/admin/list/
+2024-12-18 20:53:34,566 - ERROR - Error fetching article https://heraldcourier.com/users/admin/list/: 403 Client Error: Forbidden for url: https://heraldcourier.com/users/admin/list/
+2024-12-18 20:53:35,877 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/travel/
+2024-12-18 20:53:36,062 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:53:32.225378/e6c163b3b4472623d65423b1685ce322.html.gz
+2024-12-18 20:53:37,605 - INFO - Found article: https://heraldcourier.com/curated-commerce/a-review-of-happy-head-hair-loss-products-key-brand-differences/article_eb9d8999-f750-5caa-85b9-5894ab74c833.html
+2024-12-18 20:53:37,804 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:53:32.225378/d776b4920dd5f1b507e0930e68cb70b9.html.gz
+2024-12-18 20:53:39,222 - INFO - Found article: https://heraldcourier.com/life-entertainment/local/home-gardening/bristol-s-most-affordable-starter-homes/collection_ff4bee00-43f8-57e8-b8ea-9d9e54c1de64.html
+2024-12-18 20:53:39,413 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:53:32.225378/697ab1f6547dbc0c7ae7cf14c05b3efa.html.gz
+2024-12-18 20:53:40,832 - INFO - Found article: https://heraldcourier.com/special_sections/2023-salute-to-nurses/pdf_fdd3a75c-f419-11ed-aa08-47e65006cc3b.html
+2024-12-18 20:53:41,028 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:53:32.225378/adafcc72b57a8ad48457ad78f1823def.html.gz
+2024-12-18 20:53:42,999 - INFO - Found article: https://heraldcourier.com/life-entertainment/nation-world/art-theatre/
+2024-12-18 20:53:43,166 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 20:53:32.225378/8b0d7dac069b4ee281effa82105de0ee.html.gz
+2024-12-18 20:53:43,167 - INFO - Data saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.jsonl.gz
+2024-12-18 20:53:43,167 - INFO - Data saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-cache.txt.gz
+2024-12-18 20:53:43,616 - INFO - Website content saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.html.gz
+2024-12-18 20:53:43,616 - INFO - Processing publication: http://broadsideonline.com/
+2024-12-18 20:53:43,616 - INFO - Processing RSS feed: http://broadsideonline.com/comments/feed/
+2024-12-18 20:53:44,261 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-218
+2024-12-18 20:53:44,522 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:53:43.616578/3a24a886612fc4451b1d4df1f3487062.html.gz
+2024-12-18 20:53:46,003 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-217
+2024-12-18 20:53:46,258 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:53:43.616578/a0eb4d76aabea3c518aaab8f4a67a7e8.html.gz
+2024-12-18 20:53:47,721 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-216
+2024-12-18 20:53:47,969 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:53:43.616578/5ca49fe15855f5aad63ba494a81c27aa.html.gz
+2024-12-18 20:53:49,446 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-215
+2024-12-18 20:53:49,719 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:53:43.616578/4f24c6534c4dfed13f2dfc83ede5ddac.html.gz
+2024-12-18 20:53:51,202 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-214
+2024-12-18 20:53:51,463 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 20:53:43.616578/15f058848016ea4eb1b4e1a05fe5c08b.html.gz
+2024-12-18 20:53:51,464 - INFO - Data saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.jsonl.gz
+2024-12-18 20:53:51,464 - INFO - Data saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-cache.txt.gz
+2024-12-18 20:53:51,602 - INFO - Website content saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.html.gz
+2024-12-18 20:53:51,602 - INFO - Processing publication: http://www.ameliamonitor.com/
+2024-12-18 20:53:51,602 - INFO - Scraping website: http://www.ameliamonitor.com/
+2024-12-18 20:54:01,016 - INFO - Found article: https://www.ameliamonitor.com/articles/robert-d-robinson/
+2024-12-18 20:54:01,615 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:53:51.602430/e5cf01ea5427a6538d6c2ff2df2d2b11.html.gz
+2024-12-18 20:54:09,298 - INFO - Found article: https://www.ameliamonitor.com/articles/aa-celebrates-senior-night/
+2024-12-18 20:54:10,422 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:53:51.602430/c95a8b5d409ee61b7c730e45335a4715.html.gz
+2024-12-18 20:54:14,731 - INFO - Found article: https://www.ameliamonitor.com/articles/dorothy-mae-jeter-randolph/
+2024-12-18 20:54:15,337 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:53:51.602430/687f4db548f784c12c692a9aeae02b0c.html.gz
+2024-12-18 20:54:19,838 - INFO - Found article: https://www.ameliamonitor.com/pageview/viewer/2024-11-28
+2024-12-18 20:54:20,862 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:53:51.602430/4408816cd6e88bc8e121c8001ba4ab0b.html.gz
+2024-12-18 20:54:24,049 - INFO - Found article: https://www.ameliamonitor.com/articles/wreaths-across-america-in-amelia-2/
+2024-12-18 20:54:24,655 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 20:53:51.602430/bb170383e314ed6439912fc7cd0c359f.html.gz
+2024-12-18 20:54:24,656 - INFO - Data saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0.jsonl.gz
+2024-12-18 20:54:24,656 - INFO - Data saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-cache.txt.gz
+2024-12-18 20:54:25,743 - INFO - Website content saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0.html.gz
+2024-12-18 20:54:25,743 - INFO - Processing publication: http://www.burkeconnection.com/
+2024-12-18 20:54:25,743 - INFO - Scraping website: http://www.burkeconnection.com/
+2024-12-18 20:54:26,726 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:54:26,878 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:54:28,297 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:54:28,483 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:54:29,754 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:54:29,917 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:54:31,520 - INFO - Found article: https://www.burkeconnection.com/news/2024/jun/26/police-charge-special-ed-teacher-with-assault/
+2024-12-18 20:54:31,629 - INFO - Article HTML saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-2024-12-18 20:54:25.743467/25de0a452317dfbd3e80167452125c73.html.gz
+2024-12-18 20:54:32,930 - INFO - Found article: http://www.connectionnewspapers.com/staff/mike-salmon
+2024-12-18 20:54:33,170 - INFO - Article HTML saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-2024-12-18 20:54:25.743467/076e4a91856cc9994eee749b4aeb05c6.html.gz
+2024-12-18 20:54:34,775 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/CountyBoard/
+2024-12-18 20:54:34,935 - INFO - Article HTML saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-2024-12-18 20:54:25.743467/8830fb66a51d55802af9bb829677a2e2.html.gz
+2024-12-18 20:54:38,268 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Ballot/
+2024-12-18 20:54:38,427 - INFO - Article HTML saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-2024-12-18 20:54:25.743467/8c3d77032fac8f0eb3191bac522c1323.html.gz
+2024-12-18 20:54:40,413 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:54:40,578 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:54:42,446 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/
+2024-12-18 20:54:42,603 - INFO - Article HTML saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-2024-12-18 20:54:25.743467/e3b4714813dd2ca21a465a5856393ee7.html.gz
+2024-12-18 20:54:42,604 - INFO - Data saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd.jsonl.gz
+2024-12-18 20:54:42,604 - INFO - Data saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd-cache.txt.gz
+2024-12-18 20:54:42,767 - INFO - Website content saved to news/VA/2024/12/18/4097cd4d718464b7a14f6ebad119d7dd/4097cd4d718464b7a14f6ebad119d7dd.html.gz
+2024-12-18 20:54:42,768 - INFO - Processing publication: http://thecarrollnews.com/
+2024-12-18 20:54:42,768 - INFO - Processing RSS feed: http://thecarrollnews.com/comments/feed
+2024-12-18 20:54:43,139 - INFO - Processing RSS feed: http://thecarrollnews.com/feed
+2024-12-18 20:54:43,590 - INFO - Processing RSS feed: http://www.thecarrollnews.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:54:43,723 - INFO - Scraping website: http://thecarrollnews.com/
+2024-12-18 20:54:45,199 - INFO - Found article: https://www.thecarrollnews.com/sports/must-see-hoops-carroll-boys-move-to-5-0/article_e15984ec-bd4a-11ef-9482-27310f7a6d3a.html
+2024-12-18 20:54:45,570 - INFO - Article HTML saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-2024-12-18 20:54:42.768203/f1de196564055630cdd55e8f02683734.html.gz
+2024-12-18 20:54:47,565 - INFO - Found article: https://www.thecarrollnews.com/sports/edwards-reed-excel-in-cross-country-meet/article_285249d2-8c9b-11ef-a014-f7b79f2ba2c0.html
+2024-12-18 20:54:48,151 - INFO - Article HTML saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-2024-12-18 20:54:42.768203/8218bb7cad114b766fd0dc52202b0277.html.gz
+2024-12-18 20:54:49,605 - INFO - Found article: https://www.thecarrollnews.com/stock_market
+2024-12-18 20:54:49,917 - INFO - Article HTML saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-2024-12-18 20:54:42.768203/d8c5b7c8f67dfe4c1a92055c7ca414ab.html.gz
+2024-12-18 20:54:51,442 - INFO - Found article: https://www.thecarrollnews.com/carroll-news-to-close-dec-24-at-noon-for-christmas/article_6511ee00-bd64-11ef-b064-6b01dfe6e807.html
+2024-12-18 20:54:51,800 - INFO - Article HTML saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-2024-12-18 20:54:42.768203/c909992ec3e19cbf3788a9fc0215a578.html.gz
+2024-12-18 20:54:53,454 - INFO - Found article: https://adamspg.com/privacy-policy/
+2024-12-18 20:54:53,693 - INFO - Article HTML saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-2024-12-18 20:54:42.768203/3c5096e41a6da6ace8c9d3f34b9d3b12.html.gz
+2024-12-18 20:54:53,694 - INFO - Data saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b.jsonl.gz
+2024-12-18 20:54:53,694 - INFO - Data saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b-cache.txt.gz
+2024-12-18 20:54:54,105 - INFO - Website content saved to news/VA/2024/12/18/6d0a408a0eb2490971d324e192a1444b/6d0a408a0eb2490971d324e192a1444b.html.gz
+2024-12-18 20:54:54,105 - INFO - Processing publication: http://www.thecentralvirginian.com/
+2024-12-18 20:54:54,105 - INFO - Processing RSS feed: http://www.thecentralvirginian.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:54:56,978 - INFO - Scraping website: http://www.thecentralvirginian.com/
+2024-12-18 20:54:58,508 - WARNING - Warning: SAX input contains nested A elements -- You have probably hit a bug in your HTML parser (e.g., NekoHTML bug #2909310). Please clean the HTML externally and feed it to BoilerPy3 again. Trying to recover somehow...
+2024-12-18 20:54:58,531 - INFO - Found article: https://www.thecentralvirginian.com/do-you-think-more-affordable-housing-is-needed-in-louisa-county/poll_fffa16b0-e007-11eb-8412-23b8b7342fa7.html
+2024-12-18 20:54:58,816 - INFO - Article HTML saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-2024-12-18 20:54:54.105775/82b36aed5bbe48ee36482864f7aed313.html.gz
+2024-12-18 20:55:00,394 - INFO - Found article: https://www.thecentralvirginian.com/news/business/the-academy-holds-pitch-competition-graduation-ceremony/article_dcdd6ee4-b767-11ef-bc97-cb1cd7e024d6.html
+2024-12-18 20:55:00,648 - INFO - Article HTML saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-2024-12-18 20:54:54.105775/414ef3876fa2ed4bb80ad932e2185e30.html.gz
+2024-12-18 20:55:02,570 - INFO - Found article: https://www.thecentralvirginian.com/news/mineral-council-talks-walton-park-water-bill/article_875be278-bd59-11ef-8510-73ee413f21ff.html
+2024-12-18 20:55:02,939 - INFO - Article HTML saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-2024-12-18 20:54:54.105775/6cc1d12cf1cfc740b935efd0392ba71a.html.gz
+2024-12-18 20:55:04,342 - INFO - Found article: https://www.thecentralvirginian.com/living/we-re-dying-for-a-cure-and-we-re-younger-than-you-think/article_48435f0c-9668-11ef-b5c9-af70e3a19137.html
+2024-12-18 20:55:04,733 - INFO - Article HTML saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-2024-12-18 20:54:54.105775/3273decfd58d6a9b9762faeb5fe65d42.html.gz
+2024-12-18 20:55:06,796 - INFO - Found article: https://www.thecentralvirginian.com/news/business/j-h-rivers-antiques-first-month-on-main-street/article_67fc5f2c-b767-11ef-99c0-8f8fb2380e96.html
+2024-12-18 20:55:07,083 - INFO - Article HTML saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-2024-12-18 20:54:54.105775/12d5590516139ec1f3dbea4121ddc9e1.html.gz
+2024-12-18 20:55:07,084 - INFO - Data saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461.jsonl.gz
+2024-12-18 20:55:07,084 - INFO - Data saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461-cache.txt.gz
+2024-12-18 20:55:07,462 - INFO - Website content saved to news/VA/2024/12/18/76b9e63f8a88267bed71e14b34dd4461/76b9e63f8a88267bed71e14b34dd4461.html.gz
+2024-12-18 20:55:07,462 - INFO - Processing publication: http://www.centre-view.com/
+2024-12-18 20:55:07,462 - INFO - Scraping website: http://www.centre-view.com/
+2024-12-18 20:55:08,402 - INFO - Found article: https://www.centre-view.com/news/CV/Opinion/
+2024-12-18 20:55:08,543 - INFO - Article HTML saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-2024-12-18 20:55:07.462577/3e25ab456a6e8055319a6e3d494f1ef8.html.gz
+2024-12-18 20:55:09,823 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:55:09,998 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District42/
+2024-12-18 20:55:11,253 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:55:11,421 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District31/
+2024-12-18 20:55:12,675 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:55:12,873 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/State-Senate/District32/
+2024-12-18 20:55:14,264 - INFO - Found article: http://www.connectionnewspapers.com/staff/mike-salmon
+2024-12-18 20:55:14,448 - INFO - Article HTML saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-2024-12-18 20:55:07.462577/076e4a91856cc9994eee749b4aeb05c6.html.gz
+2024-12-18 20:55:15,714 - INFO - Found article: http://www.arlingtonconnection.com/news/Election/Arlington/CountyBoard/
+2024-12-18 20:55:15,868 - INFO - Article HTML saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-2024-12-18 20:55:07.462577/8830fb66a51d55802af9bb829677a2e2.html.gz
+2024-12-18 20:55:17,132 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/04/celebrating-heritage-fairfax-county-public-librarys-annual-native-american-celebration/#comments
+2024-12-18 20:55:17,452 - INFO - Article HTML saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-2024-12-18 20:55:07.462577/14555b3086bb475775e33545b7fa1a69.html.gz
+2024-12-18 20:55:18,851 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Ballot/
+2024-12-18 20:55:19,029 - INFO - Article HTML saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-2024-12-18 20:55:07.462577/8c3d77032fac8f0eb3191bac522c1323.html.gz
+2024-12-18 20:55:19,030 - INFO - Data saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6.jsonl.gz
+2024-12-18 20:55:19,030 - INFO - Data saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6-cache.txt.gz
+2024-12-18 20:55:19,224 - INFO - Website content saved to news/VA/2024/12/18/1141b91c82c3a454f20328cd6f37f2f6/1141b91c82c3a454f20328cd6f37f2f6.html.gz
+2024-12-18 20:55:19,224 - INFO - Processing publication: http://thecharlottegazette.org/
+2024-12-18 20:55:19,224 - INFO - Scraping website: http://thecharlottegazette.org/
+2024-12-18 20:55:52,111 - INFO - Found article: https://pages.lazada.co.id/wow/i/id/IDCampaign/Download-App?hybrid=1
+2024-12-18 20:55:53,735 - INFO - Article HTML saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-2024-12-18 20:55:19.224529/c0f798f96bfe033744aae79bd507c9d9.html.gz
+2024-12-18 20:56:07,736 - INFO - Found article: https://bit.ly/lazada-android-app
+2024-12-18 20:56:08,123 - INFO - Article HTML saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-2024-12-18 20:55:19.224529/938f6bb78cd44781d4321541119ec33b.html.gz
+2024-12-18 20:56:27,394 - INFO - Found article: https://pages.lazada.co.id/wow/i/id/LandingPage/lazmall?wh_weex=true&wx_navbar_transparent=true&data_prefetch=true&scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207795_7692459
+2024-12-18 20:56:29,267 - INFO - Article HTML saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-2024-12-18 20:55:19.224529/0ce4d4716d268fcffec5ea549d9579f3.html.gz
+2024-12-18 20:56:44,516 - INFO - Found article: https://bit.ly/lazada-ios-app
+2024-12-18 20:56:44,876 - INFO - Article HTML saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-2024-12-18 20:55:19.224529/229a89f0e55120b9ac810785f2523519.html.gz
+2024-12-18 20:57:10,489 - WARNING - Warning: SAX input contains nested A elements -- You have probably hit a bug in your HTML parser (e.g., NekoHTML bug #2909310). Please clean the HTML externally and feed it to BoilerPy3 again. Trying to recover somehow...
+2024-12-18 20:57:17,819 - INFO - Found article: https://pages.lazada.co.id/wow/i/id/digitalgoods/home?hybrid=1&scm=1003.4.icms-zebra-5000383-2586266.OTHER_6502207798_7692459
+2024-12-18 20:57:20,060 - INFO - Article HTML saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-2024-12-18 20:55:19.224529/4c47fee1669d1a826fe47a38974aed42.html.gz
+2024-12-18 20:57:20,060 - INFO - Data saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad.jsonl.gz
+2024-12-18 20:57:20,060 - INFO - Data saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad-cache.txt.gz
+2024-12-18 20:57:21,035 - INFO - Website content saved to news/VA/2024/12/18/23cbcdc8c8ade86871a0750335b287ad/23cbcdc8c8ade86871a0750335b287ad.html.gz
+2024-12-18 20:57:21,036 - INFO - Processing publication: http://www.chesterfieldobserver.com/
+2024-12-18 20:57:21,036 - INFO - Processing RSS feed: /news.xml
+2024-12-18 20:57:21,036 - INFO - Scraping website: http://www.chesterfieldobserver.com/
+2024-12-18 20:57:21,398 - INFO - Data saved to news/VA/2024/12/18/5b91ff1734b9dcce40078215340a4642/5b91ff1734b9dcce40078215340a4642.jsonl.gz
+2024-12-18 20:57:21,399 - INFO - Data saved to news/VA/2024/12/18/5b91ff1734b9dcce40078215340a4642/5b91ff1734b9dcce40078215340a4642-cache.txt.gz
+2024-12-18 20:57:21,461 - INFO - Website content saved to news/VA/2024/12/18/5b91ff1734b9dcce40078215340a4642/5b91ff1734b9dcce40078215340a4642.html.gz
+2024-12-18 20:57:21,462 - INFO - Processing publication: http://www.thecoalfieldprogress.com/
+2024-12-18 20:57:21,462 - INFO - Processing RSS feed: https://www.thecoalfieldprogress.com/feed.atom
+2024-12-18 20:57:23,101 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21453
+2024-12-18 20:57:23,448 - INFO - Article HTML saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-2024-12-18 20:57:21.462069/af9509483d713ee72bf05ba60c889530.html.gz
+2024-12-18 20:57:25,063 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21452
+2024-12-18 20:57:25,432 - INFO - Article HTML saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-2024-12-18 20:57:21.462069/c31154711bbc3e27d47952f110ae5605.html.gz
+2024-12-18 20:57:27,127 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21451
+2024-12-18 20:57:27,474 - INFO - Article HTML saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-2024-12-18 20:57:21.462069/2dbe046cf29c82d5ae44e1854e35bbca.html.gz
+2024-12-18 20:57:29,079 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21450
+2024-12-18 20:57:29,435 - INFO - Article HTML saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-2024-12-18 20:57:21.462069/eed9d5cec0e85274b59879eb6a38082b.html.gz
+2024-12-18 20:57:31,115 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21449
+2024-12-18 20:57:31,481 - INFO - Article HTML saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-2024-12-18 20:57:21.462069/9ceefe90580b9e0574398f0296e062f8.html.gz
+2024-12-18 20:57:31,482 - INFO - Data saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113.jsonl.gz
+2024-12-18 20:57:31,482 - INFO - Data saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113-cache.txt.gz
+2024-12-18 20:57:32,113 - INFO - Website content saved to news/VA/2024/12/18/4bdeab34546e0b458bb973d3473c5113/4bdeab34546e0b458bb973d3473c5113.html.gz
+2024-12-18 20:57:32,113 - INFO - Processing publication: http://www.coalfield.com/
+2024-12-18 20:57:32,113 - INFO - Processing RSS feed: https://www.coalfield.com/feed.atom
+2024-12-18 20:57:33,494 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21453
+2024-12-18 20:57:33,848 - INFO - Article HTML saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-2024-12-18 20:57:32.113415/af9509483d713ee72bf05ba60c889530.html.gz
+2024-12-18 20:57:35,493 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21452
+2024-12-18 20:57:35,847 - INFO - Article HTML saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-2024-12-18 20:57:32.113415/c31154711bbc3e27d47952f110ae5605.html.gz
+2024-12-18 20:57:37,465 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21451
+2024-12-18 20:57:37,805 - INFO - Article HTML saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-2024-12-18 20:57:32.113415/2dbe046cf29c82d5ae44e1854e35bbca.html.gz
+2024-12-18 20:57:39,436 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21450
+2024-12-18 20:57:39,813 - INFO - Article HTML saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-2024-12-18 20:57:32.113415/eed9d5cec0e85274b59879eb6a38082b.html.gz
+2024-12-18 20:57:41,426 - INFO - Found article: https://www.thecoalfieldprogress.com/articles/21449
+2024-12-18 20:57:41,847 - INFO - Article HTML saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-2024-12-18 20:57:32.113415/9ceefe90580b9e0574398f0296e062f8.html.gz
+2024-12-18 20:57:41,848 - INFO - Data saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801.jsonl.gz
+2024-12-18 20:57:41,848 - INFO - Data saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801-cache.txt.gz
+2024-12-18 20:57:42,567 - INFO - Website content saved to news/VA/2024/12/18/bd38ebc8ef8e0962a1634b319581c801/bd38ebc8ef8e0962a1634b319581c801.html.gz
+2024-12-18 20:57:42,567 - INFO - Processing publication: http://www.collegiatetimes.com/
+2024-12-18 20:57:42,567 - INFO - Processing RSS feed: http://www.collegiatetimes.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:57:43,375 - INFO - Found article: https://www.collegiatetimes.com/nikki-giovanni-world-renowned-poet-and-professor-at-virginia-tech-passes-away-at-81-years/article_e4fb35dc-b8e5-11ef-af66-1f5ff07055a2.html
+2024-12-18 20:57:43,565 - INFO - Article HTML saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-2024-12-18 20:57:42.567464/beae3d74b6cd0e25020d3e2805d0a348.html.gz
+2024-12-18 20:57:45,290 - INFO - Found article: https://www.collegiatetimes.com/vt-football-vs-uva/image_1ab2cdfe-b1e1-11ef-ae63-bb2ce4fcd0f9.html
+2024-12-18 20:57:45,493 - INFO - Article HTML saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-2024-12-18 20:57:42.567464/7a02489b4a3b26dd01bc6cd03708b8ea.html.gz
+2024-12-18 20:57:47,163 - INFO - Found article: https://www.collegiatetimes.com/vt-football-vs-uva/image_29000840-b1e1-11ef-a0af-9fed708f947e.html
+2024-12-18 20:57:47,345 - INFO - Article HTML saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-2024-12-18 20:57:42.567464/d1ad85b0a67fefc83bdd224d04b0eacf.html.gz
+2024-12-18 20:57:49,281 - INFO - Found article: https://www.collegiatetimes.com/vt-football-vs-uva/image_3a2adb7c-b1e1-11ef-a087-bfc1733f9079.html
+2024-12-18 20:57:49,475 - INFO - Article HTML saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-2024-12-18 20:57:42.567464/60408422063d06d6bdf5afb5cd2394a5.html.gz
+2024-12-18 20:57:51,119 - INFO - Found article: https://www.collegiatetimes.com/vt-football-vs-uva/image_5dc6d6b2-b1e1-11ef-9d61-53227245a27f.html
+2024-12-18 20:57:51,292 - INFO - Article HTML saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-2024-12-18 20:57:42.567464/dd60e6626e51e02e034a44efc5de8e51.html.gz
+2024-12-18 20:57:51,292 - INFO - Data saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5.jsonl.gz
+2024-12-18 20:57:51,293 - INFO - Data saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5-cache.txt.gz
+2024-12-18 20:57:51,568 - INFO - Website content saved to news/VA/2024/12/18/f7e0eed6e957f790464d3cf7a338ccb5/f7e0eed6e957f790464d3cf7a338ccb5.html.gz
+2024-12-18 20:57:51,569 - INFO - Processing publication: http://www.commonwealthtimes.org/
+2024-12-18 20:57:51,569 - INFO - Processing RSS feed: http://www.commonwealthtimes.org/comments/feed/
+2024-12-18 20:57:55,447 - INFO - Found article: https://commonwealthtimes.org/2021/02/18/aave-is-not-your-internet-slang-it-is-black-culture/#comment-1198293
+2024-12-18 20:57:56,142 - INFO - Article HTML saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-2024-12-18 20:57:51.569295/e3b9f90c340f3941588840b829db6ad0.html.gz
+2024-12-18 20:57:58,500 - INFO - Found article: https://commonwealthtimes.org/2024/04/17/car-centric-cities-keep-americans-lonely/#comment-1198292
+2024-12-18 20:57:59,308 - INFO - Article HTML saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-2024-12-18 20:57:51.569295/3a1f9de76be930fdbd2db3bb0cdecd5d.html.gz
+2024-12-18 20:58:01,469 - INFO - Found article: https://commonwealthtimes.org/2024/10/23/ai-use-by-vcuarts-department-angers-scares-students/#comment-1198291
+2024-12-18 20:58:02,178 - INFO - Article HTML saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-2024-12-18 20:57:51.569295/75a5664015e465a960742a35a8ecf943.html.gz
+2024-12-18 20:58:03,178 - INFO - Processing RSS feed: http://www.commonwealthtimes.org/feed/
+2024-12-18 20:58:06,084 - INFO - Found article: https://commonwealthtimes.org/2024/12/04/where-in-the-world-is-santa-claus/?utm_source=rss&utm_medium=rss&utm_campaign=where-in-the-world-is-santa-claus&utm_source=rss&utm_medium=rss&utm_campaign=where-in-the-world-is-santa-claus
+2024-12-18 20:58:06,702 - INFO - Article HTML saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-2024-12-18 20:57:51.569295/af40a717d85e9a99a858c11374e24411.html.gz
+2024-12-18 20:58:08,906 - INFO - Found article: https://commonwealthtimes.org/2024/12/04/three-second-delivery-no-2/?utm_source=rss&utm_medium=rss&utm_campaign=three-second-delivery-no-2&utm_source=rss&utm_medium=rss&utm_campaign=three-second-delivery-no-2
+2024-12-18 20:58:09,664 - INFO - Article HTML saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-2024-12-18 20:57:51.569295/b47f6dea8cd47a3d1775cae01d8649d8.html.gz
+2024-12-18 20:58:09,664 - INFO - Data saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784.jsonl.gz
+2024-12-18 20:58:09,664 - INFO - Data saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784-cache.txt.gz
+2024-12-18 20:58:12,233 - INFO - Website content saved to news/VA/2024/12/18/dcf928cf7df56ba9822ad67c4dba9784/dcf928cf7df56ba9822ad67c4dba9784.html.gz
+2024-12-18 20:58:12,234 - INFO - Processing publication: http://www.crozetgazette.com/
+2024-12-18 20:58:12,234 - INFO - Processing RSS feed: http://www.crozetgazette.com/feed/
+2024-12-18 20:58:12,455 - INFO - Scraping website: http://www.crozetgazette.com/
+2024-12-18 20:58:12,801 - INFO - Data saved to news/VA/2024/12/18/033a5568ce5a275e0773cc7be0eda894/033a5568ce5a275e0773cc7be0eda894.jsonl.gz
+2024-12-18 20:58:12,801 - INFO - Data saved to news/VA/2024/12/18/033a5568ce5a275e0773cc7be0eda894/033a5568ce5a275e0773cc7be0eda894-cache.txt.gz
+2024-12-18 20:58:12,862 - INFO - Website content saved to news/VA/2024/12/18/033a5568ce5a275e0773cc7be0eda894/033a5568ce5a275e0773cc7be0eda894.html.gz
+2024-12-18 20:58:12,862 - INFO - Processing publication: http://www.starexponent.com/
+2024-12-18 20:58:12,863 - INFO - Processing RSS feed: http://starexponent.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:58:13,183 - INFO - Scraping website: http://www.starexponent.com/
+2024-12-18 20:58:14,273 - INFO - Found article: https://starexponent.com/news/local/government-politics/
+2024-12-18 20:58:14,492 - INFO - Article HTML saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658-2024-12-18 20:58:12.862947/14b3466b697c875ec96dec5670b76bfd.html.gz
+2024-12-18 20:58:15,791 - INFO - Found article: https://starexponent.com/news-tip/#tracking-source=menu-nav
+2024-12-18 20:58:15,981 - INFO - Article HTML saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658-2024-12-18 20:58:12.862947/16f3be77d41fbaa3333fa28bd9e3365d.html.gz
+2024-12-18 20:58:17,289 - INFO - Found article: https://starexponent.com/life-entertainment/nation-world/travel/luxury-escapes-the-rockies/article_1e537a0f-a78d-578a-930e-c17aa513847f.html
+2024-12-18 20:58:17,487 - INFO - Article HTML saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658-2024-12-18 20:58:12.862947/51f41ef90e8d193a104d827ff7be4b96.html.gz
+2024-12-18 20:58:19,041 - INFO - Found article: https://starexponent.com/news/local/education/
+2024-12-18 20:58:19,221 - INFO - Article HTML saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658-2024-12-18 20:58:12.862947/65eaaa000dcbed699187bae1fe4e9210.html.gz
+2024-12-18 20:58:20,823 - INFO - Found article: https://starexponent.com/special-section
+2024-12-18 20:58:21,032 - INFO - Article HTML saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658-2024-12-18 20:58:12.862947/3214bbe7413d4f86b1b193e0687845b1.html.gz
+2024-12-18 20:58:21,032 - INFO - Data saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658.jsonl.gz
+2024-12-18 20:58:21,033 - INFO - Data saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658-cache.txt.gz
+2024-12-18 20:58:21,309 - INFO - Website content saved to news/VA/2024/12/18/f235b41bad515af5abb415d466c4c658/f235b41bad515af5abb415d466c4c658.html.gz
+2024-12-18 20:58:21,310 - INFO - Processing publication: https://starexponent.com/
+2024-12-18 20:58:21,310 - INFO - Processing RSS feed: http://starexponent.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:58:21,540 - INFO - Scraping website: https://starexponent.com/
+2024-12-18 20:58:22,439 - INFO - Found article: https://starexponent.com/news/local/government-politics/
+2024-12-18 20:58:22,607 - INFO - Article HTML saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a-2024-12-18 20:58:21.309982/14b3466b697c875ec96dec5670b76bfd.html.gz
+2024-12-18 20:58:23,916 - INFO - Found article: https://starexponent.com/news-tip/#tracking-source=menu-nav
+2024-12-18 20:58:24,098 - INFO - Article HTML saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a-2024-12-18 20:58:21.309982/16f3be77d41fbaa3333fa28bd9e3365d.html.gz
+2024-12-18 20:58:25,429 - INFO - Found article: https://starexponent.com/life-entertainment/nation-world/travel/luxury-escapes-the-rockies/article_1e537a0f-a78d-578a-930e-c17aa513847f.html
+2024-12-18 20:58:25,653 - INFO - Article HTML saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a-2024-12-18 20:58:21.309982/51f41ef90e8d193a104d827ff7be4b96.html.gz
+2024-12-18 20:58:27,470 - INFO - Found article: https://starexponent.com/marketplace/mcclanahan-camera-sound/business_4000216546.html
+2024-12-18 20:58:27,721 - INFO - Article HTML saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a-2024-12-18 20:58:21.309982/66cd3e1b800962c262f4b4cc1f0dca16.html.gz
+2024-12-18 20:58:29,025 - INFO - Found article: https://starexponent.com/news/local/education/
+2024-12-18 20:58:29,209 - INFO - Article HTML saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a-2024-12-18 20:58:21.309982/65eaaa000dcbed699187bae1fe4e9210.html.gz
+2024-12-18 20:58:29,210 - INFO - Data saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a.jsonl.gz
+2024-12-18 20:58:29,210 - INFO - Data saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a-cache.txt.gz
+2024-12-18 20:58:29,396 - INFO - Website content saved to news/VA/2024/12/18/5a39ed787a861c5208bfe04c0e78a22a/5a39ed787a861c5208bfe04c0e78a22a.html.gz
+2024-12-18 20:58:29,397 - INFO - Processing publication: http://www.newsleader.com/
+2024-12-18 20:58:29,397 - INFO - Scraping website: http://www.newsleader.com/
+2024-12-18 20:58:30,343 - INFO - Found article: https://cm.newsleader.com/site-feedback/
+2024-12-18 20:58:30,435 - INFO - Article HTML saved to news/VA/2024/12/18/b450c1edf6f1bf8e53427fc656420585/b450c1edf6f1bf8e53427fc656420585-2024-12-18 20:58:29.397175/1409c9139bfff2e57079e213c19e2b11.html.gz
+2024-12-18 20:58:50,262 - INFO - Starting the script...
+2024-12-18 20:58:50,264 - INFO - Processing state: VA
+2024-12-18 20:58:50,264 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 20:58:50,264 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 20:58:50,999 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:58:51,158 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:58:52,662 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/scottish-walk-celebrates-53-years/
+2024-12-18 20:58:52,860 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:58:50.264525/34bb3ea704c8713b6c9a8499454d147d.html.gz
+2024-12-18 20:58:54,473 - INFO - Found article: https://www.alexandriagazette.com/news/2024/jul/10/virginia-league-of-conservation-voters-2024-general-assembly-conservation-scorecard-released/
+2024-12-18 20:58:54,602 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:58:50.264525/3876e06519d1790a9bdfa2cda4ab10bd.html.gz
+2024-12-18 20:58:56,607 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/16/virginia-communities-can-apply-for-climate-adaptation-grants/
+2024-12-18 20:58:56,743 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:58:50.264525/06222f7a0c5318ad1cf59b116ce82c06.html.gz
+2024-12-18 20:58:59,389 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Others/
+2024-12-18 20:58:59,607 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:58:50.264525/0fc5d2a4410d4f33b616d9ea715c0a8a.html.gz
+2024-12-18 20:59:02,633 - INFO - Found article: http://www.connectionnewspapers.com/staff/jeanne-theismann
+2024-12-18 20:59:02,841 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 20:58:50.264525/eb697c3503b1c6d701ece8b11fa56059.html.gz
+2024-12-18 20:59:02,842 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-18 20:59:02,843 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz
+2024-12-18 20:59:02,844 - INFO - Website content already exists at news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.html.gz
+2024-12-18 20:59:02,844 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 20:59:02,845 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 20:59:04,001 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/11/managing-the-holiday-blues/#comments
+2024-12-18 20:59:04,170 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:59:02.844914/48cbc248ddbdff6c2d16060f59af177f.html.gz
+2024-12-18 20:59:05,947 - INFO - Found article: https://www.arlingtonconnection.com/news/2024/may/15/2024-vision-zero-for-youth-us-leadership-award/
+2024-12-18 20:59:06,087 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:59:02.844914/7fae5ae87c2112105033b648e85c1e04.html.gz
+2024-12-18 20:59:07,370 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:59:07,527 - ERROR - Error fetching article http://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/: 404 Client Error: Not Found for url: https://www.connectionnewspapers.com/news/Election/Virginia/House-of-Delegates/District43/
+2024-12-18 20:59:10,531 - INFO - Found article: https://www.arlingtonconnection.com/news/2023/nov/22/westfield-bulldogs-press-on-in-playoffs/
+2024-12-18 20:59:10,641 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:59:02.844914/9f5efef055cee95c5504a9a647320e09.html.gz
+2024-12-18 20:59:12,155 - INFO - Found article: https://www.arlingtonconnection.com/news/Arlington/News/
+2024-12-18 20:59:13,399 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:59:02.844914/24357ab0ae25178c7204f53b366d3cc5.html.gz
+2024-12-18 20:59:14,971 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Others/
+2024-12-18 20:59:15,131 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 20:59:02.844914/0fc5d2a4410d4f33b616d9ea715c0a8a.html.gz
+2024-12-18 20:59:15,132 - INFO - Data saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.jsonl.gz
+2024-12-18 20:59:15,133 - INFO - Data saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-cache.txt.gz
+2024-12-18 20:59:15,134 - INFO - Website content already exists at news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7.html.gz
+2024-12-18 20:59:15,134 - INFO - Processing publication: http://www.armytimes.com/
+2024-12-18 20:59:15,135 - INFO - Scraping website: http://www.armytimes.com/
+2024-12-18 20:59:20,575 - INFO - Found article: https://www.armytimes.com/news/your-army/2024/12/17/second-man-guilty-in-colombian-drugging-kidnapping-of-us-soldiers/
+2024-12-18 20:59:21,204 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:59:15.134625/2791f6816ee0c5efa87e7c7de8431fd3.html.gz
+2024-12-18 20:59:23,454 - INFO - Found article: https://www.armytimes.com/m/privacy-policy/
+2024-12-18 20:59:23,596 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:59:15.134625/0e28368ec881bafafd12c52a07019763.html.gz
+2024-12-18 20:59:25,147 - INFO - Found article: https://www.armytimes.com/video/2024/12/16/fake-delta-force-vet-gets-prison-time/
+2024-12-18 20:59:25,310 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:59:15.134625/9155d5a5069074aa49d2c937da378285.html.gz
+2024-12-18 20:59:28,782 - INFO - Found article: https://www.armytimes.com/special-projects
+2024-12-18 20:59:29,253 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:59:15.134625/14a291344eb224289e26ed63b99cd038.html.gz
+2024-12-18 20:59:30,557 - INFO - Found article: https://www.armytimes.com/video/2024/12/18/junior-enlisted-pay-boost-for-2025/
+2024-12-18 20:59:30,726 - INFO - Article HTML saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-2024-12-18 20:59:15.134625/bcd1806ccb5f1de1ad52d527c26f3eef.html.gz
+2024-12-18 20:59:30,727 - INFO - Data saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.jsonl.gz
+2024-12-18 20:59:30,727 - INFO - Data saved to news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53-cache.txt.gz
+2024-12-18 20:59:30,727 - INFO - Website content already exists at news/VA/2024/12/18/49fb7f5f81c028b9509f87193b2eee53/49fb7f5f81c028b9509f87193b2eee53.html.gz
+2024-12-18 20:59:30,727 - INFO - Processing publication: http://augustafreepress.com/
+2024-12-18 20:59:30,728 - INFO - Processing RSS feed: http://augustafreepress.com/feed/atom/
+2024-12-18 20:59:31,281 - INFO - Found article: https://augustafreepress.com/news/live-coverage-uva-basketball-hosts-21-memphis/
+2024-12-18 20:59:31,453 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:59:30.727755/8dee5b235c59a7e67bc0c83024c8a88b.html.gz
+2024-12-18 20:59:32,766 - INFO - Found article: https://augustafreepress.com/news/house-task-force-on-ai-releases-first-report-of-recommendations/
+2024-12-18 20:59:32,970 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:59:30.727755/711311fee0736a12c153635396591994.html.gz
+2024-12-18 20:59:34,284 - INFO - Found article: https://augustafreepress.com/news/waynesboro-police-arrest-man-responsible-for-vehicle-theft-break-ins-with-help-from-good-samaritan/
+2024-12-18 20:59:34,446 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:59:30.727755/60ff5f4d220a1d6993b494d50dec3fa6.html.gz
+2024-12-18 20:59:35,768 - INFO - Found article: https://augustafreepress.com/news/greene-county-81-dogs-seized-at-puppy-mill-three-residents-arrested-on-felony-charge/
+2024-12-18 20:59:36,074 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:59:30.727755/389390ea60de66886350eaabcedd483e.html.gz
+2024-12-18 20:59:37,387 - INFO - Found article: https://augustafreepress.com/news/devils-backbone-donates-33k-to-restoration-of-james-river/
+2024-12-18 20:59:37,632 - INFO - Article HTML saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-2024-12-18 20:59:30.727755/112b3c091317a0ac510af342f25bdc94.html.gz
+2024-12-18 20:59:37,632 - INFO - Data saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.jsonl.gz
+2024-12-18 20:59:37,632 - INFO - Data saved to news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a-cache.txt.gz
+2024-12-18 20:59:37,633 - INFO - Website content already exists at news/VA/2024/12/18/7f013ca0a76bfe75b084c53c6d548c0a/7f013ca0a76bfe75b084c53c6d548c0a.html.gz
+2024-12-18 20:59:37,633 - INFO - Processing publication: http://www.bedfordbulletin.com/
+2024-12-18 20:59:37,633 - INFO - Processing RSS feed: http://www.pmg-va.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bedford_bulletin&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 20:59:37,739 - INFO - Scraping website: http://www.bedfordbulletin.com/
+2024-12-18 20:59:39,342 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/special_sections/remember-d-day-2024/edition_7449cb2a-adb7-58ce-9e64-169333154ea9.html
+2024-12-18 20:59:39,547 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:59:37.633099/703d84e2944f507c416beeed3e7fc045.html.gz
+2024-12-18 20:59:40,895 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/features/
+2024-12-18 20:59:41,084 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:59:37.633099/66d667f23013ceec74d5c93b25bc6bad.html.gz
+2024-12-18 20:59:42,844 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/opinion/editorial/
+2024-12-18 20:59:43,010 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:59:37.633099/970b2a8e3f242443032026deba5e81bc.html.gz
+2024-12-18 20:59:44,713 - INFO - Found article: https://www.pmg-va.com/bedford_bulletin/news/new-plan-will-reduce-high-density-development/article_9f0c7324-4b73-5c26-8029-df4ff88fad44.html
+2024-12-18 20:59:44,920 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:59:37.633099/e520df0c851c7875ea37910b4beabbea.html.gz
+2024-12-18 20:59:46,297 - INFO - Found article: https://www.mozilla.org/en-US/firefox/
+2024-12-18 20:59:46,379 - INFO - Article HTML saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-2024-12-18 20:59:37.633099/20021742ac78e09dc8d083b9df121440.html.gz
+2024-12-18 20:59:46,380 - INFO - Data saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.jsonl.gz
+2024-12-18 20:59:46,380 - INFO - Data saved to news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6-cache.txt.gz
+2024-12-18 20:59:46,381 - INFO - Website content already exists at news/VA/2024/12/18/f9a9cd7683558c729bace0dff381e3d6/f9a9cd7683558c729bace0dff381e3d6.html.gz
+2024-12-18 20:59:46,381 - INFO - Processing publication: http://www.blandnews.com/
+2024-12-18 20:59:46,381 - INFO - Processing RSS feed: http://swvatoday.com/search/?f=rss&amp;amp;t=article&amp;amp;c=bland_county/news&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc
+2024-12-18 20:59:47,025 - INFO - Found article: https://swvatoday.com/news/nation-world/government-politics/article_c9347681-9d3a-500e-8efb-fa1986f49123.html
+2024-12-18 20:59:47,258 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:59:46.381358/ab5d3089ac2fb3ca4ab784eea5711f2d.html.gz
+2024-12-18 20:59:48,612 - INFO - Found article: https://swvatoday.com/image_104ad3f7-8342-5ed9-9fda-c5c1e8800a31.html
+2024-12-18 20:59:48,792 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:59:46.381358/46001278744612934c7b7475354f0569.html.gz
+2024-12-18 20:59:50,108 - INFO - Found article: https://swvatoday.com/video_7d178141-d060-5cf5-9cb0-0569baa8995c.html
+2024-12-18 20:59:50,330 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:59:46.381358/090163667fd33ae22a4029cca68817e0.html.gz
+2024-12-18 20:59:51,730 - INFO - Found article: https://swvatoday.com/image_fa94cabb-b029-5bc0-8901-a6b7478b911c.html
+2024-12-18 20:59:51,933 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:59:46.381358/227e2360961d55cbda0ed74c23bd2229.html.gz
+2024-12-18 20:59:53,274 - INFO - Found article: https://swvatoday.com/video_8765d7ff-9566-5492-bd85-d7ba3d81e93d.html
+2024-12-18 20:59:53,466 - INFO - Article HTML saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-2024-12-18 20:59:46.381358/48ebe40bfa8493e048fb37437d490400.html.gz
+2024-12-18 20:59:53,466 - INFO - Data saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.jsonl.gz
+2024-12-18 20:59:53,467 - INFO - Data saved to news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442-cache.txt.gz
+2024-12-18 20:59:53,467 - INFO - Website content already exists at news/VA/2024/12/18/9192120c412a31bb09ec1b8274a25442/9192120c412a31bb09ec1b8274a25442.html.gz
+2024-12-18 20:59:53,467 - INFO - Processing publication: https://www.bizjournals.com/
+2024-12-18 20:59:53,468 - INFO - Scraping website: https://www.bizjournals.com/
+2024-12-18 20:59:53,750 - INFO - Data saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.jsonl.gz
+2024-12-18 20:59:53,750 - INFO - Data saved to news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09-cache.txt.gz
+2024-12-18 20:59:53,750 - INFO - Website content already exists at news/VA/2024/12/18/38d16529c92791b89fbe67fdd0956d09/38d16529c92791b89fbe67fdd0956d09.html.gz
+2024-12-18 20:59:53,750 - INFO - Processing publication: http://www.heraldcourier.com/
+2024-12-18 20:59:53,751 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 20:59:54,004 - INFO - Scraping website: http://www.heraldcourier.com/
+2024-12-18 20:59:55,043 - INFO - Found article: https://heraldcourier.com/sports/high-school/basketball/high-school-hoops-deonta-mozell-shoots-virginia-high-past-grundy-in-coach-ballard-lee-invite/article_cb4e255c-bd01-11ef-b2c0-c3d3851af977.html
+2024-12-18 20:59:55,258 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:59:53.750963/8f20df595cfe6eb6b1ae88b02bac6f74.html.gz
+2024-12-18 20:59:57,330 - ERROR - Error resolving URL: https://heraldcourier.com/{{url}}: Exceeded 30 redirects.
+2024-12-18 20:59:59,113 - INFO - Found article: https://heraldcourier.com/users/admin/list/
+2024-12-18 20:59:59,620 - ERROR - Error fetching article https://heraldcourier.com/users/admin/list/: 403 Client Error: Forbidden for url: https://heraldcourier.com/users/admin/list/
+2024-12-18 21:00:01,003 - INFO - Found article: https://heraldcourier.com/puzzles/
+2024-12-18 21:00:01,240 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:59:53.750963/374a8975c9201e6d14f8c705a25b2e98.html.gz
+2024-12-18 21:00:02,532 - INFO - Found article: https://heraldcourier.com/ads/other/ads/kiester-williams-church-page/pdfdisplayad_38d51f0d-df21-59ad-9f81-8c293159f19d.html
+2024-12-18 21:00:02,699 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:59:53.750963/46aae4e7fc9d40573a9f715f2471539d.html.gz
+2024-12-18 21:00:04,327 - INFO - Found article: https://heraldcourier.com/users/admin/contribute/article/
+2024-12-18 21:00:04,826 - ERROR - Error fetching article https://heraldcourier.com/users/admin/contribute/article/: 403 Client Error: Forbidden for url: https://heraldcourier.com/users/admin/contribute/article/
+2024-12-18 21:00:08,917 - INFO - Found article: https://heraldcourier.com/ads/other/ads/sunshine-tours/pdfdisplayad_ca46036b-2016-5768-ad04-56b5bcf406e6.html
+2024-12-18 21:00:09,170 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:59:53.750963/0633a5b8142b1b78d4276d473dcf1b28.html.gz
+2024-12-18 21:00:12,284 - INFO - Found article: https://heraldcourier.com/members/join/
+2024-12-18 21:00:13,489 - INFO - Article HTML saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-2024-12-18 20:59:53.750963/f959a4df31ed46fd1528f6b3538d930c.html.gz
+2024-12-18 21:00:13,490 - INFO - Data saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.jsonl.gz
+2024-12-18 21:00:13,490 - INFO - Data saved to news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e-cache.txt.gz
+2024-12-18 21:00:13,490 - INFO - Website content already exists at news/VA/2024/12/18/c637f155064264e6f68c54678f91ab7e/c637f155064264e6f68c54678f91ab7e.html.gz
+2024-12-18 21:00:13,490 - INFO - Processing publication: http://www.bristolnews.com/
+2024-12-18 21:00:13,490 - INFO - Processing RSS feed: http://heraldcourier.com/search/?f=rss&amp;amp;t=article&amp;amp;l=50&amp;amp;s=start_time&amp;amp;sd=desc&amp;amp;k%5B%5D=%23topstory
+2024-12-18 21:00:13,726 - INFO - Scraping website: http://www.bristolnews.com/
+2024-12-18 21:00:14,916 - INFO - Found article: https://heraldcourier.com/sports/high-school/basketball/high-school-hoops-deonta-mozell-shoots-virginia-high-past-grundy-in-coach-ballard-lee-invite/article_cb4e255c-bd01-11ef-b2c0-c3d3851af977.html
+2024-12-18 21:00:15,118 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 21:00:13.490601/8f20df595cfe6eb6b1ae88b02bac6f74.html.gz
+2024-12-18 21:00:17,186 - ERROR - Error resolving URL: https://heraldcourier.com/{{url}}: Exceeded 30 redirects.
+2024-12-18 21:00:18,986 - INFO - Found article: https://heraldcourier.com/users/admin/list/
+2024-12-18 21:00:19,490 - ERROR - Error fetching article https://heraldcourier.com/users/admin/list/: 403 Client Error: Forbidden for url: https://heraldcourier.com/users/admin/list/
+2024-12-18 21:00:20,836 - INFO - Found article: https://heraldcourier.com/puzzles/
+2024-12-18 21:00:21,070 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 21:00:13.490601/374a8975c9201e6d14f8c705a25b2e98.html.gz
+2024-12-18 21:00:22,367 - INFO - Found article: https://heraldcourier.com/ads/other/ads/kiester-williams-church-page/pdfdisplayad_38d51f0d-df21-59ad-9f81-8c293159f19d.html
+2024-12-18 21:00:22,524 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 21:00:13.490601/46aae4e7fc9d40573a9f715f2471539d.html.gz
+2024-12-18 21:00:24,098 - INFO - Found article: https://heraldcourier.com/users/admin/contribute/article/
+2024-12-18 21:00:24,592 - ERROR - Error fetching article https://heraldcourier.com/users/admin/contribute/article/: 403 Client Error: Forbidden for url: https://heraldcourier.com/users/admin/contribute/article/
+2024-12-18 21:00:28,409 - INFO - Found article: https://heraldcourier.com/ads/other/ads/sunshine-tours/pdfdisplayad_ca46036b-2016-5768-ad04-56b5bcf406e6.html
+2024-12-18 21:00:28,672 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 21:00:13.490601/0633a5b8142b1b78d4276d473dcf1b28.html.gz
+2024-12-18 21:00:31,118 - INFO - Found article: https://heraldcourier.com/members/join/
+2024-12-18 21:00:32,076 - INFO - Article HTML saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-2024-12-18 21:00:13.490601/f959a4df31ed46fd1528f6b3538d930c.html.gz
+2024-12-18 21:00:32,077 - INFO - Data saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.jsonl.gz
+2024-12-18 21:00:32,077 - INFO - Data saved to news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac-cache.txt.gz
+2024-12-18 21:00:32,077 - INFO - Website content already exists at news/VA/2024/12/18/81ca8c09a67e85973188db596bf817ac/81ca8c09a67e85973188db596bf817ac.html.gz
+2024-12-18 21:00:32,077 - INFO - Processing publication: http://broadsideonline.com/
+2024-12-18 21:00:32,077 - INFO - Processing RSS feed: http://broadsideonline.com/comments/feed/
+2024-12-18 21:00:33,335 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-218
+2024-12-18 21:00:33,580 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 21:00:32.077481/3a24a886612fc4451b1d4df1f3487062.html.gz
+2024-12-18 21:00:35,061 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-217
+2024-12-18 21:00:35,310 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 21:00:32.077481/a0eb4d76aabea3c518aaab8f4a67a7e8.html.gz
+2024-12-18 21:00:36,849 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-216
+2024-12-18 21:00:37,111 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 21:00:32.077481/5ca49fe15855f5aad63ba494a81c27aa.html.gz
+2024-12-18 21:00:38,607 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-215
+2024-12-18 21:00:38,879 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 21:00:32.077481/4f24c6534c4dfed13f2dfc83ede5ddac.html.gz
+2024-12-18 21:00:40,357 - INFO - Found article: https://broadsideonline.com/2013/02/12/photo-of-the-week-passion-for-basketball-fuels-alumni-love-5855/comment-page-1/#comment-214
+2024-12-18 21:00:40,620 - INFO - Article HTML saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-2024-12-18 21:00:32.077481/15f058848016ea4eb1b4e1a05fe5c08b.html.gz
+2024-12-18 21:00:40,621 - INFO - Data saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.jsonl.gz
+2024-12-18 21:00:40,621 - INFO - Data saved to news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391-cache.txt.gz
+2024-12-18 21:00:40,622 - INFO - Website content already exists at news/VA/2024/12/18/f61f049d74a08aea24eda9305da59391/f61f049d74a08aea24eda9305da59391.html.gz
+2024-12-18 21:00:40,622 - INFO - Processing publication: http://www.ameliamonitor.com/
+2024-12-18 21:00:40,623 - INFO - Scraping website: http://www.ameliamonitor.com/
+2024-12-18 21:00:47,747 - INFO - Found article: https://www.ameliamonitor.com/category/public-notices-legals/
+2024-12-18 21:00:48,762 - INFO - Article HTML saved to news/VA/2024/12/18/049b82854d3ae7cc8e7536d422de0ff0/049b82854d3ae7cc8e7536d422de0ff0-2024-12-18 21:00:40.622575/0760b138dca3b2e95c10a4a85140e007.html.gz
+2024-12-18 21:22:32,625 - INFO - Starting the script...
+2024-12-18 21:22:32,627 - INFO - Processing state: VA
+2024-12-18 21:22:32,627 - INFO - Processing publication: http://www.alexandriagazette.com/
+2024-12-18 21:22:32,627 - INFO - Scraping website: http://www.alexandriagazette.com/
+2024-12-18 21:22:38,557 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/chris-white-family-real-estate-group-hits-major-milestone/
+2024-12-18 21:22:38,743 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 21:22:32.627737/f7c456ab4c384eb2554a24798a843555.html.gz
+2024-12-18 21:22:39,965 - INFO - Found article: https://www.alexandriagazette.com/photos/2024/dec/04/156829/
+2024-12-18 21:22:40,068 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 21:22:32.627737/63f771b4ce553dc30253215a53729dfa.html.gz
+2024-12-18 21:22:41,597 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-18 21:22:42,403 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 21:22:32.627737/d6ec0698d17e42d518c78142ef2884c8.html.gz
+2024-12-18 21:22:44,135 - INFO - Found article: http://www.connectionnewspapers.com/news/2024/dec/12/chris-white-family-real-estate-group-hits-major-milestone/#comments
+2024-12-18 21:22:44,303 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 21:22:32.627737/5a53c3a9e52f8f1411602947a55b27b5.html.gz
+2024-12-18 21:22:46,741 - INFO - Found article: https://www.alexandriagazette.com/news/2024/oct/30/vote-for-democracy/
+2024-12-18 21:22:46,871 - INFO - Article HTML saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-2024-12-18 21:22:32.627737/1eb0e3c5aede28834640e4b397b5c069.html.gz
+2024-12-18 21:22:46,872 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.jsonl.gz
+2024-12-18 21:22:46,872 - INFO - Data saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa-cache.txt.gz
+2024-12-18 21:22:47,034 - INFO - Website content saved to news/VA/2024/12/18/ba429e4aa786a632392056d81279b9fa/ba429e4aa786a632392056d81279b9fa.html.gz
+2024-12-18 21:22:47,034 - INFO - Processing publication: http://www.arlingtonconnection.com/
+2024-12-18 21:22:47,035 - INFO - Scraping website: http://www.arlingtonconnection.com/
+2024-12-18 21:22:48,186 - INFO - Found article: http://www.connectionnewspapers.com/news/Election/FairfaxCounty/Board-of-Supervisors
+2024-12-18 21:22:48,375 - INFO - Article HTML saved to news/VA/2024/12/18/dc38a4246f7c9632e4e05f99ae844cb7/dc38a4246f7c9632e4e05f99ae844cb7-2024-12-18 21:22:47.034791/d6ec0698d17e42d518c78142ef2884c8.html.gz
