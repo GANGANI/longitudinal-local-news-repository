@@ -564,8 +564,13 @@ For the initial test, I used news website URLs from Virginia as seed URLs and ra
 7. Wayback Links: Browsed archived content for each seed using the Wayback Machine to validate the results.
    ![\label{fig:wayback}](img/wayback.png)
 
-#### 4.3.5 Limitations
-- **Data Budget Constraints**: Crawls utilize a limited storage budget, making it expensive to scale the repository for long-term use.
+#### 4.3.5 Results
+
+These are the final results I obtained by crawling Virginia State news websites for seven days. On average per day, it has utilized 30 GB.
+![\label{fig:results}](img/results.png)
+
+#### 4.3.6 Limitations
+- **Data Budget Constraints**: Crawls utilize a limited storage budget, making it expensive to scale the repository for long-term use. According to the results for 7 day 
 - **Test Crawl Limitation**: Daily crawls, even when configured as Test Crawls, consume the data budget starting from the second crawl onward. To collect data over a week without impacting the production budget, crawls must be manually triggered daily to avoid transitioning into production crawls.
 
 ## 5. Discussion & Conclusion
