@@ -564,9 +564,7 @@ For the initial test, I used news website URLs from Virginia as seed URLs and ra
 7. Wayback Links: Browsed archived content for each seed using the Wayback Machine to validate the results.
    ![\label{fig:wayback}](img/wayback.png)
 
-#### 4.3.5 Results
-
-These are the final results I obtained by crawling Virginia State news websites for seven days. On average per day, it has utilized 30 GB.
+Folllowing are the final results I obtained by crawling Virginia State news websites for seven days. On average per day, it has utilized 30 GB.
 ![\label{fig:results}](img/results.png)
 
 #### 4.3.6 Limitations
