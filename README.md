@@ -1,8 +1,4 @@
-# Final Report - Building Longitudinal Local News Repository
-
-### Gangani, Hewa Babarandage
-### DATA 691, Fall 2024
-### 12-20-2024
+Building Longitudinal Local News Repository
 
 ---
 
