@@ -33,6 +33,7 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36'
 }
 
+
 # Utility Functions
 def is_valid_url(url):
     """Check if the URL is valid."""
@@ -43,11 +44,13 @@ def is_valid_url(url):
         logging.error(f"Invalid URL: {url}")
         return False
 
+
 def extract_domain(url):
     """Extract and clean the domain from a URL."""
     parsed_url = urlparse(unquote(url))
     domain = parsed_url.netloc.split('&')[0].split('?')[0]
     return domain[4:] if domain.startswith("www.") else domain
+
 
 def get_expanded_url(short_url):
     """Resolve short URLs to their final destination."""
@@ -58,6 +61,7 @@ def get_expanded_url(short_url):
         logging.error(f"Error resolving URL: {short_url}: {e}")
         return short_url
 
+
 def extract_article_urls_from_html(html_content, base_url):
     """Extract all article URLs from the given HTML content."""
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -67,23 +71,26 @@ def extract_article_urls_from_html(html_content, base_url):
         for link in soup.find_all("a", href=True)
     }
 
+
 def get_publication_date(entry):
     """Extract publication date from RSS entry."""
     published_time = entry.get("published_parsed")
     return datetime.datetime(*published_time[:6]) if published_time else datetime.datetime.now()
 
+
 def has_special_characters(path_segment):
     """Check for special characters in path segments."""
     return any(char in path_segment for char in "-_.")
+
 
 def is_news_article(link):
     is_news_article = False
     link = get_expanded_url(link)
 
     if not is_valid_url(link):
-       print(f"Invalid URL: {link}")
-       return is_news_article
-    
+        print(f"Invalid URL: {link}")
+        return is_news_article
+
     parsed_url = urlparse(link)
     path_segments = [segment for segment in parsed_url.path.split('/') if segment]
     if not path_segments:
@@ -96,7 +103,7 @@ def is_news_article(link):
             is_news_article = True
         else:
             return is_news_article
-    
+
     try:
         html = derefURI(link)
         plaintext = cleanHtml(html)
@@ -113,21 +120,53 @@ def is_news_article(link):
 
     return is_news_article
 
-def get_archived_url(link):
-    """Archive a URL using Internet Archive and return the archived URL."""
+
+# def get_archived_url(link):
+#     """Archive a URL using Internet Archive and return the archived URL."""
+#     try:
+#         result = subprocess.run(['archivenow', '--ia', link], capture_output=True, text=True, check=True)
+#         output = result.stdout.strip()
+#         if "Error" in output:
+#             logging.error(f"Archive error for {link}: {output}")
+#             if "Server Error" in output:
+#                 logging.warning(f"Sleeping for 2 second due to server error")
+#                 time.sleep(2)
+#             return None
+#         return output
+#     except subprocess.CalledProcessError as e:
+#         logging.error(f"Exception during archiving {link}: {e}")
+#         return None
+
+def get_archived_path(link, directory, website_hash):
+    """Archive a URL using Browsertrix and return the archived file path."""
     try:
-        result = subprocess.run(['archivenow', '--ia', link], capture_output=True, text=True, check=True)
-        output = result.stdout.strip()
-        if "Error" in output:
-            logging.error(f"Archive error for {link}: {output}")
-            if "Server Error" in output:
-                logging.warning(f"Sleeping for 2 second due to server error")
-                time.sleep(2)
+        crawl_dir = os.path.abspath("crawls")  # Ensure the crawl directory exists
+        os.makedirs(crawl_dir, exist_ok=True)
+
+        # Construct the Docker command
+        command = [
+            "docker", "run", "-v", f"{directory}:/website_hash/", "-it",
+            "webrecorder/browsertrix-crawler", "crawl",
+            "--url", link, "--generateWACZ", "--collection", website_hash
+        ]
+
+        # Execute the command
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+
+        # Log and return the expected WACZ file path
+        archive_path = os.path.join(crawl_dir, website_hash, f"{website_hash}.wacz")
+        if os.path.exists(archive_path):
+            logging.info(f"Archived URL {link} at {archive_path}")
+            return archive_path
+        else:
+            logging.warning(f"Archive process completed but WACZ file not found for {link}")
             return None
-        return output
+
     except subprocess.CalledProcessError as e:
         logging.error(f"Exception during archiving {link}: {e}")
         return None
+
+
 
 def save_to_file(filepath, data, mode='at'):
     """Save JSON objects line by line to a file with optional gzip compression."""
@@ -147,6 +186,7 @@ def save_to_file(filepath, data, mode='at'):
     except Exception as e:
         logging.error(f"Error saving data to {filepath}: {e}")
 
+
 def read_cached_urls(filepath):
     """Read cached URLs from a gzip file."""
     if os.path.exists(filepath):
@@ -157,20 +197,22 @@ def read_cached_urls(filepath):
             logging.error(f"Error reading cache file {filepath}: {e}")
     return set()
 
+
 def save_publication(state, year, month, date, website_url, publication):
-    website_hash = hashlib.md5(website_url.encode()).hexdigest() 
+    website_hash = hashlib.md5(website_url.encode()).hexdigest()
     directory_path = os.path.join("news", state, str(year), str(month), str(date), str(website_hash))
     os.makedirs(directory_path, exist_ok=True)
 
     wesite_file_path = os.path.join(directory_path, f"{website_hash}.jsonl.gz")
     if not os.path.exists(wesite_file_path):
         logging.info(f"Website: {website_url} has been saved")
-        archived_url = get_archived_url(website_url)
+        archived_url = get_archived_path(website_url)
         if archived_url:
             publication['archived_link'] = archived_url
-            with gzip.open(wesite_file_path, "at") as f:  
+            with gzip.open(wesite_file_path, "at") as f:
                 f.write(json.dumps(publication))
-        
+
+
 # Main Processing
 def process_publication(state, publication, year, month, day):
     """Process a single publication and save its articles."""
@@ -193,13 +235,13 @@ def process_publication(state, publication, year, month, day):
             article_url = entry.link
             if article_url not in cached_urls and is_news_article(article_url):
                 logging.info(f"Found article: {article_url}")
-                archived_url = get_archived_url(article_url)
-                if archived_url:
+                archived_path = get_archived_path(article_url, directory, website_hash)
+                if archived_path:
                     article_json_objs.append({
                         'link': article_url,
                         'publication_date': get_publication_date(entry).isoformat(),
                         'archived_time': datetime.datetime.now().isoformat(),
-                        'archived_link': archived_url
+                        'archived_path': archived_path
                     })
                     cached_urls.add(article_url)
                     nlinks += 1
@@ -237,6 +279,7 @@ def process_publication(state, publication, year, month, day):
     # Save Results
     save_to_file(os.path.join(directory, f"{website_hash}.jsonl.gz"), article_json_objs, 'at')
     save_to_file(cache_filepath, '\n'.join(cached_urls), 'wt')
+
 
 # Run the Script
 while True:
