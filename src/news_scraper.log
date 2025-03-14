@@ -1,0 +1,37 @@
+2025-03-14 14:36:36,608 - INFO - Starting the script...
+2025-03-14 14:36:36,608 - INFO - Processing state: AK
+2025-03-14 14:36:37,609 - INFO - Processing state: AK
+2025-03-14 14:36:38,610 - INFO - Processing state: AK
+2025-03-14 14:36:39,610 - INFO - Processing state: AK
+2025-03-14 14:37:18,597 - INFO - Starting the script...
+2025-03-14 14:37:18,597 - INFO - Processing state: AK
+2025-03-14 14:37:18,597 - INFO - newspaper
+2025-03-14 14:37:18,597 - INFO - tv
+2025-03-14 14:37:18,597 - INFO - radio
+2025-03-14 14:37:18,597 - INFO - broadcast
+2025-03-14 14:37:19,597 - INFO - Processing state: AK
+2025-03-14 14:37:19,598 - INFO - newspaper
+2025-03-14 14:37:19,598 - INFO - tv
+2025-03-14 14:37:19,598 - INFO - radio
+2025-03-14 14:37:19,599 - INFO - broadcast
+2025-03-14 14:37:46,085 - INFO - Starting the script...
+2025-03-14 14:37:46,085 - INFO - Processing state: AK
+2025-03-14 14:37:46,086 - INFO - {'video': 'https://www.youtube.com/user/AlaskaDispatch', 'twitter': 'http://www.twitter.com/adndotcom', 'media-class': 'newspaper', 'extracted-from': 'usnpl.com, thepaperboy.com', 'city-county-long': -149.87828, 'media-subclass': 'city-county', 'website': 'http://www.adn.com/', 'facebook': 'https://www.facebook.com/akdispatch', 'city-county-lat': 61.216799, 'name': 'Alaska Dispatch News', 'open-search': [], 'city-county-name': 'Anchorage Municipality', 'rss': [], 'us-state': 'Alaska', 'wikipedia': 'https://en.wikipedia.org/wiki/Anchorage_Daily_News', 'instagram': 'https://www.instagram.com/alaskadispatch/', 'youtube': 'https://www.youtube.com/user/AlaskaDispatch', 'fips': '02020'}
+2025-03-14 14:37:46,086 - INFO - {'video': 'http://www.youtube.com/user/aptiadmin', 'twitter': 'http://www.twitter.com/kakm', 'media-class': 'tv', 'city-county-long': -149.87828, 'media-subclass': '', 'website': 'http://www.alaskapublic.org/kakm/', 'facebook': 'https://www.facebook.com/alaskapublic', 'city-county-lat': 61.216799, 'name': 'KAKM', 'open-search': [], 'city-county-name': 'Anchorage Municipality', 'rss': ['http://www.alaskapublic.org/comments/feed/', 'http://www.alaskapublic.org/feed/'], 'us-state': 'Alaska', 'fips': '02020'}
+2025-03-14 14:37:46,086 - INFO - {'video': '', 'twitter': 'http://www.twitter.com/KBBINews', 'media-class': 'radio', 'city-county-long': -151.4493, 'media-subclass': 'Public', 'website': 'http://www.kbbi.org/', 'facebook': 'http://www.facebook.com/pages/KBBI-AM-890-Homer-Alaska/127663558413', 'city-county-lat': 59.665074, 'name': 'KBBI 890 AM', 'open-search': [], 'city-county-name': 'Kenai Peninsula Borough', 'rss': ['http://kbbi.org/rss.xml'], 'us-state': 'Alaska', 'fips': '02122'}
+2025-03-14 14:37:46,086 - INFO - {'name': '650 KENI', 'website': 'https://650keni.iheart.com/', 'extracted-from': 'einpresswire.com', 'media-class': 'broadcast', 'facebook': 'https://www.facebook.com/650KENI', 'twitter': 'https://twitter.com/650keni', 'wikipedia': 'https://en.wikipedia.org/wiki/KENI', 'city-county-name': 'Anchorage Municipality', 'us-state': 'Alaska', 'city-county-lat': 61.216799, 'city-county-long': -149.87828, 'fips': '02020'}
+2025-03-14 14:37:47,086 - INFO - Processing state: AK
+2025-03-14 14:37:47,086 - INFO - {'video': 'https://www.youtube.com/user/AlaskaDispatch', 'twitter': 'http://www.twitter.com/adndotcom', 'media-class': 'newspaper', 'extracted-from': 'usnpl.com, thepaperboy.com', 'city-county-long': -149.87828, 'media-subclass': 'city-county', 'website': 'http://www.adn.com/', 'facebook': 'https://www.facebook.com/akdispatch', 'city-county-lat': 61.216799, 'name': 'Alaska Dispatch News', 'open-search': [], 'city-county-name': 'Anchorage Municipality', 'rss': [], 'us-state': 'Alaska', 'wikipedia': 'https://en.wikipedia.org/wiki/Anchorage_Daily_News', 'instagram': 'https://www.instagram.com/alaskadispatch/', 'youtube': 'https://www.youtube.com/user/AlaskaDispatch', 'fips': '02020'}
+2025-03-14 14:37:47,087 - INFO - {'video': 'http://www.youtube.com/user/aptiadmin', 'twitter': 'http://www.twitter.com/kakm', 'media-class': 'tv', 'city-county-long': -149.87828, 'media-subclass': '', 'website': 'http://www.alaskapublic.org/kakm/', 'facebook': 'https://www.facebook.com/alaskapublic', 'city-county-lat': 61.216799, 'name': 'KAKM', 'open-search': [], 'city-county-name': 'Anchorage Municipality', 'rss': ['http://www.alaskapublic.org/comments/feed/', 'http://www.alaskapublic.org/feed/'], 'us-state': 'Alaska', 'fips': '02020'}
+2025-03-14 14:37:47,087 - INFO - {'video': '', 'twitter': 'http://www.twitter.com/KBBINews', 'media-class': 'radio', 'city-county-long': -151.4493, 'media-subclass': 'Public', 'website': 'http://www.kbbi.org/', 'facebook': 'http://www.facebook.com/pages/KBBI-AM-890-Homer-Alaska/127663558413', 'city-county-lat': 59.665074, 'name': 'KBBI 890 AM', 'open-search': [], 'city-county-name': 'Kenai Peninsula Borough', 'rss': ['http://kbbi.org/rss.xml'], 'us-state': 'Alaska', 'fips': '02122'}
+2025-03-14 14:37:47,088 - INFO - {'name': '650 KENI', 'website': 'https://650keni.iheart.com/', 'extracted-from': 'einpresswire.com', 'media-class': 'broadcast', 'facebook': 'https://www.facebook.com/650KENI', 'twitter': 'https://twitter.com/650keni', 'wikipedia': 'https://en.wikipedia.org/wiki/KENI', 'city-county-name': 'Anchorage Municipality', 'us-state': 'Alaska', 'city-county-lat': 61.216799, 'city-county-long': -149.87828, 'fips': '02020'}
+2025-03-14 14:40:12,807 - INFO - Starting the script...
+2025-03-14 14:40:12,807 - INFO - Processing state: AK
+2025-03-14 14:40:13,392 - INFO - 200
+2025-03-14 14:40:13,393 - INFO - Processing publication: http://www.adn.com/
+2025-03-14 14:40:13,393 - INFO - Scraping website: http://www.adn.com/
+2025-03-14 14:40:14,753 - ERROR - Error resolving URL: https://www.adn.com/contests: ('Connection aborted.', HTTPException('got more than 100 headers'))
+2025-03-14 14:40:15,456 - INFO - Found article: https://www.adn.com/alaska-news/science
+2025-03-14 14:40:15,636 - ERROR - Exception during archiving https://www.adn.com/alaska-news/science: Command '['docker', 'run', '-v', 'news/AK/2025/3/14/1457d38e009ad7629a49301645869a8e:/website_hash/', '-it', 'webrecorder/browsertrix-crawler', 'crawl', '--url', 'https://www.adn.com/alaska-news/science', '--generateWACZ', '--collection', '1457d38e009ad7629a49301645869a8e']' returned non-zero exit status 125.
+2025-03-14 14:40:20,966 - INFO - Found article: https://issuu.com/61degrees/docs/2024_seniorliving_printfinal
+2025-03-14 14:40:21,030 - ERROR - Exception during archiving https://issuu.com/61degrees/docs/2024_seniorliving_printfinal: Command '['docker', 'run', '-v', 'news/AK/2025/3/14/1457d38e009ad7629a49301645869a8e:/website_hash/', '-it', 'webrecorder/browsertrix-crawler', 'crawl', '--url', 'https://issuu.com/61degrees/docs/2024_seniorliving_printfinal', '--generateWACZ', '--collection', '1457d38e009ad7629a49301645869a8e']' returned non-zero exit status 125.

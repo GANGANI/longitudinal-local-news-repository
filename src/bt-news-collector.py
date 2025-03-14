@@ -25,7 +25,7 @@ logging.basicConfig(
 logging.info("Starting the script...")
 
 # Load the JSON file
-with open("preprocessed_updated_news_media_rss_and_status_code.json", "r") as f:
+with open("output.json", "r") as f:
     data = json.load(f)
 
 # Define headers for HTTP requests
@@ -260,13 +260,13 @@ def process_publication(state, publication, year, month, day):
             for article_url in extract_article_urls_from_html(response.text, website_url):
                 if article_url not in cached_urls and is_news_article(article_url):
                     logging.info(f"Found article: {article_url}")
-                    archived_url = get_archived_url(article_url)
-                    if archived_url:
+                    archived_path = get_archived_path(article_url, directory, website_hash)
+                    if archived_path:
                         article_json_objs.append({
                             'link': article_url,
                             'publication_date': datetime.datetime.now().isoformat(),
                             'archived_time': datetime.datetime.now().isoformat(),
-                            'archived_link': archived_url
+                            'archived_path': archived_path
                         })
                         cached_urls.add(article_url)
                         nlinks += 1
@@ -280,6 +280,14 @@ def process_publication(state, publication, year, month, day):
     save_to_file(os.path.join(directory, f"{website_hash}.jsonl.gz"), article_json_objs, 'at')
     save_to_file(cache_filepath, '\n'.join(cached_urls), 'wt')
 
+# Function to get the status code of a URL
+def get_status_code(url):
+    try:
+        response = requests.get(url, timeout=10, allow_redirects=True)
+        return response.status_code
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching {url}: {e}")
+        return None  # In case of error, return None
 
 # Run the Script
 while True:
@@ -287,10 +295,11 @@ while True:
         logging.info(f"Processing state: {state}")
         for news_media in ['newspaper', 'tv', 'radio', 'broadcast']:
             for publication in publications.get(news_media, []):
-                response_status = publication.get('website_status')
+                website_url = publication.get("website")
+                response_status = get_status_code(website_url)
+                logging.info(response_status)
                 if response_status and (200 <= response_status < 300):
                     timestamp = datetime.datetime.now()
-                    website_url = publication.get("website")
                     process_publication(state, publication, timestamp.year, timestamp.month, timestamp.day)
                     save_publication(state, timestamp.year, timestamp.month, timestamp.day, website_url, publication)
     time.sleep(1)  # Prevent overwhelming the server
