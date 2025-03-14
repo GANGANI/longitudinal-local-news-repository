@@ -140,12 +140,11 @@ def is_news_article(link):
 def get_archived_path(link, directory, website_hash):
     """Archive a URL using Browsertrix and return the archived file path."""
     try:
-        crawl_dir = os.path.abspath("crawls")  # Ensure the crawl directory exists
-        os.makedirs(crawl_dir, exist_ok=True)
+        os.makedirs(directory, exist_ok=True)
 
         # Construct the Docker command
         command = [
-            "docker", "run", "-v", f"{directory}:/website_hash/", "-it",
+            "docker", "run", "-v", f"{directory}:/{website_hash}/", "-it",
             "webrecorder/browsertrix-crawler", "crawl",
             "--url", link, "--generateWACZ", "--collection", website_hash
         ]
@@ -154,7 +153,7 @@ def get_archived_path(link, directory, website_hash):
         result = subprocess.run(command, capture_output=True, text=True, check=True)
 
         # Log and return the expected WACZ file path
-        archive_path = os.path.join(crawl_dir, website_hash, f"{website_hash}.wacz")
+        archive_path = os.path.join(directory, f"{website_hash}.wacz")
         if os.path.exists(archive_path):
             logging.info(f"Archived URL {link} at {archive_path}")
             return archive_path
