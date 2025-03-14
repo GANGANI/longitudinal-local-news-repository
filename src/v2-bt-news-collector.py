@@ -120,11 +120,29 @@ def is_news_article(link):
 
     return is_news_article
 
+
+# def get_archived_url(link):
+#     """Archive a URL using Internet Archive and return the archived URL."""
+#     try:
+#         result = subprocess.run(['archivenow', '--ia', link], capture_output=True, text=True, check=True)
+#         output = result.stdout.strip()
+#         if "Error" in output:
+#             logging.error(f"Archive error for {link}: {output}")
+#             if "Server Error" in output:
+#                 logging.warning(f"Sleeping for 2 second due to server error")
+#                 time.sleep(2)
+#             return None
+#         return output
+#     except subprocess.CalledProcessError as e:
+#         logging.error(f"Exception during archiving {link}: {e}")
+#         return None
+
 def get_archived_path(link, directory, website_hash):
     """Archive a URL using Browsertrix and return the archived file path."""
     try:
         os.makedirs(directory, exist_ok=True)
         command = f"docker run -v $HOME/{directory}/crawls:/crawls/ -it webrecorder/browsertrix-crawler crawl {link} --generateWACZ --text --collection {website_hash}"
+
 
         # Execute the command
         result = subprocess.run(command, capture_output=True, text=True, check=True)
