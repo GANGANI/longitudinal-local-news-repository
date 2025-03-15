@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse, unquote, urlsplit
 from NwalaTextUtils.textutils import derefURI, cleanHtml
 import time
+import subprocess
 
 # Configure logging
 logging.basicConfig(
@@ -121,33 +122,28 @@ def is_news_article(link):
     return is_news_article
 
 
-# def get_archived_url(link):
-#     """Archive a URL using Internet Archive and return the archived URL."""
-#     try:
-#         result = subprocess.run(['archivenow', '--ia', link], capture_output=True, text=True, check=True)
-#         output = result.stdout.strip()
-#         if "Error" in output:
-#             logging.error(f"Archive error for {link}: {output}")
-#             if "Server Error" in output:
-#                 logging.warning(f"Sleeping for 2 second due to server error")
-#                 time.sleep(2)
-#             return None
-#         return output
-#     except subprocess.CalledProcessError as e:
-#         logging.error(f"Exception during archiving {link}: {e}")
-#         return None
-
 def get_archived_path(link, directory, website_hash):
     """Archive a URL using Browsertrix and return the archived file path."""
     try:
         os.makedirs(directory, exist_ok=True)
-        command = f"docker run -v $HOME/{directory}/crawls:/crawls/ -it webrecorder/browsertrix-crawler crawl {link} --generateWACZ --text --collection {website_hash}"
+        
+        command = f"docker run -v $PWD/{directory}:/crawls/ -it webrecorder/browsertrix-crawler crawl --url {link} --generateWACZ --collection {website_hash}"
+        
+        print(f"Starting subprocess: {command} with live logging...")
 
+        # Open subprocess with real-time logging
+        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
-        # Execute the command
-        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        # Read output line by line
+        for line in process.stdout:
+            print(line, end="")  # Print logs in real time
 
-        # Log and return the expected WACZ file path
+        for line in process.stderr:
+            print(line, end="")  # Capture and print errors as well
+
+        process.wait()  # Wait for process to finish
+
+        # Check if the archive file was created
         archive_path = os.path.join(directory, f"{website_hash}.wacz")
         if os.path.exists(archive_path):
             logging.info(f"Archived URL {link} at {archive_path}")
@@ -156,7 +152,7 @@ def get_archived_path(link, directory, website_hash):
             logging.warning(f"Archive process completed but WACZ file not found for {link}")
             return None
 
-    except subprocess.CalledProcessError as e:
+    except subprocess.SubprocessError as e:
         logging.error(f"Exception during archiving {link}: {e}")
         return None
 
@@ -217,6 +213,15 @@ def process_publication(state, publication, year, month, day):
     directory = os.path.join("news", state, str(year), str(month), str(day), website_hash)
     cache_filepath = os.path.join(directory, f"{website_hash}-cache.txt.gz")
     cached_urls = read_cached_urls(cache_filepath)
+    website_json = None
+    archived_website_path = get_archived_path(website_url, directory, website_hash)
+    if archived_website_path:
+        website_json = {
+            'website_link': website_url,
+            'publication_metadata': publication,
+            'archived_time': datetime.datetime.now().isoformat(),
+            'archived_path': archived_website_path
+        }
 
     article_json_objs = []
     nlinks = 0
@@ -272,6 +277,7 @@ def process_publication(state, publication, year, month, day):
 
     # Save Results
     save_to_file(os.path.join(directory, f"{website_hash}.jsonl.gz"), article_json_objs, 'at')
+    save_to_file(os.path.join(directory, f"{website_hash}_metadata.jsonl.gz"), website_json, 'at')
     save_to_file(cache_filepath, '\n'.join(cached_urls), 'wt')
 
 # Function to get the status code of a URL
