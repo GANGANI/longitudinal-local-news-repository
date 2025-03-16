@@ -126,7 +126,7 @@ def get_archived_path(link, directory):
     """Archive a URL using Browsertrix and return the archived file path."""
     try:
         os.makedirs(directory, exist_ok=True)
-        url_hash = hashlib.md5(website_url.encode()).hexdigest()
+        url_hash = hashlib.md5(link.encode()).hexdigest()
         command = f"docker run -v $PWD/{directory}:/crawls/ -it webrecorder/browsertrix-crawler crawl --url {link} --generateWACZ --collection {url_hash}"
         
         logging.info(f"Starting subprocess: {command} with live logging...")
@@ -191,7 +191,8 @@ def process_publication(state, publication, year, month, day):
 
     # Check if the file already exists
     if not os.path.exists(metadata_file_path):
-        archived_website_path = get_archived_path(website_url, directory)
+        # archived_website_path = get_archived_path(website_url, directory)
+        archived_website_path = "news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/collections/1453bea37466ee6c43ff93c51a4de5f5"
         if archived_website_path:
             website_json = {
                 'website_link': website_url,
@@ -216,7 +217,8 @@ def process_publication(state, publication, year, month, day):
             article_url = entry.link
             if article_url and is_news_article(article_url):
                 logging.info(f"Found article: {article_url}")
-                archived_path = get_archived_path(article_url, directory)
+                #archived_path = get_archived_path(article_url, directory)
+                archived_path = "news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/collections/1453bea37466ee6c43ff93c51a4de5f5"
                 if archived_path:
                     article_json_objs.append({
                         'link': article_url,
@@ -240,13 +242,14 @@ def process_publication(state, publication, year, month, day):
             for article_url in extract_article_urls_from_html(response.text, website_url):
                 if article_url and is_news_article(article_url):
                     logging.info(f"Found article: {article_url}")
-                    archived_path = get_archived_path(article_url, directory)
-                    if archived_path:
+                    #archived_path_excess = get_archived_path(article_url, directory)
+                    archived_path_excess = "news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/collections/1453bea37466ee6c43ff93c51a4de5f5"
+                    if archived_path_excess:
                         article_json_objs.append({
                             'link': article_url,
                             'publication_date': datetime.datetime.now().isoformat(),
                             'archived_time': datetime.datetime.now().isoformat(),
-                            'archived_path': archived_path
+                            'archived_path': archived_path_excess
                         })
                         nlinks += 1
                         if nlinks >= 5:
@@ -282,5 +285,4 @@ while True:
                     timestamp = datetime.datetime.now()
                     logging.info(f"The response status of {website_url} is: {response_status}")
                     process_publication(state, publication, timestamp.year, timestamp.month, timestamp.day)
-                    save_publication(state, timestamp.year, timestamp.month, timestamp.day, website_url, publication)
     time.sleep(1)  # Prevent overwhelming the server

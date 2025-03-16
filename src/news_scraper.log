@@ -364,3 +364,112 @@
 2025-03-15 20:18:39,107 - INFO - The response status of http://www.adn.com/ is: 200
 2025-03-15 20:18:39,107 - INFO - Processing publication: http://www.adn.com/
 2025-03-15 20:18:39,109 - INFO - Starting subprocess: docker run -v $PWD/news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e:/crawls/ -it webrecorder/browsertrix-crawler crawl --url http://www.adn.com/ --generateWACZ --collection 1457d38e009ad7629a49301645869a8e with live logging...
+2025-03-15 20:30:09,376 - INFO - Starting the script...
+2025-03-15 20:30:09,384 - INFO - Processing state: AK
+2025-03-15 20:30:09,809 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:30:09,810 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:30:09,810 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:30:09,812 - INFO - Starting subprocess: docker run -v $PWD/news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e:/crawls/ -it webrecorder/browsertrix-crawler crawl --url http://www.adn.com/ --generateWACZ --collection 1457d38e009ad7629a49301645869a8e with live logging...
+2025-03-15 20:32:45,412 - INFO - Starting the script...
+2025-03-15 20:32:45,413 - INFO - Processing state: AK
+2025-03-15 20:32:45,696 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:32:45,697 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:32:45,697 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:32:45,697 - INFO - Starting subprocess: docker run -v $PWD/news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e:/crawls/ -it webrecorder/browsertrix-crawler crawl --url https://wydaily.com/ --generateWACZ --collection 1453bea37466ee6c43ff93c51a4de5f5 with live logging...
+2025-03-15 20:38:59,464 - INFO - Starting the script...
+2025-03-15 20:38:59,473 - INFO - Processing state: AK
+2025-03-15 20:38:59,859 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:38:59,860 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:38:59,860 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:38:59,860 - INFO - Starting subprocess: docker run -v $PWD/news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e:/crawls/ -it webrecorder/browsertrix-crawler crawl --url http://www.adn.com/ --generateWACZ --collection 1457d38e009ad7629a49301645869a8e with live logging...
+2025-03-15 20:39:06,147 - WARNING - Archive process completed but WACZ file not found for http://www.adn.com/
+2025-03-15 20:39:06,147 - INFO - Scraping website: http://www.adn.com/
+2025-03-15 20:39:07,181 - INFO - Found article: https://www.adn.com/nation-world/2025/03/15/trump-invokes-18th-century-law-to-speed-deportations-judge-stalls-it-hours-later/
+2025-03-15 20:39:07,182 - INFO - Starting subprocess: docker run -v $PWD/news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e:/crawls/ -it webrecorder/browsertrix-crawler crawl --url https://www.adn.com/nation-world/2025/03/15/trump-invokes-18th-century-law-to-speed-deportations-judge-stalls-it-hours-later/ --generateWACZ --collection b1f01507accabfde4be9d0db055f7b34 with live logging...
+2025-03-15 20:39:11,166 - WARNING - Archive process completed but WACZ file not found for https://www.adn.com/nation-world/2025/03/15/trump-invokes-18th-century-law-to-speed-deportations-judge-stalls-it-hours-later/
+2025-03-15 20:39:27,507 - INFO - Starting the script...
+2025-03-15 20:39:27,507 - INFO - Processing state: AK
+2025-03-15 20:39:27,738 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:39:27,738 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:39:27,738 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:39:27,740 - ERROR - Error saving data to news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_metadata.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:39:27,740 - INFO - Metadata of the website: http://www.adn.com/ is successfully updated in the location: news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_metadata.jsonl.gz
+2025-03-15 20:39:27,740 - INFO - Scraping website: http://www.adn.com/
+2025-03-15 20:39:28,829 - INFO - Found article: https://www.adn.com/alaska-news/crime-courts/2025/03/15/not-safe-the-decisions-and-delays-that-preceded-a-fatal-beating-at-anchorages-jail/
+2025-03-15 20:39:50,421 - INFO - Starting the script...
+2025-03-15 20:39:50,421 - INFO - Processing state: AK
+2025-03-15 20:39:50,633 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:39:50,633 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:39:50,633 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:39:50,633 - INFO - File news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_metadata.jsonl.gz already exists, skipping save.
+2025-03-15 20:39:50,634 - INFO - Scraping website: http://www.adn.com/
+2025-03-15 20:39:52,217 - INFO - Found article: https://www.adn.com/alaska-life/food-drink
+2025-03-15 20:39:57,692 - INFO - Found article: https://www.adn.com/nation-world/2025/03/15/trump-invokes-18th-century-law-to-speed-deportations-judge-stalls-it-hours-later/
+2025-03-15 20:40:03,069 - INFO - Found article: https://www.adn.com/alaska-news/anchorage/2025/03/15/skeleton-of-fin-whale-that-washed-ashore-in-anchorage-will-go-to-wasilla-museum/
+2025-03-15 20:40:09,355 - WARNING - Warning: SAX input contains nested A elements -- You have probably hit a bug in your HTML parser (e.g., NekoHTML bug #2909310). Please clean the HTML externally and feed it to BoilerPy3 again. Trying to recover somehow...
+2025-03-15 20:40:09,358 - INFO - Found article: https://www.adn.com/e-edition
+2025-03-15 20:40:15,234 - INFO - Found article: https://www.adn.com/alaska-news/military
+2025-03-15 20:40:15,234 - INFO - Articles of the website: http://www.adn.com/ is successfully updated in the location: news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_articles.jsonl.gz
+2025-03-15 20:40:15,236 - ERROR - Error saving data to news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_articles.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:40:31,965 - INFO - Starting the script...
+2025-03-15 20:40:31,965 - INFO - Processing state: AK
+2025-03-15 20:40:34,219 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:40:34,219 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:40:34,219 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:40:34,220 - INFO - File news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_metadata.jsonl.gz already exists, skipping save.
+2025-03-15 20:40:34,220 - INFO - Scraping website: http://www.adn.com/
+2025-03-15 20:40:35,464 - INFO - Found article: https://www.adn.com/sports/national-sports
+2025-03-15 20:40:41,164 - INFO - Found article: https://www.adn.com/alaska-news/science
+2025-03-15 20:40:48,394 - INFO - Found article: https://www.adn.com/terms-of-use
+2025-03-15 20:40:56,207 - INFO - Found article: https://www.adn.com/alaska-life
+2025-03-15 20:41:02,966 - INFO - Found article: https://www.adn.com/alaska-life/gardening
+2025-03-15 20:41:02,966 - INFO - Articles of the website: http://www.adn.com/ is successfully updated in the location: news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_articles.jsonl.gz
+2025-03-15 20:41:02,968 - ERROR - Error saving data to news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_articles.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:41:04,034 - INFO - The response status of http://www.alaskapublic.org/kakm/ is: 200
+2025-03-15 20:41:04,034 - INFO - The response status of http://www.alaskapublic.org/kakm/ is: 200
+2025-03-15 20:41:04,034 - INFO - Processing publication: http://www.alaskapublic.org/kakm/
+2025-03-15 20:41:04,037 - ERROR - Error saving data to news/AK/2025/3/15/8a08d7562c4786c53e57c86bd0b4efb7/8a08d7562c4786c53e57c86bd0b4efb7_metadata.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:41:04,037 - INFO - Metadata of the website: http://www.alaskapublic.org/kakm/ is successfully updated in the location: news/AK/2025/3/15/8a08d7562c4786c53e57c86bd0b4efb7/8a08d7562c4786c53e57c86bd0b4efb7_metadata.jsonl.gz
+2025-03-15 20:41:04,037 - INFO - Processing RSS feed: http://www.alaskapublic.org/comments/feed/
+2025-03-15 20:41:04,613 - INFO - Processing RSS feed: http://www.alaskapublic.org/feed/
+2025-03-15 20:41:04,943 - INFO - Scraping website: http://www.alaskapublic.org/kakm/
+2025-03-15 20:41:06,699 - INFO - Found article: https://alaskapublic.org/programs/alaska-news-nightly/
+2025-03-15 20:41:29,634 - INFO - Starting the script...
+2025-03-15 20:41:29,634 - INFO - Processing state: AK
+2025-03-15 20:41:29,962 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:41:29,962 - INFO - The response status of http://www.adn.com/ is: 200
+2025-03-15 20:41:29,963 - INFO - Processing publication: http://www.adn.com/
+2025-03-15 20:41:29,964 - ERROR - Error saving data to news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_metadata.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:41:29,965 - INFO - Metadata of the website: http://www.adn.com/ is successfully updated in the location: news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_metadata.jsonl.gz
+2025-03-15 20:41:29,965 - INFO - Scraping website: http://www.adn.com/
+2025-03-15 20:41:31,325 - INFO - Found article: https://www.adn.com/alaska-news/rural-alaska
+2025-03-15 20:41:40,623 - INFO - Found article: http://www.adn.com/todays-paper
+2025-03-15 20:41:47,277 - INFO - Found article: https://www.adn.com/privacy-policy/
+2025-03-15 20:41:56,994 - INFO - Found article: https://www.adn.com/alaska-life/advice
+2025-03-15 20:42:03,673 - INFO - Found article: https://www.adn.com/alaska-news/aviation
+2025-03-15 20:42:03,674 - INFO - Articles of the website: http://www.adn.com/ is successfully updated in the location: news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_articles.jsonl.gz
+2025-03-15 20:42:03,675 - ERROR - Error saving data to news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/1457d38e009ad7629a49301645869a8e_articles.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:42:03,963 - INFO - The response status of http://www.alaskapublic.org/kakm/ is: 200
+2025-03-15 20:42:03,963 - INFO - The response status of http://www.alaskapublic.org/kakm/ is: 200
+2025-03-15 20:42:03,963 - INFO - Processing publication: http://www.alaskapublic.org/kakm/
+2025-03-15 20:42:03,964 - ERROR - Error saving data to news/AK/2025/3/15/8a08d7562c4786c53e57c86bd0b4efb7/8a08d7562c4786c53e57c86bd0b4efb7_metadata.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:42:03,964 - INFO - Metadata of the website: http://www.alaskapublic.org/kakm/ is successfully updated in the location: news/AK/2025/3/15/8a08d7562c4786c53e57c86bd0b4efb7/8a08d7562c4786c53e57c86bd0b4efb7_metadata.jsonl.gz
+2025-03-15 20:42:03,964 - INFO - Processing RSS feed: http://www.alaskapublic.org/comments/feed/
+2025-03-15 20:42:04,288 - INFO - Processing RSS feed: http://www.alaskapublic.org/feed/
+2025-03-15 20:42:04,628 - INFO - Scraping website: http://www.alaskapublic.org/kakm/
+2025-03-15 20:42:05,790 - INFO - Found article: https://alaskapublic.org/watch/ways-to-watch
+2025-03-15 20:42:11,680 - INFO - Found article: https://alaskapublic.org/Support/benefits-of-membership
+2025-03-15 20:42:17,913 - INFO - Found article: https://alaskapublic.org/programs/2012-04-11/nova-deadliest-tornadoes
+2025-03-15 20:42:23,965 - INFO - Found article: https://alaskapublic.org/about/akpm-app
+2025-03-15 20:42:30,591 - INFO - Found article: https://alaskapublic.org/education/ready-to-learn/
+2025-03-15 20:42:30,592 - INFO - Articles of the website: http://www.alaskapublic.org/kakm/ is successfully updated in the location: news/AK/2025/3/15/8a08d7562c4786c53e57c86bd0b4efb7/8a08d7562c4786c53e57c86bd0b4efb7_articles.jsonl.gz
+2025-03-15 20:42:30,593 - ERROR - Error saving data to news/AK/2025/3/15/8a08d7562c4786c53e57c86bd0b4efb7/8a08d7562c4786c53e57c86bd0b4efb7_articles.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:42:31,013 - INFO - The response status of http://www.kbbi.org/ is: 200
+2025-03-15 20:42:31,013 - INFO - The response status of http://www.kbbi.org/ is: 200
+2025-03-15 20:42:31,013 - INFO - Processing publication: http://www.kbbi.org/
+2025-03-15 20:42:31,014 - ERROR - Error saving data to news/AK/2025/3/15/c97d28f113d0cd4ff5679fab55a10146/c97d28f113d0cd4ff5679fab55a10146_metadata.jsonl.gz: write() argument must be str, not bytes
+2025-03-15 20:42:31,014 - INFO - Metadata of the website: http://www.kbbi.org/ is successfully updated in the location: news/AK/2025/3/15/c97d28f113d0cd4ff5679fab55a10146/c97d28f113d0cd4ff5679fab55a10146_metadata.jsonl.gz
+2025-03-15 20:42:31,014 - INFO - Processing RSS feed: http://kbbi.org/rss.xml
+2025-03-15 20:42:31,282 - INFO - Scraping website: http://www.kbbi.org/
+2025-03-15 20:42:33,582 - INFO - Found article: https://publicfiles.fcc.gov/am-profile/KBBI
+2025-03-15 20:42:39,162 - INFO - Found article: https://www.kbbi.org/about-kbbi
