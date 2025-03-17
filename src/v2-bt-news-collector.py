@@ -79,11 +79,6 @@ def get_publication_date(entry):
     return datetime.datetime(*published_time[:6]) if published_time else datetime.datetime.now()
 
 
-def has_special_characters(path_segment):
-    """Check for special characters in path segments."""
-    return any(char in path_segment for char in "-_.")
-
-
 def is_news_article(link):
     is_news_article = False
     link = get_expanded_url(link)
@@ -100,9 +95,8 @@ def is_news_article(link):
         depth = len(path_segments)
         if depth >= 3:
             is_news_article = True
-        elif depth <= 2 and any(has_special_characters(segment) for segment in path_segments[:2]):
-            is_news_article = True
         else:
+            logging.info(f"Path depth({depth}) is less than 3 for {link}\n")
             return is_news_article
 
     try:
@@ -126,8 +120,9 @@ def get_archived_path(link, directory):
     """Archive a URL using Browsertrix and return the archived file path."""
     try:
         os.makedirs(directory, exist_ok=True)
+        link = get_expanded_url(link)
         url_hash = hashlib.md5(link.encode()).hexdigest()
-        command = f"docker run -v $PWD/{directory}:/crawls/ -it webrecorder/browsertrix-crawler crawl --url {link} --generateWACZ --collection {url_hash}"
+        command = f"docker run -v $PWD/{directory}:/crawls/ -it webrecorder/browsertrix-crawler crawl --url {link} --generateWACZ --collection {url_hash} --timeLimit 300"
         
         logging.info(f"Starting subprocess: {command} with live logging...")
 
@@ -157,20 +152,17 @@ def get_archived_path(link, directory):
         return None
 
 
-def save_to_file(filepath, data, mode='at'):
+def save_to_file(filepath, data, mode='wb'):
     """Save JSON objects line by line to a file with optional gzip compression."""
+    if not data:
+        logging.warning(f"No data to save in {filepath}")
+        return  # Exit early if there's no data
+
     try:
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         with gzip.open(filepath, mode, compresslevel=5) as f:
-            if isinstance(data, list):
-                # Write each item in the list as a separate JSON line
-                for item in data:
-                    f.write((json.dumps(item) + '\n').encode('utf-8'))
-            elif isinstance(data, dict):
-                # Write single JSON object as a line
-                f.write((json.dumps(data) + '\n').encode('utf-8'))
-            else:
-                raise ValueError("Data must be a list of JSON objects or a single JSON object.")
+            for item in (data if isinstance(data, list) else [data]):
+                f.write(json.dumps(item).encode('utf-8') + b'\n')
         logging.info(f"Data saved to {filepath}")
     except Exception as e:
         logging.error(f"Error saving data to {filepath}: {e}")
@@ -191,8 +183,7 @@ def process_publication(state, publication, year, month, day):
 
     # Check if the file already exists
     if not os.path.exists(metadata_file_path):
-        # archived_website_path = get_archived_path(website_url, directory)
-        archived_website_path = "news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/collections/1453bea37466ee6c43ff93c51a4de5f5"
+        archived_website_path = get_archived_path(website_url, directory)
         if archived_website_path:
             website_json = {
                 'website_link': website_url,
@@ -201,7 +192,7 @@ def process_publication(state, publication, year, month, day):
                 'archived_path': archived_website_path
             }
             # Save to file (append if the file doesn't exist yet)
-            save_to_file(metadata_file_path, website_json, 'at')
+            save_to_file(metadata_file_path, website_json, 'ab')
             logging.info(f"Metadata of the website: {website_url} is successfully updated in the location: {metadata_file_path}")
     else:
         logging.info(f"File {metadata_file_path} already exists, skipping save.")
@@ -217,13 +208,12 @@ def process_publication(state, publication, year, month, day):
             article_url = entry.link
             if article_url and is_news_article(article_url):
                 logging.info(f"Found article: {article_url}")
-                #archived_path = get_archived_path(article_url, directory)
-                archived_path = "news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/collections/1453bea37466ee6c43ff93c51a4de5f5"
+                archived_path = get_archived_path(article_url, directory)
                 if archived_path:
                     article_json_objs.append({
                         'link': article_url,
                         'publication_date': get_publication_date(entry).isoformat(),
-                        'archived_time': datetime.datetime.now().isoformat(),
+                        'archived_time': datetime.datetime.now(datetime.timezone.utc).isoformat(),
                         'archived_path': archived_path
                     })
                     nlinks += 1
@@ -242,13 +232,12 @@ def process_publication(state, publication, year, month, day):
             for article_url in extract_article_urls_from_html(response.text, website_url):
                 if article_url and is_news_article(article_url):
                     logging.info(f"Found article: {article_url}")
-                    #archived_path_excess = get_archived_path(article_url, directory)
-                    archived_path_excess = "news/AK/2025/3/15/1457d38e009ad7629a49301645869a8e/collections/1453bea37466ee6c43ff93c51a4de5f5"
+                    archived_path_excess = get_archived_path(article_url, directory)
                     if archived_path_excess:
                         article_json_objs.append({
                             'link': article_url,
-                            'publication_date': datetime.datetime.now().isoformat(),
-                            'archived_time': datetime.datetime.now().isoformat(),
+                            'publication_date': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                            'archived_time': datetime.datetime.now(datetime.timezone.utc).isoformat(),
                             'archived_path': archived_path_excess
                         })
                         nlinks += 1
@@ -260,7 +249,7 @@ def process_publication(state, publication, year, month, day):
 
     website_article_location = os.path.join(directory, f"{website_hash}_articles.jsonl.gz")
     logging.info(f"Articles of the website: {website_url} is successfully updated in the location: {website_article_location}")
-    save_to_file(website_article_location, article_json_objs, 'at')
+    save_to_file(website_article_location, article_json_objs, 'ab')
     
 
 # Function to get the status code of a URL
@@ -282,7 +271,7 @@ while True:
                 response_status = get_status_code(website_url)
                 logging.info(f"The response status of {website_url} is: {response_status}")
                 if response_status and (200 <= response_status < 300):
-                    timestamp = datetime.datetime.now()
+                    timestamp = datetime.datetime.now(datetime.timezone.utc)
                     logging.info(f"The response status of {website_url} is: {response_status}")
                     process_publication(state, publication, timestamp.year, timestamp.month, timestamp.day)
     time.sleep(1)  # Prevent overwhelming the server
