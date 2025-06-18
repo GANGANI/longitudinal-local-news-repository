@@ -38,6 +38,7 @@
        - [4.3.4.2 Start Crawling](#4342-start-crawling)
        - [4.3.4.3 Results](#4342-results)
      - [4.3.5 Limitations](#435-limitations)
+   - [4.4 Using Browsetrix](#43-using-browsetrix)
 5. [Discussion & Conclusion](#5-discussion-&-conclusion)
 
 
