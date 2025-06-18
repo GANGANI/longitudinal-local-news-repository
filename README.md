@@ -95,6 +95,36 @@ for state, media_types in data.items():
                 media['website_status'] = get_status_code(website_url)
 ```
 
+| Status Code     | Meaning                 | Number of Links |
+|------------------|-------------------------|-----------------|
+| 200              | OK                      | 9315            |
+| None (Failed)    | Request Failed          | 1449            |
+| 403              | Forbidden               | 1378            |
+| 404              | Not Found               | 632             |
+| 405              | Method Not Allowed      | 614             |
+| 406              | Not Acceptable          | 223             |
+| 429              | Too Many Requests       | 346             |
+| 500              | Internal Server Error   | 24              |
+| 503              | Service Unavailable     | 17              |
+| 410              | Gone                    | 15              |
+| 202              | Accepted                | 13              |
+| 526              | Invalid SSL Certificate | 11              |
+| 307              | Temporary Redirect      | 9               |
+| 409              | Conflict                | 6               |
+| 401              | Unauthorized            | 5               |
+| 400              | Bad Request             | 4               |
+| 530              | Origin Error            | 3               |
+| 408              | Request Timeout         | 2               |
+| 301              | Moved Permanently       | 1               |
+| 412              | Precondition Failed     | 1               |
+| 418              | I'm a teapot            | 1               |
+| 501              | Not Implemented         | 1               |
+| 504              | Gateway Timeout         | 1               |
+| 521              | Web Server Down         | 1               |
+| 523              | Origin Unreachable      | 1               |
+| 999              | Bot Block               | 1               |
+
+
 #### 2.2.2. Identifying RSS Feeds for Websites
 
 Although some RSS feed URLs were present in the existing dataset, updates were needed to ensure completeness and accuracy. To find RSS feeds for the websites, the following approaches were utilized:
