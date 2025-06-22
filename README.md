@@ -602,6 +602,20 @@ Folllowing are the final results I obtained by crawling Virginia State news webs
 - **Data Budget Constraints**: Crawls utilize a limited storage budget, making it expensive to scale the repository for long-term use. According to the results for 7 day 
 - **Test Crawl Limitation**: Daily crawls, even when configured as Test Crawls, consume the data budget starting from the second crawl onward. To collect data over a week without impacting the production budget, crawls must be manually triggered daily to avoid transitioning into production crawls.
 
+### 4.4 Using Browsetrix
+
+Setting up Browsertrix
+```
+docker pull webrecorder/browsertrix-crawler
+```
+Run crawler
+```
+docker run -v $PWD/crawls:/crawls/ 
+           -it webrecorder/browsertrix-crawler
+           crawl --urlFile /crawls/{archive_file_name}.txt --generateWACZ
+           --collection {archive_file_name} --timeLimit {args.time_limit}
+```
+
 ## 5. Discussion & Conclusion
 
 In this project, I have explored various approaches to build a longitudinal news repository, focusing on the challenges and trade-offs associated with each method. While I have successfully implemented solutions for filtering, storing, and archiving news articles, I am still in the process of experimenting with the optimal approach. Each method has its own strengths and limitations, and the goal is to identify the best strategy that balances efficiency, scalability, and reliability.
